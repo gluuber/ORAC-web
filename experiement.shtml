@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/charts/loader.js"></script>
+        <script>
+
+            function drawChart()
+            {
+                var json = $.ajax({
+                    url: "/src/sample.json",
+                    dataType: "json",
+                    async: false
+                }).responseText;
+
+                var data = new google.visualization.DataTable(json);
+                var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+
+                colours = ['#1b9e77', '#1b9e77', '#1b9e77', '#1b9e77', '#1b9e77', '#1b9e77', '#1b9e77', '#db4437', '#db4437', '#f4b400']
+                var options = {
+                    colors: ['#1b9e77', '#1b9e77', '#1b9e77', '#1b9e77', '#1b9e77', '#1b9e77', '#1b9e77', '#db4437', '#db4437', '#f4b400'],
+                    fill: 25,
+                    height: 400,
+                    width: 1000,
+                    tooltip: { isHtml: true },
+                    legend: 'none',
+                    isStacked: true,
+                    //series: [{color: 'blue', visibleInLegend: true},  {color: 'red', visibleInLegend:false}],
+                    hAxis: {
+                        viewWindowMode: 'explicit',
+                        slantedText: true,
+                        slantedTextAngle: 90,
+                        textStyle: {
+                            fontSize: 10,
+                            fontStyle: "Arial",
+                            align: "center",
+                            color: '#808080'
+                        }
+                    },
+                    vAxis: {
+                        viewWindowMode: 'explicit',
+                        viewWindow: {
+                            max: 1,
+                            min: -1
+                        },
+                        ticks: [1, 0, -1]
+                    },
+                };
+                chart.draw(data, options);
+                //$(".chart_title").text(e.value);
+            }
+            google.charts.load('current', { callback: drawChart, 'packages': ['corechart']});
+        </script>
+    </head>
+    <body>
+        <div>
+            <div id="chart_div"></div>
+        </div>
+    </body>
+</html>

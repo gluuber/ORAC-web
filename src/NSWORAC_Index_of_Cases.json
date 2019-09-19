@@ -1,0 +1,8214 @@
+{ 
+"data": [
+ [
+   "1",
+   "",
+   "Sooty Albatross",
+   "Phoebetria fusca",
+   "Moruya",
+   "2 Aug 1987",
+   "Not Confirmed (not assessed)",
+   "Morris 1993b"
+ ],
+ [
+   "2",
+   "",
+   "Pink Robin",
+   "Petroica rodinogaster",
+   "Korrungulla Swamp, Primbee",
+   "4 Sep 1987",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "3",
+   "",
+   "Yellow Chat",
+   "Epthianura crocea",
+   "69 km east of Broken Hill ",
+   "15 Oct 1987",
+   "Not accepted",
+   "Morris 1993a"
+ ],
+ [
+   "4",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "Yamba",
+   "21 Feb 1987",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "5",
+   "109",
+   "Tropical Shearwater",
+   "Puffinus bailloni",
+   "off Wollongong",
+   "28 Feb 1987",
+   "Accepted",
+   "Morris 1993a, Pattterson 1991"
+ ],
+ [
+   "6",
+   "143",
+   "White-rumped Sandpiper",
+   "Calidris fuscicollis",
+   "Tullakool Saltworks",
+   "18 Dec 1987",
+   "Accepted",
+   "Morris 1993b, Pattterson 1996"
+ ],
+ [
+   "7",
+   "",
+   "Common Redshank",
+   "Tringa totanus",
+   "Wallagoot Lake, Bournda NP",
+   "29 Dec 1987",
+   "Not accepted",
+   "Morris 1993a"
+ ],
+ [
+   "8",
+   "",
+   "Little Stint",
+   "Calidris minuta",
+   "Tullakool Saltworks",
+   "23 Nov 1987",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "9",
+   "",
+   "Cox's Sandpiper",
+   "[Calidris paramelanotus]",
+   "Stockton Sandspit",
+   "26 Jan 1988",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "10",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Botany Bay",
+   "13 Feb 1988",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "11",
+   "",
+   "Barn Swallow",
+   "Hirundo rustica",
+   "Shortland Wetlands Centre",
+   "12 Mar 1988",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "12",
+   "",
+   "Wilson's Phalarope",
+   "Phalaropus tricolor",
+   "Tullakool Saltworks",
+   "4 Apr 1988",
+   "Not accepted",
+   "Morris 1993a"
+ ],
+ [
+   "13",
+   "",
+   "Arctic Tern",
+   "Sterna paradisaea",
+   "off Wollongong",
+   "17 Apr 1988",
+   "Not Confirmed (not assessed)",
+   "Morris 1993b"
+ ],
+ [
+   "14",
+   "",
+   "Herald Petrel",
+   "Pterodroma heraldica",
+   "off Wollongong",
+   "17 Apr 1988",
+   "Not Confirmed (not assessed)",
+   "Morris 1993b"
+ ],
+ [
+   "15",
+   "",
+   "Asian Dowitcher",
+   "Limnodromus semipalmatus",
+   "Stockton Sandspit",
+   "2 Aug 1988",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "16",
+   "",
+   "Arctic Tern",
+   "Sterna paradisaea",
+   "Windang",
+   "22 Oct 1988",
+   "Not accepted",
+   "Morris 1993b"
+ ],
+ [
+   "17",
+   "168",
+   "Juan Fernandez Petrel",
+   "Pterodroma externa",
+   "Cessnock",
+   "27 Oct 1988",
+   "Accepted",
+   "Morris 1994, Pattterson 1996"
+ ],
+ [
+   "18",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Picnic Point, The Entrance",
+   "13 Nov 1988",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "19",
+   "",
+   "Red-tailed Tropicbird",
+   "Phaethon rubricauda",
+   "Wamberal Beach",
+   "19 Mar 1989",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "20",
+   "",
+   "Squatter Pigeon",
+   "Geophaps scripta",
+   "Hilston",
+   "31 Oct 1989",
+   "Not Confirmed (not assessed)",
+   "Morris 1993b"
+ ],
+ [
+   "21",
+   "",
+   "Arctic Tern",
+   "Sterna paradisaea",
+   "off Wollongong",
+   "24 Sep 1989",
+   "Not Confirmed (not assessed)",
+   "Morris 1994"
+ ],
+ [
+   "22",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "Riverina region",
+   "30 Sep 1989",
+   "Not accepted",
+   "Morris 1993b"
+ ],
+ [
+   "23",
+   "",
+   "American Golden Plover",
+   "Pluvialis dominica",
+   "Comerong Island",
+   "3 Oct 1989",
+   "Not accepted",
+   "Morris 1993a"
+ ],
+ [
+   "24",
+   "121",
+   "Northern Shoveler",
+   "Anas clypeata",
+   "Lakeside HSD, Lake Cowal",
+   "17 Oct 1989",
+   "Not accepted",
+   "Morris 1993a, Pattterson 1991"
+ ],
+ [
+   "25",
+   "",
+   "Black-headed Gull",
+   "Poephila cincta",
+   "MacIntyre River, Inverell",
+   "24 Oct 1989",
+   "Not accepted",
+   "Morris 1993a"
+ ],
+ [
+   "26",
+   "",
+   "Streaked Shearwater",
+   "Calonectris leucomelas",
+   "off Wollongong",
+   "31 Oct 1989",
+   "Not Confirmed (not assessed)",
+   "Morris 1993b"
+ ],
+ [
+   "27",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Wollongong",
+   "26 Nov 1989",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "28",
+   "",
+   "Fairy Tern",
+   "Sternula nereis",
+   "North Botany Bay",
+   "10 Dec 1989",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "29",
+   "",
+   "Brown Booby",
+   "Sula leucogaster",
+   "Norah Head ",
+   "16 Jan 1990",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "30",
+   "",
+   "Tahiti Petrel",
+   "Pseudobulweria rostrata",
+   "off Wollongong",
+   "24 Apr 1990",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "31",
+   "",
+   "Grey Ternlet",
+   "Procelsterna albivitta",
+   "off Wollongong",
+   "25 Feb 1990",
+   "Not Confirmed (not assessed)",
+   "Morris 1994"
+ ],
+ [
+   "32",
+   "674",
+   "Black Tern",
+   "Chlidonias niger",
+   "Boat Harbour, Kurnell",
+   "24 Feb 1990",
+   "Accepted",
+   "McGovern 2013; Palliser & Carter 2013"
+ ],
+ [
+   "33",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Wollongong",
+   "25 Feb 1990",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "34",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "Lake Cathie entrance",
+   "28 Feb 1990",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "35",
+   "",
+   "Australian Swiftlet",
+   "Aerodramus terraereginae",
+   "Bowraville",
+   "12 May 1990",
+   "Not accepted",
+   "Morris 1993b"
+ ],
+ [
+   "36",
+   "145",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Wollongong",
+   "22 Sep 1990",
+   "Not accepted",
+   "Morris 1993b, Pattterson 1996"
+ ],
+ [
+   "37",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "22 Sep 1990",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "38",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "Cape Banks",
+   "24 Oct 1990",
+   "Not accepted",
+   "Morris 1995"
+ ],
+ [
+   "39",
+   "",
+   "Streaked Shearwater",
+   "Calonectris leucomelas",
+   "off North Head, Sydney",
+   "10 Feb 1991",
+   "Not accepted",
+   "Morris 1993a"
+ ],
+ [
+   "40",
+   "",
+   "Common Noddy",
+   "Anous stolidus",
+   "Manly",
+   "21 Jan 1991",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "41",
+   "",
+   "Masked Owl",
+   "Tyto novaehollandiae",
+   "Heathcote East",
+   "18 Apr 1991",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "42",
+   "",
+   "Little Friarbird",
+   "Philemon citreogularis ",
+   "Lake Illawarra",
+   "27 Apr 1991",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "43",
+   "",
+   "Bourke's Parrot",
+   "Neopsephotus bourkii",
+   "Gillgandra",
+   "25 Jun 1991",
+   "Not accepted",
+   "Morris 1993a"
+ ],
+ [
+   "44",
+   "",
+   "Common Noddy",
+   "Anous stolidus",
+   "Woody Head, Iluka ",
+   "9 Jan 1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "45",
+   "",
+   "Pied Butcherbird",
+   "Cracticus nigrogularis",
+   "Heathcote",
+   "17 Aug 1991",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "46",
+   "",
+   "Fairy Tern",
+   "Sternula nereis",
+   "Long Reef, Sydney ",
+   "9 Aug 1991",
+   "Not accepted",
+   "Morris 1993a, 1993b"
+ ],
+ [
+   "47",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Fivebough Swamp, Leeton",
+   "18 Aug 1991",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "48",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Long Reef",
+   "28 Aug 1991",
+   "Not Confirmed (not assessed)",
+   "Morris 1994"
+ ],
+ [
+   "49",
+   "",
+   "Southern Royal Albatross",
+   "Diomedea (e.) epomophora",
+   "Green Cape",
+   "26 Aug 1991",
+   "Not accepted",
+   "Morris 1993b"
+ ],
+ [
+   "50",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Bombah Point, Myall Lakes NP",
+   "12 Sep 1991",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "51",
+   "132",
+   "Franklin's Gull",
+   "Leucophaeus pipixcan",
+   "Menindee Lakes",
+   "3 Oct 1991",
+   "Not accepted",
+   "Morris 1993a, Pattterson 1996"
+ ],
+ [
+   "52",
+   "",
+   "Blue Petrel",
+   "Halobaena caerulea",
+   "Sandon Beach, Yuraygir NP",
+   "12 Oct 1991",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "54",
+   "",
+   "Little Stint",
+   "Calidris minuta",
+   "Kooragang Island",
+   "30 Dec 1990",
+   "Not accepted",
+   "Morris 1994"
+ ],
+ [
+   "55",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Fivebough Swamp, Leeton",
+   "9 Dec 1991",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "56",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "15 Nov 1991",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "57",
+   "136",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Wollongong",
+   "2 Dec 1991",
+   "Not accepted",
+   "Morris 1993b, Pattterson 1996"
+ ],
+ [
+   "58",
+   "",
+   "Red-tailed Tropicbird",
+   "Phaethon rubricauda",
+   "Bathurst",
+   "14 Dec 1991",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "59",
+   "",
+   "Mottled Petrel",
+   "Pterodroma inexpectata",
+   "off Wollongong",
+   "19 Jan 1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "60",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "off Wollongong",
+   "19 Jan 1992",
+   "Not Confirmed (not assessed)",
+   "Morris 1996"
+ ],
+ [
+   "61",
+   "",
+   "Brown Booby",
+   "Sula leucogaster",
+   "Forster",
+   "31 May 1991",
+   "Not accepted",
+   "Morris 1994"
+ ],
+ [
+   "62",
+   "",
+   "Streaked Shearwater",
+   "Calonectris leucomelas",
+   "off Wollongong",
+   "19 Jan 1992",
+   "Not Confirmed (not assessed)",
+   "Morris 1995"
+ ],
+ [
+   "63",
+   "",
+   "Cox's Sandpiper",
+   "[Calidris paramelanotus]",
+   "Stockton Sandspit",
+   "12 Mar 1988",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "64",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "Lane Cove",
+   "6 Jul 1991",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "65",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "off Wollongong",
+   "16 Feb 1991",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "66",
+   "",
+   "Long-toed Stint",
+   "Calidris minutilla",
+   "Fivebough Swamp, Leeton",
+   "2 Feb 1991",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "67",
+   "137",
+   "Franklin's Gull",
+   "Leucophaeus pipixcan",
+   "Lake Cowal",
+   "25 Jan 1992",
+   "Accepted",
+   "Morris 1993b, Pattterson 1996"
+ ],
+ [
+   "68",
+   "140",
+   "Grey Petrel",
+   "Procellaria cinerea",
+   "Flat Rock Beach, Ballina",
+   "17 Feb 1985",
+   "Accepted",
+   "Morris 1993a, Pattterson 1996"
+ ],
+ [
+   "69",
+   "",
+   "Common Noddy",
+   "Anous stolidus",
+   "North Curl Curl",
+   "23 Feb 1992",
+   "Accepted",
+   "Morris 1993a"
+ ],
+ [
+   "70",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "off Wollongong",
+   "16 Feb 1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "71",
+   "",
+   "Australian Swiftlet",
+   "Aerodramus terraereginae",
+   "Richmond Hill, Lismore",
+   "21 Feb 1992",
+   "Accepted",
+   "Morris 1993b, 1994"
+ ],
+ [
+   "72",
+   "",
+   "Masked Owl",
+   "Tyto novaehollandiae",
+   "Kiola State Forest",
+   "10 Nov 1991",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "73",
+   "",
+   "Common Diving Petrel",
+   "Pelecanoides urinatrix",
+   "Green Cape",
+   "26 Aug 1991",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "74",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Eden",
+   "16 Jul 1990",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "75",
+   "",
+   "Streaked Shearwater",
+   "Calonectris leucomelas",
+   "off Shellharbour",
+   "6 Dec 1989",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "76",
+   "144",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Wollongong",
+   "20 Jun 1990",
+   "Accepted",
+   "Morris 1993b, Pattterson 1996"
+ ],
+ [
+   "77.1",
+   "139",
+   "Buff-breasted Sandpiper",
+   "Tryngites subruficollis",
+   "Lord Howe Island",
+   "6 Apr 1992",
+   "Not accepted",
+   "Morris 1993a, Pattterson 1996"
+ ],
+ [
+   "77.2",
+   "",
+   "Grey Ternlet",
+   "Procelsterna albivitta",
+   "off Wollongong",
+   "28 Feb 1987",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "78",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Peri Lake, Paroo River",
+   "14 Oct 1991",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "81",
+   "",
+   "Arctic Tern",
+   "Sterna paradisaea",
+   "Windang",
+   "22 Oct 1988",
+   "Not Confirmed (not assessed)",
+   "Morris 1993b"
+ ],
+ [
+   "82",
+   "",
+   "Flock Bronzewing",
+   "Phaps histrionica",
+   "Bullabelalie HSD, Wielmoringle",
+   "30 Jun 1988",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "83",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Wollongong",
+   "23 Oct 1988",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "84",
+   "",
+   "Red-capped Robin",
+   "Petroica goodenovii",
+   "Bicentenial Park, Ballina",
+   "4 Sep 1991",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "85",
+   "",
+   "Streaked Shearwater",
+   "Calonectris leucomelas",
+   "off Wollongong",
+   "29 Apr 1992",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "86",
+   "",
+   "Shining Flycatcher",
+   "Myiagra alecto",
+   "Cobaki Broadwater ",
+   "14 Nov 1989",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "87",
+   "",
+   "Shining Flycatcher",
+   "Myiagra alecto",
+   "Cobaki Broadwater ",
+   "15 Jul 1990",
+   "Accepted",
+   "Morris 1993b"
+ ],
+ [
+   "88",
+   "",
+   "Brown Booby",
+   "Sula leucogaster",
+   "off Wollongong",
+   "27 Nov 1988",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "89",
+   "",
+   "Red-tailed Tropicbird",
+   "Phaethon rubricauda",
+   "off Kiama ",
+   "27 Jan 1989",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "90",
+   "",
+   "Common Diving Petrel",
+   "Pelecanoides urinatrix",
+   "off Kiama ",
+   "22 Jan 1989",
+   "Not accepted",
+   "Morris 1993b"
+ ],
+ [
+   "91",
+   "",
+   "Red Goshawk",
+   "Erythrotriorchis radiatus",
+   "Noerthern Rivers Region",
+   "20 Apr 1990",
+   "Not accepted",
+   "Morris 1993b"
+ ],
+ [
+   "92",
+   "",
+   "Red Goshawk",
+   "Erythrotriorchis radiatus",
+   "Alstonville District",
+   "x-Aug-1989",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "93",
+   "",
+   "Streaked Shearwater",
+   "Calonectris leucomelas",
+   "off Wollongong",
+   "19 Feb 1989",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "94",
+   "",
+   "Square-tailed Kite",
+   "Lophoictinia isura",
+   "Royal National Park",
+   "27 Aug 1991",
+   "Not accepted",
+   "Morris 1994"
+ ],
+ [
+   "95",
+   "",
+   "Double-eyed Fig Parrot",
+   "Cyclopsitta diophthalma",
+   "Brunswick Heads",
+   "26 Jul 1991",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "96",
+   "",
+   "Fairy Tern",
+   "Sternula nereis",
+   "Long Reef, Sydney ",
+   "26 Jan 1990",
+   "Not accepted",
+   "Morris 1994"
+ ],
+ [
+   "97",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Long Reef",
+   "10 Jul 1982",
+   "Not accepted",
+   "Morris 1994"
+ ],
+ [
+   "98",
+   "150",
+   "Sooty Albatross",
+   "Phoebetria fusca",
+   "Long Reef, Sydney ",
+   "10 Jul 1992",
+   "Not accepted",
+   "Morris 1993b, 1994, Pattterson 1996"
+ ],
+ [
+   "99",
+   "",
+   "Metallic Starling",
+   "Aplonis metallica",
+   "Nambucca Heads",
+   "9 Nov 1992",
+   "Not accepted",
+   "Morris 1994"
+ ],
+ [
+   "100",
+   "",
+   "Painted Finch",
+   "Emblema pictum",
+   "Sturt NP",
+   "14 Sep 1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "101",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "Congo Beach, Moruya",
+   "18 Nov 1991",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "102",
+   "",
+   "Black Petrel",
+   "Procellaria parkinsoni",
+   "off Wollongong",
+   "19 Nov 1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "103",
+   "",
+   "Arctic Tern",
+   "Sterna paradisaea",
+   "Norah Head ",
+   "29 Aug 1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "104",
+   "",
+   "Southern Fulmar",
+   "Fulmarus glacialoides",
+   "Tilba Beach",
+   "x-Aug-1990",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "105",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "19 Nov 1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "106",
+   "",
+   "Black-headed Gull",
+   "Poephila cincta",
+   "Swan Brook, Inverell",
+   "13 Nov 1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "107",
+   "",
+   "Oriental Pratincole",
+   "Glareola maldivarum",
+   "Macksville",
+   "10 Dec 1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "108",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "Nambucca Heads",
+   "15 Feb 1981",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "109",
+   "",
+   "Common Diving Petrel",
+   "Pelecanoides urinatrix",
+   "Sydney northern beaches",
+   "x-Aug-1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "110",
+   "",
+   "Black-headed Gull",
+   "Pterodroma nigripennis",
+   "Mangrove Mountain",
+   "3 Apr 1992",
+   "Accepted",
+   "Morris 1994"
+ ],
+ [
+   "111",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "Newport Beach",
+   "10 Jun 1991",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "112",
+   "",
+   "Common Diving Petrel",
+   "Pelecanoides urinatrix",
+   "off South West Rocks",
+   "15 Aug 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "113",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "off Wollongong",
+   "21 Jan 1990",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "114",
+   "",
+   "Australian Swiftlet",
+   "Aerodramus terraereginae",
+   "Lismore",
+   "21 Nov 1992",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "115",
+   "",
+   "Brown Booby",
+   "Sula leucogaster",
+   "Boat Harbour, Kurnell",
+   "26 Jan 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "116",
+   "156",
+   "White-rumped Sandpiper",
+   "Calidris fuscicollis",
+   "Tenambit Common, Maitland",
+   "21 Dec 1989",
+   "Not accepted",
+   "Morris 1994, Pattterson 1996"
+ ],
+ [
+   "117",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Bombah Point, Myall Lakes NP",
+   "x-Jan-1992",
+   "Not accepted",
+   "Morris 1994"
+ ],
+ [
+   "118",
+   "",
+   "Banded Honeyeater",
+   "Cissomela pectoralis",
+   "Greenwell Point",
+   "22 Feb 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "119",
+   "",
+   "Southern Fulmar",
+   "Fulmarus glacialoides",
+   "off Wollongong",
+   "22 Aug 1987",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "120",
+   "159",
+   "Buff-breasted Sandpiper",
+   "Tryngites subruficollis",
+   "Lake Bathurst",
+   "8 Jan 1993",
+   "Accepted",
+   "Morris 1995, Pattterson 1996"
+ ],
+ [
+   "121",
+   "",
+   "Oriental Pratincole",
+   "Glareola maldivarum",
+   "Parkes Sewage Treatment Plant",
+   "12 Apr 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "122",
+   "161",
+   "Oriental Reed Warbler",
+   "Acrocephalus orientalis",
+   "Port Macquarie",
+   "x-Nov-1992",
+   "Accepted",
+   "Morris 1995, Pattterson 1996"
+ ],
+ [
+   "123",
+   "",
+   "Red Goshawk",
+   "Erythrotriorchis radiatus",
+   "Burringbar Range, via Murwillumbah",
+   "22 Sep 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "124",
+   "",
+   "Black Noddy",
+   "Anous minutus",
+   "Lighthouse Beach, Port Macquarie",
+   "26 Jan 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "125",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "off Wollongong",
+   "23 Jan 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "126",
+   "",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "Gillards Beach, Tathra",
+   "6 Jan 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "127",
+   "",
+   "Eastern Yellow Wagtail",
+   "Motacilla tschutschensis",
+   "Kooragang Island",
+   "21 Feb 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "128",
+   "175",
+   "Greater Yellowlegs",
+   "Tringa melanoleuca",
+   "Pitt Town Lagoon",
+   "9 Oct 1993",
+   "Not accepted",
+   "Morris 1995, Pattterson 1996"
+ ],
+ [
+   "129",
+   "174",
+   "Pheasant-tailed Jacana",
+   "Hydrophasianus chirurgus",
+   "Murwillumbah",
+   "17 Aug 1993",
+   "Not accepted",
+   "Morris 1995, Pattterson 1996"
+ ],
+ [
+   "130",
+   "",
+   "Common Diving Petrel",
+   "Pelecanoides urinatrix",
+   "off Wollongong",
+   "23 Apr 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "131",
+   "",
+   "Lesser Crested Tern",
+   "Thalasseus bengalensis",
+   "Long Reef, Sydney ",
+   "31 May 1993",
+   "Not accepted",
+   "Morris 1995"
+ ],
+ [
+   "132",
+   "",
+   "Arctic Tern",
+   "Sterna paradisaea",
+   "off Wollongong",
+   "27 Jun 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "133",
+   "",
+   "Royal Albatross",
+   "Diomedea epomophora (sensu lato)",
+   "off Wollongong",
+   "20 Oct 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "134",
+   "",
+   "Red-tailed Tropicbird",
+   "Phaethon rubricauda",
+   "Grafton",
+   "8 Dec 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "135",
+   "",
+   "Garganey",
+   "Anas querquedula",
+   "Market Swamp, Sandgate",
+   "4 Dec 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "136",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "Port Kembla",
+   "3 Jan 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "137",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "off Wollongong",
+   "28 Feb 1993",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "138",
+   "",
+   "Streaked Shearwater",
+   "Calonectris leucomelas",
+   "off Wollongong",
+   "27 Feb 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "139",
+   "",
+   "Black Noddy",
+   "Anous minutus",
+   "Pittwater",
+   "22 Mar 1994",
+   "Not accepted",
+   "Morris 1996"
+ ],
+ [
+   "140",
+   "",
+   "Brown Booby",
+   "Sula leucogaster",
+   "off Wollongong",
+   "15 Nov 1990",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "141",
+   "",
+   "Double-eyed Fig Parrot",
+   "Cyclopsitta diophthalma",
+   "Huonbrook",
+   "16 Apr 1992",
+   "Accepted",
+   "Morris 1996, Brandwood 2000"
+ ],
+ [
+   "142",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Fivebough Swamp, Leeton",
+   "7 Aug 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "143",
+   "",
+   "Grey-fronted Honeyeater",
+   "Ptilotula plumula",
+   "Glenn Davis",
+   "24 Apr 1994",
+   "Not accepted",
+   "Morris 1996"
+ ],
+ [
+   "144",
+   "",
+   "Black-breasted Buzzard",
+   "Hamirostra melanosternon",
+   "between Hay & Narrandera",
+   "14 Jun 1994",
+   "Not accepted",
+   "Morris 1996"
+ ],
+ [
+   "145",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Rotary Park, Lismore",
+   "15 Mar 1993",
+   "Accepted",
+   "Morris 1995"
+ ],
+ [
+   "146",
+   "",
+   "Double-eyed Fig Parrot",
+   "Cyclopsitta diophthalma",
+   "Cambridge Plateau, Richmond Range",
+   "29 Jan 1994",
+   "Not accepted",
+   "Morris 1996"
+ ],
+ [
+   "147",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Wollongong",
+   "24 Jul 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "148",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "off Wollongong",
+   "28 Sep 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "149",
+   "",
+   "Red-necked Phalarope",
+   "Phalaropus lobatus",
+   "off Wollongong",
+   "4 Oct 1994",
+   "Not Confirmed (not assessed)",
+   "Morris 1998"
+ ],
+ [
+   "150",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Worronora Heights",
+   "1 Oct 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "151",
+   "",
+   "Arctic Tern",
+   "Sterna paradisaea",
+   "Evans Head",
+   "7 Oct 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "152",
+   "",
+   "Australian Raven",
+   "Corvus coronoides",
+   "Evans Head",
+   "5 Oct 1994",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "153",
+   "",
+   "Brown Booby",
+   "Sula leucogaster",
+   "Seal Rocks",
+   "1 Jul 1993",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "154",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "25 Sep 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "155",
+   "",
+   "Black Noddy",
+   "Anous minutus",
+   "Iluka",
+   "4 Dec 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "156",
+   "",
+   "Kerguelen Petrel",
+   "Lugensa brevirostris",
+   "off Wollongong",
+   "3 Aug 1994",
+   "Not accepted",
+   "Morris 1996"
+ ],
+ [
+   "157",
+   "",
+   "Bridled Tern",
+   "Onychoprion anaethetus",
+   "off Wollongong",
+   "27 Nov 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "158",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Wollongong",
+   "24 Jul 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "159",
+   "",
+   "Fiordland Penguin",
+   "Eudyptes pachyrhynchus",
+   "Moruya",
+   "1 Oct 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "160",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Station Creek Beach, Yuraygir NP",
+   "18 Oct 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "161",
+   "",
+   "Fairy Tern",
+   "Sternula nereis",
+   "Wallagoot Lake, Bournda NP",
+   "14 Dec 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "162",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "Hastings River, near Port Macquarie",
+   "4 Mar 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "163",
+   "",
+   "Red-tailed Tropicbird",
+   "Phaethon rubricauda",
+   "Norah Head ",
+   "4 Mar 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "164",
+   "",
+   "Common Noddy",
+   "Anous stolidus",
+   "off Sydney",
+   "11 Feb 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "165",
+   "",
+   "Grey Ternlet",
+   "Procelsterna albivitta",
+   "off Sydney",
+   "11 Feb 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "166",
+   "",
+   "Common Noddy",
+   "Anous stolidus",
+   "off Wollongong",
+   "26 Feb 1995",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "167",
+   "",
+   "Streaked Shearwater",
+   "Calonectris leucomelas",
+   "off Sydney",
+   "11 Feb 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "168",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Bunjalung NP",
+   "16 Sep 1994",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "169",
+   "",
+   "Ruff",
+   "Philomachus pugnax",
+   "North Creek, Ballina",
+   "9 Apr 1995",
+   "Not accepted",
+   "Morris 1998"
+ ],
+ [
+   "170",
+   "",
+   "White-throated Honeyeater",
+   "Melithreptis albogularis ",
+   "Bulahdelah ",
+   "2 Apr 1994",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "171",
+   "",
+   "Red-tailed Tropicbird",
+   "Phaethon rubricauda",
+   "Armidale",
+   "6 Mar 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "172",
+   "",
+   "Little Stint",
+   "Calidris minuta",
+   "Tullakool Saltworks",
+   "x-Jan-1995",
+   "Not Confirmed (not assessed)",
+   "Morris 1998"
+ ],
+ [
+   "173",
+   "189",
+   "American Golden Plover",
+   "Pluvialis dominica",
+   "West Byron Wetlands",
+   "8 Nov 1994",
+   "Accepted",
+   "Morris 1996, Pattterson 1996"
+ ],
+ [
+   "174",
+   "",
+   "American Golden Plover",
+   "Pluvialis dominica",
+   "Sandon River",
+   "14 Nov 1994",
+   "Withdrawn",
+   "Morris 1996"
+ ],
+ [
+   "175",
+   "",
+   "Common Diving Petrel",
+   "Pelecanoides urinatrix",
+   "Marley Beach",
+   "8 Jul 1993",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "176",
+   "",
+   "Common Diving Petrel",
+   "Pelecanoides urinatrix",
+   "Long Reef, Sydney ",
+   "3 Jul 1993",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "177",
+   "",
+   "Brown Booby",
+   "Sula leucogaster",
+   "Ballina",
+   "15 Feb 1995",
+   "Not Confirmed (not assessed)",
+   "Morris 1998"
+ ],
+ [
+   "178",
+   "",
+   "Grey Ternlet",
+   "Procelsterna albivitta",
+   "East Ballina Lighthouse",
+   "8 Mar 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "179",
+   "",
+   "Black Noddy",
+   "Anous minutus",
+   "Ballina",
+   "15 Feb 1995",
+   "Not Confirmed (not assessed)",
+   "Morris 1998"
+ ],
+ [
+   "180",
+   "",
+   "Common Noddy",
+   "Anous stolidus",
+   "Ballina",
+   "15 Feb 1995",
+   "Not Confirmed (not assessed)",
+   "Morris 1998"
+ ],
+ [
+   "181",
+   "",
+   "White Tern",
+   "Gygis alba",
+   "Ballina",
+   "5 Mar 1995",
+   "Not Confirmed (not assessed)",
+   "Morris 1998"
+ ],
+ [
+   "182",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "Ballina",
+   "8 Mar 1995",
+   "Not Confirmed (not assessed)",
+   "Morris 1998"
+ ],
+ [
+   "183",
+   "",
+   "Common Noddy",
+   "Anous stolidus",
+   "Mossy Point",
+   "10 Feb 1995",
+   "Not accepted",
+   "Morris 1998"
+ ],
+ [
+   "184",
+   "",
+   "Royal Albatross",
+   "Diomedea epomophora (sensu lato)",
+   "Wollongong Light-house",
+   "16 Jul 1994",
+   "Not accepted",
+   "Morris 1996"
+ ],
+ [
+   "185",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "Wollongong Light-house",
+   "16 Jul 1994",
+   "Not accepted",
+   "Morris 1996"
+ ],
+ [
+   "186",
+   "",
+   "Common Noddy",
+   "Anous stolidus",
+   "Wollongong",
+   "11 Mar 1995",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "187",
+   "",
+   "Common Diving Petrel",
+   "Pelecanoides urinatrix",
+   "off Wollongong",
+   "27 Jun 1993",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "188",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Nymboida NP",
+   "6 Mar 1993",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "189",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Mangrove Mountain",
+   "26 Dec 1994",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "190",
+   "",
+   "Streaked Shearwater",
+   "Calonectris leucomelas",
+   "off Wollongong",
+   "28 Mar 1993",
+   "Accepted",
+   "Morris 1996"
+ ],
+ [
+   "191",
+   "",
+   "House Swift",
+   "Apus nipalensis",
+   "Ballina",
+   "8 Mar 1995",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "192",
+   "",
+   "Southern Fulmar",
+   "Fulmarus glacialoides",
+   "Long Reef, Sydney ",
+   "21 Jun 1995",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "193",
+   "",
+   "Metallic Starling",
+   "Aplonis metallica",
+   "Bowraville",
+   "4 Mar 1994",
+   "Not accepted",
+   "Morris 1996"
+ ],
+ [
+   "194",
+   "",
+   "Metallic Starling",
+   "Aplonis metallica",
+   "Bowraville",
+   "28 Aug 1994",
+   "Not accepted",
+   "Morris 1996"
+ ],
+ [
+   "195",
+   "",
+   "Kerguelen Petrel",
+   "Lugensa brevirostris",
+   "off Sydney",
+   "23 Sep 1995",
+   "Not accepted",
+   "Morris 1998"
+ ],
+ [
+   "196",
+   "",
+   "Black-headed Gull",
+   "Pterodroma nigripennis",
+   "off Wollongong",
+   "22 Oct 1995",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "197",
+   "",
+   "Roseate Tern",
+   "Sterna dougallii",
+   "Flat Rock Beach, Ballina",
+   "28 Sep 1995",
+   "Not Confirmed (not assessed)",
+   "Morris 1998"
+ ],
+ [
+   "198",
+   "",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Wollongong",
+   "22 Oct 1995",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "201",
+   "",
+   "Red-tailed Tropicbird",
+   "Phaethon rubricauda",
+   "Ballina",
+   "2 Nov 1995",
+   "Not Confirmed (not assessed)",
+   "Morris 1998"
+ ],
+ [
+   "202",
+   "",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Sydney",
+   "9 Dec 1995",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "203",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Sydney",
+   "19 Dec 1995",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "204",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Sydney",
+   "9 Dec 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "205",
+   "",
+   "Black-headed Gull",
+   "Pterodroma nigripennis",
+   "Spoon Bay Beach, Wamberal",
+   "12 Jan 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "206",
+   "",
+   "Pink Robin",
+   "Petroica rodinogaster",
+   "Yallah",
+   "5 Apr 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "207",
+   "",
+   "Grey Ternlet",
+   "Procelsterna albivitta",
+   "off Wollongong",
+   "11 Mar 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "208",
+   "",
+   "Red-tailed Tropicbird",
+   "Phaethon rubricauda",
+   "Tamworth",
+   "6 Mar 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "209",
+   "",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Wollongong",
+   "14 Apr 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "210",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Wollongong",
+   "14 Apr 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "211",
+   "",
+   "Black-headed Gull",
+   "Chroicocephalus ridibundus",
+   "off Wollongong",
+   "13 Aug 1994",
+   "Not Confirmed (not assessed)",
+   "Morris 1996"
+ ],
+ [
+   "212",
+   "",
+   "White Tern",
+   "Gygis alba",
+   "East Ballina Lighthouse",
+   "5 Feb 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "213",
+   "",
+   "White Tern",
+   "Gygis alba",
+   "Long Reef, Sydney ",
+   "2 May 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "214",
+   "",
+   "White Tern",
+   "Gygis alba",
+   "Avoca Beach",
+   "3 May 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "215",
+   "",
+   "White Tern",
+   "Gygis alba",
+   "Norah Head ",
+   "5 May 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "216",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Wollongong",
+   "28 Apr 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "217",
+   "",
+   "Herald Petrel",
+   "Pterodroma heraldica",
+   "off Wollongong",
+   "28 Apr 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "218",
+   "",
+   "Royal Albatross",
+   "Diomedea epomophora (sensu lato)",
+   "off Wollongong",
+   "22 Aug 1994",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "219",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Wollongong",
+   "25 Sep 1994",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "220",
+   "",
+   "Black Petrel",
+   "Procellaria parkinsoni",
+   "off Wollongong",
+   "17 Nov 1994",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "221",
+   "",
+   "Common Noddy",
+   "Anous stolidus",
+   "off Nambucca Heads",
+   "5 May 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "222",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "East Ballina Lighthouse",
+   "4 May 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "223",
+   "",
+   "Common Noddy",
+   "Anous stolidus",
+   "off Tweed Heads",
+   "24 Feb 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "224",
+   "",
+   "Red-tailed Tropicbird",
+   "Phaethon rubricauda",
+   "Wauchope",
+   "7 Mar 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "225",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Sydney",
+   "8 Jun 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "226",
+   "",
+   "Westland Petrel",
+   "procellaria westlandica",
+   "off Sydney",
+   "8 Jun 1996",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "227",
+   "",
+   "Westland Petrel",
+   "procellaria westlandica",
+   "off Wollongong",
+   "28 Jul 1996",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "228",
+   "",
+   "Common Redshank",
+   "Tringa totanus",
+   "Long Reef, Sydney ",
+   "8 Jul 1996",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "229",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "23 Jul 1996",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "230",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "28 Jun 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "231",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "Mooney Mooney Creek",
+   "30 May 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "232",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "Coogee",
+   "16 Jun 1996",
+   "Not accepted",
+   "not published"
+ ],
+ [
+   "233",
+   "",
+   "Australian Logrunner",
+   "Orthonyx temminckii",
+   "near Eden",
+   "27 Dec 1995",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "234",
+   "",
+   "Blue Petrel",
+   "Halobaena caerulea",
+   "St Georges Basin",
+   "4 Sep 1995",
+   "Accepted",
+   "Morris 1998"
+ ],
+ [
+   "235",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "South Ballina  ",
+   "5 May 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "236",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Pitt Town Lagoon",
+   "18 Oct 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "237",
+   "",
+   "Mottled Petrel",
+   "Pterodroma inexpectata",
+   "off Sydney",
+   "3 Nov 1996",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "238",
+   "",
+   "Black Petrel",
+   "Procellaria parkinsoni",
+   "off Sydney",
+   "3 Nov 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "239",
+   "",
+   "Brown Booby",
+   "Sula leucogaster",
+   "off Ballina",
+   "11 Apr 1993",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "240",
+   "",
+   "Grey Ternlet",
+   "Procelsterna albivitta",
+   "off Wollongong",
+   "26 Jan 1997",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "241",
+   "",
+   "Oriental Pratincole",
+   "Glareola maldivarum",
+   "Pitt Town Lagoon",
+   "28 Nov 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "242",
+   "",
+   "Eastern Yellow Wagtail",
+   "Motacilla tschutschensis",
+   "Lower Hunter Estuary",
+   "7 Jan 1998",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "243",
+   "",
+   "Common Tern (nominate)",
+   "Sterna hirundo hirundo",
+   "South Ballina  ",
+   "14 Apr 1997",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "244",
+   "",
+   "Red Goshawk",
+   "Erythrotriorchis radiatus",
+   "Alstonville ",
+   "24 Nov 1991",
+   "Not accepted",
+   "not published"
+ ],
+ [
+   "245",
+   "",
+   "Black-winged Petrel",
+   "Pterodroma nigripennis",
+   "off Sydney",
+   "14 Dec 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "246",
+   "",
+   "Grey Ternlet",
+   "Procelsterna albivitta",
+   "off Sydney",
+   "18 Jan 1997",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "247",
+   "",
+   "Black-winged Petrel",
+   "Pterodroma nigripennis",
+   "off Sydney",
+   "18 Jan 1997",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "248",
+   "",
+   "Tahiti Petrel",
+   "Pseudobulweria rostrata",
+   "off Sydney",
+   "18 Jan 1997",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "249",
+   "",
+   "Mottled Petrel",
+   "Pterodroma inexpectata",
+   "off Wollongong",
+   "27 Oct 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "250",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Wollongong",
+   "27 Oct 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "251",
+   "245",
+   "White Wagtail",
+   "Motacilla alba lugens",
+   "Glendale ",
+   "4 Apr 1998",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "252",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "Boat Harbour, Kurnell",
+   "12 Jul 1998",
+   "Not accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "253",
+   "",
+   "Shining Flycatcher",
+   "Myiagra alecto",
+   "Cobaki Broadwater ",
+   "29 Jun 1998",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "255",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "Norah Head ",
+   "8 Jul 1998",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "256",
+   "",
+   "Australian Swiftlet",
+   "Aerodramus terraereginae",
+   "East Ballina Lighthouse",
+   "3 Feb 1990",
+   "Not Confirmed (not assessed)",
+   "not published"
+ ],
+ [
+   "257",
+   "",
+   "Australian Swiftlet",
+   "Aerodramus terraereginae",
+   "Avalon",
+   "26 Jan 1998",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "258",
+   "",
+   "Royal Albatross",
+   "Diomedea epomophora (sensu lato)",
+   "Maroubra ",
+   "2 Jul 1998",
+   "Not accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "259",
+   "",
+   "Common Diving Petrel",
+   "Pelecanoides urinatrix",
+   "Maroubra ",
+   "26 Aug 1998",
+   "Not reviewed",
+   "not published"
+ ],
+ [
+   "260",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Sydney",
+   "29 Aug 1998",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "270",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "Warnervale",
+   "23 Jun 1998",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "271",
+   "",
+   "Southern Fulmar",
+   "Fulmarus glacialoides",
+   "Maroubra ",
+   "20 Nov 1998",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "272",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "Cape Solander",
+   "6 Jul 1984",
+   "Withdrawn",
+   "not published"
+ ],
+ [
+   "273",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Port Macquarie  ",
+   "11 Aug 1998",
+   "Not accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "274",
+   "",
+   "Barred Cuckooshrike",
+   "Coracina lineata",
+   "Wollongong",
+   "15 Nov 1998",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "275",
+   "",
+   "Baird's Sandpiper",
+   "Calidris bairdii",
+   "McGraths Hill ",
+   "5 Oct 1998",
+   "Not accepted",
+   "not published"
+ ],
+ [
+   "276",
+   "248",
+   "White Wagtail",
+   "Motacilla alba",
+   "Clear Lake ",
+   "20 Nov 1997",
+   "Not Accepted",
+   ""
+ ],
+ [
+   "277",
+   "258",
+   "South Island Pied Oystercatcher",
+   "Haematopus finschi",
+   "Robins Beach, South Ballina ",
+   "7 Nov 1998",
+   "Accepted",
+   "Brandwood 2001; Palliser & Eades 2000"
+ ],
+ [
+   "278",
+   "",
+   "White Tern",
+   "Gygis alba",
+   "Tygalum",
+   "8 May 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "288",
+   "",
+   "Macaroni Penguin",
+   "Eudyptes chrysolophus",
+   "Batemans Bay  ",
+   "10 Dec 1997",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "289",
+   "",
+   "Black-winged Petrel",
+   "Pterodroma nigripennis",
+   "Brunswick Heads",
+   "27 Jan 1997",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "290",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Warri Gate, Sturt NP",
+   "8 Oct 1996",
+   "Accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "291",
+   "",
+   "Tahiti Petrel",
+   "Pseudobulweria rostrata",
+   "off Wollongong",
+   "23 Feb 1996",
+   "Accepted",
+   "Brandwood 2001"
+ ],
+ [
+   "292",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "27 Jun 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "293",
+   "",
+   "Blue Petrel",
+   "Halobaena caerulea",
+   "off Sydney",
+   "10 Jul 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "294",
+   "",
+   "Royal Albatross",
+   "Diomedea epomophora (sensu lato)",
+   "off Wollongong",
+   "29 Sep 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "295",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "off Wollongong",
+   "27 Jun 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "296",
+   "",
+   "Sooty Albatross",
+   "Phoebetria fusca",
+   "off Wollongong",
+   "3 Jul 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "297",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Wollongong",
+   "10 Jul 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "298",
+   "",
+   "Southern Fulmar",
+   "Fulmarus glacialoides",
+   "off Wollongong",
+   "10 Jul 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "299",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Wollongong",
+   "10 Jul 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "300",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "off South West Rocks",
+   "4 Jul 1999",
+   "Not reviewed",
+   "not published"
+ ],
+ [
+   "301",
+   "",
+   "Royal Albatross",
+   "Diomedea epomophora (sensu lato)",
+   "Maroubra ",
+   "31 Jul 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "302",
+   "",
+   "Southern Fulmar",
+   "Fulmarus glacialoides",
+   "Maroubra ",
+   "31 Jul 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "303",
+   "",
+   "Pink Robin",
+   "Petroica rodinogaster",
+   "Mitchell Park, Cattai",
+   "11 Apr 1999",
+   "Not accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "304",
+   "",
+   "Blue-winged Kookaburra",
+   "Dacelo leachii",
+   "Sturt NP",
+   "10 Sep 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "305",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Sydney",
+   "25 Sep 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "306",
+   "",
+   "Roseate Tern",
+   "Sterna dougallii",
+   "Woody Head, Iluka ",
+   "24 Jan 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "307",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Sydney",
+   "8 Jul 2000",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "309",
+   "",
+   "Eastern Yellow Wagtail",
+   "Motacilla tschutschensis",
+   "Ash Island",
+   "20 Feb 2000",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "310",
+   "307",
+   "Northern Shoveler",
+   "Anas clypeata",
+   "Kalangadoo, via Lawrence",
+   "12 Aug 2000",
+   "Accepted",
+   "Brandwood 2002b; Palliser 2002"
+ ],
+ [
+   "311",
+   "",
+   "Common Redshank",
+   "Tringa totanus",
+   "Jerseyville",
+   "14 Sep 2000",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "312",
+   "",
+   "Roseate Tern",
+   "Sterna dougallii",
+   "Broadwater NP",
+   "2 Apr 2000",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "313",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "27 Jul 2000",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "314",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "4.5 km n of Ballina (=Flatrock Beach??)",
+   "26 Feb 2000",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "315",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Sydney",
+   "11 Nov 2000",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "316",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "Point Danger, Tweed Heads",
+   "9 Nov 2000",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "317",
+   "",
+   "Pink Robin",
+   "Petroica rodinogaster",
+   "North Rocks",
+   "6 Oct 2000",
+   "Not accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "318",
+   "",
+   "Mottled Petrel",
+   "Pterodroma inexpectata",
+   "Point Danger, Tweed Heads",
+   "18 Dec 2000",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "319",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "off South West Rocks",
+   "16 Dec 2000",
+   "Not accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "320",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "northern Macquarie Marshes",
+   "x-Jan-2001",
+   "Accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "321",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "Ettamogha via Albury",
+   "17 Aug 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "322",
+   "",
+   "Spotted Bowerbird",
+   "Chlamydera maculata",
+   "Pottsville",
+   "9 Jan 2001",
+   "Accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "323",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Eden",
+   "19 Sep 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "324",
+   "",
+   "Fairy Tern",
+   "Sternula nereis",
+   "Harrington Spit",
+   "21 Dec 2000",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "325",
+   "",
+   "Southern Fulmar",
+   "Fulmarus glacialoides",
+   "off Eden",
+   "19 Sep 1999",
+   "Accepted",
+   "Brandwood 2002a"
+ ],
+ [
+   "327",
+   "277",
+   "Antarctic Petrel",
+   "Thalassoica antarctica",
+   "Maroubra  ",
+   "26 Aug 1999",
+   "Accepted",
+   "Brandwood 2002a; Palliser 2002"
+ ],
+ [
+   "328",
+   "",
+   "Eastern Yellow Wagtail",
+   "Motacilla tschutschensis",
+   "Ash Island",
+   "24 Feb 2001",
+   "Accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "329",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Sydney",
+   "9 Dec 2000",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "330",
+   "305",
+   "Tristram's Storm Petrel",
+   "Oceanodroma tristrami",
+   "off Sydney",
+   "9 Oct 2000",
+   "Accepted",
+   "Brandwood 2002b, Palliser 2002"
+ ],
+ [
+   "331",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "Maroubra ",
+   "29 Jul 2001",
+   "Accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "332",
+   "",
+   "Mallee Emu-wren",
+   "Stipiturus mallee",
+   "Mungo NP",
+   "14 Apr 2001",
+   "Not accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "333",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Culburra Beach",
+   "14 Sep 2001",
+   "Not accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "334",
+   "",
+   "Oriental Pratincole",
+   "Glareola maldivarum",
+   "Dangars Lagoon, Uralla",
+   "27 Dec 2001",
+   "Accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "335",
+   "263",
+   "Papuan Harrier",
+   "Circus spilothorax",
+   "Lennox Head ",
+   "27 Aug 1997",
+   "Not accepted",
+   "Brandwood 2003, Palliser 2001"
+ ],
+ [
+   "336",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "Fingal Head",
+   "22 Nov 2001",
+   "Accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "337",
+   "",
+   "Roseate Tern",
+   "Sterna dougallii",
+   "Maroubra ",
+   "18 Jul 2001",
+   "Not accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "338",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "4 Jul 1998",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "339",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "28 Sep 1996",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "340",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "2 Aug 1998",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "341",
+   "",
+   "Blue Petrel",
+   "Halobaena caerulea",
+   "off Wollongong",
+   "3 Jul 1999",
+   "Accepted",
+   "Brandwood 2002b"
+ ],
+ [
+   "342",
+   "",
+   "Eastern Yellow Wagtail",
+   "Motacilla tschutschensis",
+   "Ash Island",
+   "24 Feb 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "343",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Tullakool Saltworks",
+   "9 May 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "344",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "Minmi Sewage Treament Ponds",
+   "3 Jul 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "345",
+   "261",
+   "Glossy Swiftlet",
+   "Collocalia esculenta",
+   "Connells Point, Sydney ",
+   "14 Mar 1999",
+   "Not accepted",
+   "Brandwood 2002a, 2002b, Palliser & Eades 2000"
+ ],
+ [
+   "346",
+   "301",
+   "Northern Pintail",
+   "Anas acuta",
+   "Cowan Ponds, Grafton ",
+   "3 Aug 2000",
+   "Accepted",
+   "Brandwood 2002b, Palliser 2002"
+ ],
+ [
+   "348",
+   "",
+   "Glossy Swiftlet",
+   "Collocalia esculenta",
+   "Sackville North ",
+   "9 Mar 2001",
+   "Not accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "349",
+   "318",
+   "Western Sandpiper",
+   "Calidris mauri",
+   "West Byron Wetlands ",
+   "22 Nov 2001",
+   "Not accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "350",
+   "325",
+   "Lesser Yellowlegs",
+   "Tringa flavipes",
+   "Ash Island",
+   "14 Sep 2001",
+   "Accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "351",
+   "238",
+   "House Swift",
+   "Apus nipalensis",
+   "Edgeworth ",
+   "24 Dec 1997",
+   "Not accepted",
+   "Brandwood 2005, Palliser 1999"
+ ],
+ [
+   "352",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Jerseyville",
+   "26 Jul 2002",
+   "Not accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "353",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Clovelly Bowling Club",
+   "10 Aug 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "354",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Stockton Beach  ",
+   "10 Nov 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "355",
+   "",
+   "Eastern Yellow Wagtail",
+   "Motacilla tschutschensis",
+   "Bakers Lagoon, Richmond",
+   "23 Dec 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "356",
+   "366",
+   "Buff-breasted Sandpiper",
+   "Tryngites subruficollis",
+   "Bushells Lagoon, Wilberforce",
+   "14 Dec 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "357",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Raleigh ",
+   "25 Oct 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "358",
+   "",
+   "Scarlet-chested Parrot",
+   "Neophema splendida",
+   "54 km SW of Louth",
+   "5 Oct 2002",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "359",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Coolabah",
+   "24 Oct 2000",
+   "Accepted",
+   "Brandwood 2003"
+ ],
+ [
+   "360",
+   "348",
+   "Northern Shoveler",
+   "Anas clypeata",
+   "Pelican Island, Jerseyville ",
+   "13 May 2002",
+   "Accepted",
+   "Brandwood 2005; Palliser 2003"
+ ],
+ [
+   "361",
+   "343",
+   "Kentish Plover",
+   "Charadrius alexandrinus",
+   "Old Bar ",
+   "14 Feb 2002",
+   "Accepted",
+   "Brandwood 2005; Palliser 2003"
+ ],
+ [
+   "362",
+   "",
+   "Eastern Yellow Wagtail",
+   "Motacilla tschutschensis",
+   "Ash Island",
+   "22 Jan 2003",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "363",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "McGraths Hill ",
+   "10 Jan 1999",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "364.1",
+   "",
+   "Fairy Tern",
+   "Sternula nereis",
+   "Lake Conjola",
+   "27 Jan 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "364.2",
+   "",
+   "Fairy Tern",
+   "Sternula nereis",
+   "Wallagoot Lake, Bournda NP",
+   "27 Dec 2002",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "365",
+   "",
+   "Banded Whiteface",
+   "Aphelocephala nigricincta",
+   "Hungerford",
+   "20 Sep 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2003"
+ ],
+ [
+   "366",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "off Wollongong",
+   "25 May 2003",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "367",
+   "379",
+   "Northern Shoveler",
+   "Anas clypeata",
+   "Ash Island",
+   "28 Jul 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "368",
+   "",
+   "Orange-bellied Parrot",
+   "Neophema chrysogaster",
+   "Maroubra",
+   "9 Aug 2003",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "369",
+   "",
+   "Eastern Yellow Wagtail",
+   "Motacilla tschutschensis",
+   "Eastlakes Golf Course ",
+   "18 Jan 2003",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "370",
+   "373",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "Flat Rock Beach, Ballina",
+   "12 Jan 2003",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "371",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Batemans Bay",
+   "6 Oct 2019",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "372",
+   "",
+   "Eastern Yellow Wagtail",
+   "Motacilla tschutschensis",
+   "Ash Island",
+   "16 Nov 2003",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "373",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Ash Island",
+   "28 Dec 2003",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "374",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "Clarence Head, Yamba",
+   "6 Mar 2003",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "375",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Comerong Island ",
+   "18 Jan 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "376",
+   "",
+   "White-eared Monarch",
+   "Carterornis leucotis",
+   "Crowdy Bay NP",
+   "5 Nov 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "377",
+   "",
+   "Bourke's Parrot",
+   "Neopsephotus bourkii",
+   "Weddin Mountain",
+   "21 Oct 2003",
+   "Not accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "378",
+   "422",
+   "Stilt Sandpiper",
+   "Calidris himantopus",
+   "Stockton Sandspit",
+   "7 Feb 2004",
+   "Not accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "379",
+   "401",
+   "Canada Goose",
+   "Branta canadensis",
+   "Shoalhaven Heads ",
+   "18 Oct 2002",
+   "Accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "380",
+   "405",
+   "Franklin's Gull",
+   "Leucophaeus pipixcan",
+   "Little Bay, Sydney ",
+   "14 Dec 2003",
+   "Not accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "381",
+   "387",
+   "House Swift",
+   "Apus nipalensis",
+   "NW of Dungog",
+   "30 01 2003",
+   "Not accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "382",
+   "397",
+   "South Island Pied Oystercatcher",
+   "Haematopus finschi",
+   "Arrawarra Beach",
+   "24 May 2003",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "383",
+   "382",
+   "Buff-breasted Sandpiper",
+   "Tryngites subruficollis",
+   "Lake Wollumboola",
+   "x-Jan-1999",
+   "Accepted",
+   "Brandwood 2002a, 2005"
+ ],
+ [
+   "384",
+   "",
+   "Torresian Imperial Pigeon",
+   "Ducula spilorrhoa",
+   "Millingandi",
+   "1 Apr 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "385",
+   "",
+   "Elegant Parrot",
+   "Neophema elegans",
+   "Fowlers Gap",
+   "13 Jul 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "386",
+   "",
+   "Spotted Nightjar",
+   "Eurostopodus argus",
+   "Kurnell",
+   "23 Jun 2001",
+   "Not accepted",
+   "Brandwood 2005"
+ ],
+ [
+   "387",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "off Lord Howe Island",
+   "20 Jul 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "388",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Sydney",
+   "11 Oct 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "389",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Sydney",
+   "5 Oct 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "390",
+   "",
+   "Southern Royal Albatross",
+   "Diomedea (e.) epomophora",
+   "off Sydney",
+   "5 Oct 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "391",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Sydney",
+   "5 Oct 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "392",
+   "231",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "off Wollongong",
+   "7 Oct 1996",
+   "Accepted",
+   "Brandwood 2006"
+ ],
+ [
+   "394",
+   "416",
+   "Buff-breasted Sandpiper",
+   "Tryngites subruficollis",
+   "Ash Island",
+   "13 Feb 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "396",
+   "",
+   "Green Pygmy Goose",
+   "Nettapus pulchellus",
+   "Seales Road Swamp, via Kempsey",
+   "9 Dec 2004",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "397",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "South-West Rocks",
+   "20 Jan 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "398",
+   "",
+   "Torresian Imperial Pigeon",
+   "Ducula spilorrhoa",
+   "Port Macquarie",
+   "26 Mar 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "399",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Newcastle",
+   "10 Apr 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "400",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Woodford Island, via Bushgrove",
+   "9 Feb 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "401",
+   "459",
+   "Franklin's Gull",
+   "Leucophaeus pipixcan",
+   "Avoca Beach ",
+   "26 Mar 2005",
+   "Not accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "402",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Lord Howe Island",
+   "7 Apr 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "403",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "Bermagui",
+   "17 Apr 2003",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "404",
+   "",
+   "Radjah Shelduck",
+   "Tadorna radjah",
+   "Urunga",
+   "2 Aug 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "405",
+   "",
+   "Pacific Baza",
+   "Aviceda subcristata",
+   "Tibooburra",
+   "7 Jul 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "406",
+   "",
+   "Radjah Shelduck",
+   "Tadorna radjah",
+   "Mungo Brush",
+   "12 Oct 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "407",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Norfolk Homestead, Cassilis",
+   "28 Jun 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "408",
+   "",
+   "Fairy Tern",
+   "Sternula nereis",
+   "Flat Rock Beach, Ballina",
+   "27 Dec 2005",
+   "Not accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "409",
+   "",
+   "Black-breasted Buttonquail",
+   "Turnix melanogaster",
+   "Minyon Falls, Whian Whian NP",
+   "9 Jul 2000",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "410",
+   "469",
+   "Northern Shoveler",
+   "Anas clypeata",
+   "Near Kempsey ",
+   "25 Jun 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "411",
+   "",
+   "Dusky Honeyeater",
+   "Myzomela obscura",
+   "Piggabeen",
+   "17 Aug 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "412",
+   "",
+   "Oriental Pratincole",
+   "Glareola maldivarum",
+   "Jerseyville",
+   "16 Feb 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "413",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Richmond Lowlands",
+   "3 Feb 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "414",
+   "",
+   "Olive-backed Sunbird",
+   "Cinnyris jugularis",
+   "Maitland",
+   "11 Mar 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "415",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Kooragang Island",
+   "2 Feb 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "416",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "Lord Howe Island",
+   "20 Mar 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "417",
+   "",
+   "Squatter Pigeon",
+   "Geophaps scripta",
+   "20 km N of Ashford",
+   "13 May 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "418",
+   "957",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "off Newcastle",
+   "23 Apr 2006",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "419",
+   "",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "Yamba  ",
+   "23 May 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "420",
+   "",
+   "White-eared Monarch",
+   "Carterornis leucotis",
+   "Pearl Beach",
+   "26 Feb 2005",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2010"
+ ],
+ [
+   "421",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "off Cape Byron",
+   "18 Sep 2005",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "424",
+   "481",
+   "American Golden Plover",
+   "Pluvialis dominica",
+   "Shoalhaven Heads ",
+   "1 Apr 2006",
+   "Not Accepted",
+   "not published"
+ ],
+ [
+   "425",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "off Wollongong",
+   "23 Oct 2004",
+   "Accepted",
+   "Brandwood 2007"
+ ],
+ [
+   "426",
+   "",
+   "Orange Chat",
+   "Epthianura aurifrons",
+   "Malabar",
+   "11 Jan 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "427",
+   "",
+   "Northern Shoveler",
+   "Anas clypeata",
+   "North Kempsey",
+   "27 Jul 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "428",
+   "958",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "off Sydney",
+   "30 Oct 2006",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "429",
+   "",
+   "Fiordland Penguin",
+   "Eudyptes pachyrhynchus",
+   "South Bermagui",
+   "19 Oct 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "430",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "Off Bunjalung NP",
+   "20 Oct 2006",
+   "Not accepted",
+   "not published"
+ ],
+ [
+   "431",
+   "",
+   "Fiordland Penguin",
+   "Eudyptes pachyrhynchus",
+   "Green Cape",
+   "6 Nov 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "432",
+   "",
+   "Fiordland Penguin",
+   "Eudyptes pachyrhynchus",
+   "Norah Head ",
+   "7 Nov 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "434",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Wollongong",
+   "28 May 2004",
+   "Accepted",
+   "Brandwood 2010"
+ ],
+ [
+   "435",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "60 km S of Hay",
+   "18 Oct 2006",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "436",
+   "",
+   "Shy Albatross",
+   "Thalassarche cauta",
+   "Lord Howe Island",
+   "19 Feb 2007",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "437",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "Off Milton",
+   "31 Mar 2007",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "438",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "Off Milton",
+   "31 Mar 2007",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "439",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Ulladulla",
+   "31 Mar 2007",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "441",
+   "",
+   "Painted Finch",
+   "Emblema pictum",
+   "Broken Hill",
+   "5 May 2007",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "442",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "off South West Rocks",
+   "11 Apr 2007",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "443",
+   "",
+   "Painted Finch",
+   "Emblema pictum",
+   "Mount Wood, Tibooburra",
+   "7 May 2007",
+   "Accepted",
+   "NSWORAC no date a (for 2008)"
+ ],
+ [
+   "444",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "Swan Creek, Grafton",
+   "20 May 2007",
+   "Accepted",
+   "NSWORAC no date a (for 2008)"
+ ],
+ [
+   "445",
+   "",
+   "Hardhead",
+   "Aythya australis",
+   "Lord Howe Island",
+   "24 Mar 2007",
+   "Accepted",
+   "NSWORAC no date a (for 2008)"
+ ],
+ [
+   "446",
+   "",
+   "Yellow Chat",
+   "Epthianura crocea",
+   "White Cliffs",
+   "14 Apr 2007",
+   "Accepted",
+   "NSWORAC no date a (for 2008)"
+ ],
+ [
+   "447",
+   "507",
+   "Broad-billed Prion",
+   "Pachyptila vittata",
+   "Long Reef, Sydney ",
+   "17 Jun 2000",
+   "Accepted",
+   "McGovern 2009"
+ ],
+ [
+   "448",
+   "492",
+   "Grey-headed Lapwing",
+   "Vanellus cinereus",
+   "Burren Junction ",
+   "19 Jul 2006",
+   "Accepted",
+   "McGovern 2009"
+ ],
+ [
+   "449",
+   "490",
+   "Broad-billed Prion",
+   "Pachyptila vittata",
+   "Bensville ",
+   "7 Jun 2006",
+   "Accepted",
+   "McGovern 2009"
+ ],
+ [
+   "450",
+   "491",
+   "South Island Pied Oystercatcher",
+   "Haematopus finschi",
+   "Stockton Sandspit",
+   "3 Feb 2004",
+   "Accepted",
+   "McGovern 2009"
+ ],
+ [
+   "451",
+   "487",
+   "Great Shearwater",
+   "Ardenna gravis",
+   "off Wollongong",
+   "22 Apr 2006",
+   "Accepted",
+   "McGovern 2009"
+ ],
+ [
+   "453",
+   "513",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "Narrabeen",
+   "23 Dec 2006",
+   "Accepted",
+   "McGovern 2009"
+ ],
+ [
+   "454",
+   "520",
+   "Rosy Starling",
+   "Pastor roseus",
+   "Coffs Harbour ",
+   "4 Dec 2006",
+   "Accepted",
+   "McGovern 2009; Palliser & Carter 2009"
+ ],
+ [
+   "455",
+   "522",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Wollongong",
+   "24 Feb 2007",
+   "Withdrawn",
+   "McGovern 2009; Palliser & Carter 2009"
+ ],
+ [
+   "456",
+   "",
+   "Flock Bronzewing",
+   "Phaps histrionica",
+   "Sturt NP",
+   "25 Sep 2007",
+   "Accepted",
+   "NSWORAC no date a (for 2008)"
+ ],
+ [
+   "457",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Wollongong",
+   "22 Mar 2008",
+   "Accepted",
+   "NSWORAC no date a (for 2008)"
+ ],
+ [
+   "458",
+   "",
+   "Painted Finch",
+   "Emblema pictum",
+   "Menindee",
+   "19 Aug 2007",
+   "Accepted",
+   "NSWORAC no date a (for 2008)"
+ ],
+ [
+   "459",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "Bega",
+   "31 May 2008",
+   "Accepted",
+   "NSWORAC no date a (for 2008)"
+ ],
+ [
+   "460",
+   "528",
+   "Black Tern",
+   "Chlidonias niger",
+   "Woody Head, Iluka ",
+   "21 Apr 2007",
+   "Not Accepted",
+   "McGovern 2009; Palliser & Carter 2009"
+ ],
+ [
+   "461",
+   "550",
+   "Lesser Yellowlegs",
+   "Tringa flavipes",
+   "Jerseyville  ",
+   "28 Oct 2007",
+   "Accepted",
+   "McGovern 2009; Palliser & Carter 2009"
+ ],
+ [
+   "462",
+   "551",
+   "Canada Goose",
+   "Branta canadensis",
+   "Milton ",
+   "26 Dec 2007",
+   "Accepted",
+   "McGovern 2009; Palliser & Carter 2009"
+ ],
+ [
+   "463",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "Port Macquarie",
+   "5 Jun 2008",
+   "Accepted",
+   "NSWORAC no date a (for 2008)"
+ ],
+ [
+   "464",
+   "",
+   "Painted Finch",
+   "Emblema pictum",
+   "north of Jerilderie ",
+   "3 Aug 2008",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "465",
+   "",
+   "Mottled Petrel",
+   "Pterodroma inexpectata",
+   "off Wollongong",
+   "19 Oct 2008",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "466",
+   "559",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Wollongong",
+   "24 Nov 2007",
+   "Accepted",
+   "McGovern 2009; Palliser & Carter 2009"
+ ],
+ [
+   "467",
+   "556",
+   "House Crow",
+   "Corvus splendens ",
+   "Dee Why ",
+   "13 Mar 2008",
+   "Accepted",
+   "McGovern 2009; Palliser & Carter 2009"
+ ],
+ [
+   "468",
+   "557",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "off Eden",
+   "30 Mar 2008",
+   "Not Accepted",
+   "McGovern 2009; Palliser & Carter 2009"
+ ],
+ [
+   "469",
+   "554",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "off South West Rocks",
+   "27 Jun 2007",
+   "Not Accepted",
+   "McGovern 2009; Palliser & Carter 2009"
+ ],
+ [
+   "470",
+   "560",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "off Wollongong",
+   "24 Nov 2007",
+   "Not Accepted",
+   "McGovern 2009; Palliser & Carter 2009"
+ ],
+ [
+   "471",
+   "",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "12 km SSW of Ballina ",
+   "5 Jan 2009",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "472",
+   "",
+   "Australian Swiftlet (or White-rumped Swiftlet)",
+   "Aerodramus sp.",
+   "Port Macquarie ",
+   "30 Dec 2008",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "473",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Ash Island",
+   "2 Jan 2009",
+   "Not accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "474",
+   "594",
+   "Yellow White-eye",
+   "Zosterops luteus",
+   "Sawtell ",
+   "22 Feb 2009",
+   "Accepted",
+   "McGovern 2011; Palliser et al. 2011"
+ ],
+ [
+   "475",
+   "",
+   "Scarlet-chested Parrot",
+   "Neophema splendida",
+   "Scotia Sanctuary ",
+   "18 Oct 2008",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "476",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "Tweed Heads ",
+   "16 Apr 2009",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "477",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "off Wollongong",
+   "28 Mar 2009",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "478",
+   "",
+   "Cape Barren Goose",
+   "Cereopsis novaehollandiae",
+   "Shellharbour ",
+   "6 Apr 2009",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "479",
+   "",
+   "Torresian Imperial Pigeon",
+   "Ducula spilorrhoa",
+   "Raleigh ",
+   "25 Apr 2009",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "480",
+   "",
+   "Torresian Imperial Pigeon",
+   "Ducula spilorrhoa",
+   "Bulahdelah ",
+   "11 May 2009",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "481",
+   "",
+   "Torresian Imperial Pigeon",
+   "Ducula spilorrhoa",
+   "Newport ",
+   "9 Apr 2009",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "482",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "Maroubra ",
+   "24 May 2009",
+   "Not accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "483",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "off Eden",
+   "31 May 2009",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "484",
+   "",
+   "Radjah Shelduck",
+   "Tadorna radjah",
+   "Ballina ",
+   "6 May 2009",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "485",
+   "",
+   "Sooty Albatross",
+   "Phoebetria fusca",
+   "off Jervis Bay ",
+   "10 Jul 2009",
+   "Accepted",
+   "NSWORAC no date b (for 2009)"
+ ],
+ [
+   "486",
+   "598",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "off Sydney",
+   "9 May 2009",
+   "Accepted",
+   "McGovern 2011; Palliser et al. 2011"
+ ],
+ [
+   "487",
+   "599",
+   "Pycroft's Petrel",
+   "Pterodroma pycrofti",
+   "off Lord Howe Island ",
+   "1 Oct 2008",
+   "Not Accepted",
+   "McGovern 2011; Palliser et al. 2011"
+ ],
+ [
+   "488",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "off Eden",
+   "11 Sep 2009",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "489",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "Kyogle ",
+   "20 Sep 2009",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "490",
+   "",
+   "Thick-billed Grasswren",
+   "Amytornis modestus",
+   "near Packsaddle ",
+   "24 Aug 2008",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "491",
+   "",
+   "Torresian Imperial Pigeon",
+   "Ducula spilorrhoa",
+   "Smithtown ",
+   "18 Aug 2009",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "492",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "Lennox Head ",
+   "27 May 2009",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "493",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "Ballina ",
+   "24 Aug 2007",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "494",
+   "",
+   "Black-breasted Buttonquail",
+   "Turnix melanogaster",
+   "Dorrigo NP",
+   "31 Jul 2007",
+   "Not accepted",
+   "NSWORAC no date d (for 2011)"
+ ],
+ [
+   "496",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Tuross Estuary",
+   "6 Sep 2009",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "497",
+   "",
+   "Southern Fulmar",
+   "Fulmarus glacialoides",
+   "Batemans Bay  ",
+   "22 Oct 2009",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "498",
+   "",
+   "Bridled Tern",
+   "Onychoprion anaethetus",
+   "off Wollongong",
+   "28 Nov 2009",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "499",
+   "",
+   "Bridled Tern",
+   "Onychoprion anaethetus",
+   "Ballina ",
+   "18 Dec 2009",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "500",
+   "",
+   "White-browed Crake",
+   "Porzana cinerea",
+   "West Byron Wetlands ",
+   "11 Feb 2010",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "501",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "Montague Island ",
+   "10 Jan 2010",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "502",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "off Port Stephens",
+   "27 Mar 2010",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "503",
+   "959",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "off Port Stephens",
+   "27 Mar 2010",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "504",
+   "891",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "off Sydney",
+   "13 Mar 2010",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "505",
+   "",
+   "Cape Barren Goose",
+   "Cereopsis novaehollandiae",
+   "Ulladulla ",
+   "16 Mar 2010",
+   "Accepted",
+   "NSWORAC no date c (for 2010)"
+ ],
+ [
+   "506",
+   "615",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "off Lord Howe Island ",
+   "29 Sep 2009",
+   "Not Accepted",
+   "McGovern 2011; Palliser et al. 2011"
+ ],
+ [
+   "507",
+   "617",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "Grafton ",
+   "22 Oct 2009",
+   "Accepted",
+   "McGovern 2011; Palliser et al. 2011"
+ ],
+ [
+   "508",
+   "627",
+   "Laughing Gull",
+   "Leucophaeus atricilla",
+   "Lord Howe Island ",
+   "12 Jan 2010",
+   "Accepted",
+   "McGovern 2011; Palliser & Carter 2012"
+ ],
+ [
+   "509",
+   "629",
+   "Chestnut-tailed Starling",
+   "Sturnia malabarica",
+   "Hornsby",
+   "24 Jan 2010",
+   "Not Accepted",
+   "McGovern 2011; Palliser et al. 2011"
+ ],
+ [
+   "510",
+   "633",
+   "Dunlin",
+   "Calidris alpina",
+   "Tuross Estuary ",
+   "5 Jan 2010",
+   "Accepted",
+   "McGovern 2011; Palliser et al. 2011"
+ ],
+ [
+   "511",
+   "",
+   "Green Pygmy Goose",
+   "Nettapus pulchellus",
+   "Narrabri Lake ",
+   "24 Sep 2010",
+   "Accepted",
+   "NSWORAC no date d (for 2011)"
+ ],
+ [
+   "512",
+   "",
+   "Scarlet-chested Parrot",
+   "Neophema splendida",
+   "near Silverton ",
+   "10 Aug 2010",
+   "Not accepted",
+   "NSWORAC no date d (for 2011)"
+ ],
+ [
+   "513",
+   "",
+   "Purple-crowned Lorikeet",
+   "Glossopsitta porphyrocephala",
+   "Deniliquin ",
+   "28 Oct 2010",
+   "Accepted",
+   "NSWORAC no date d (for 2011)"
+ ],
+ [
+   "514",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "Narran Lake",
+   "11 Apr 2011",
+   "Accepted",
+   "NSWORAC no date d (for 2011)"
+ ],
+ [
+   "515",
+   "",
+   "Radjah Shelduck",
+   "Tadorna radjah",
+   "Carrs Creek, Grafton",
+   "29 Jan 2011",
+   "Accepted",
+   "NSWORAC no date d (for 2011)"
+ ],
+ [
+   "516",
+   "898",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "Circular Quay, Sydney Harbour",
+   "26 Mar 2009",
+   "Accepted",
+   "NSWORAC no date d (for 2011)"
+ ],
+ [
+   "517",
+   "899",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Ulladulla",
+   "19 Oct 2009",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "518",
+   "890",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "off Ulladulla",
+   "29 Mar 2009",
+   "Accepted",
+   "NSWORAC no date d (for 2011)"
+ ],
+ [
+   "519",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Wollongong",
+   "28 May 2011",
+   "Accepted",
+   "NSWORAC no date d (for 2011)"
+ ],
+ [
+   "520",
+   "",
+   "Green Pygmy Goose",
+   "Nettapus pulchellus",
+   "Smiths Lake, Coffs Harbour",
+   "28 May 2011",
+   "Accepted",
+   "NSWORAC no date d (for 2011)"
+ ],
+ [
+   "521",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "Maroubra  ",
+   "14 May 2011",
+   "Not accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "522",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Sydney",
+   "9 Jul 2011",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "523",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Sydney",
+   "13 Aug 2011",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "524",
+   "636",
+   "New Zealand Storm Petrel",
+   "Fregetta sp. nov.",
+   "off Port Stephens",
+   "28 Mar 2010",
+   "Accepted",
+   "McGovern 2012; Palliser & Carter 2012"
+ ],
+ [
+   "525",
+   "645",
+   "American Golden Plover",
+   "Pluvialis dominica",
+   "Shoalhaven Heads",
+   "27 Sep 2006",
+   "Not Accepted",
+   "McGovern 2013"
+ ],
+ [
+   "526",
+   "648",
+   "Semipalmated Plover",
+   "Charadrius semipalmatus",
+   "Tuross Estuary",
+   "22 May 2010",
+   "Accepted",
+   "McGovern 2013; Palliser & Carter 2012"
+ ],
+ [
+   "527",
+   "656",
+   "Red-billed Tropicbird",
+   "Phaethon aethereus",
+   "Lord Howe Island",
+   "6 Oct 2010",
+   "Accepted",
+   "McGovern 2013; Palliser & Carter 2012"
+ ],
+ [
+   "528",
+   "684",
+   "New Zealand Storm Petrel",
+   "Fregetta sp. nov.",
+   "off Ulladulla",
+   "29 Mar 2010",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "529",
+   "687",
+   "Great Shearwater",
+   "Ardenna gravis",
+   "off Sydney",
+   "9 Apr 2011",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "530",
+   "688",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Wollongong",
+   "25 Oct 2009",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "531",
+   "689",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Sydney",
+   "9 Apr 2011",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "532",
+   "690",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Sydney",
+   "23 Oct 1983",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "533",
+   "691",
+   "New Zealand Storm Petrel",
+   "Fregetta maoriana",
+   "off Wollongong",
+   "24 Apr 2010",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "534",
+   "692",
+   "Great Shearwater",
+   "Ardenna gravis",
+   "off Swansea",
+   "21 Apr 2011",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "535",
+   "693",
+   "Great Shearwater",
+   "Ardenna gravis",
+   "off Wollongong",
+   "23 Apr 2011",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "536",
+   "694",
+   "Great Shearwater",
+   "Ardenna gravis",
+   "off Eden",
+   "5 Mar 2011",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "537",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Lake Cargelligo STW  ",
+   "26 Sep 2011",
+   "Not accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "538",
+   "",
+   "Scarlet-chested Parrot",
+   "Neophema splendida",
+   "north of Broken Hill ",
+   "26 Oct 2011",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "539",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Batemans Bay  ",
+   "7 Nov 2011",
+   "Not accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "540",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Crowdy Bay NP",
+   "11 Dec 2011",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "541",
+   "",
+   "Radjah Shelduck",
+   "Tadorna radjah",
+   "Old Bonalbo  ",
+   "12 Feb 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "542",
+   "",
+   "Cape Barren Goose",
+   "Cereopsis novaehollandiae",
+   "Mayfield, Newcastle  ",
+   "28 Apr 2011",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "543",
+   "",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Eden",
+   "22 Oct 2011",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "544",
+   "",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Eden",
+   "23 Oct 2011",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "545",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Bundjalung NP",
+   "21 Jan 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "546",
+   "",
+   "Mottled Petrel",
+   "Pterodroma inexpectata",
+   "off Eden",
+   "22 Oct 2011",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "547",
+   "",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "off Port Stephens",
+   "27 Feb 2010",
+   "Not accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "548",
+   "",
+   "Bridled Tern",
+   "Onychoprion anaethetus",
+   "off Sydney",
+   "10 Mar 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "549",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "off Ulladulla",
+   "29 Mar 2010",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "550",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "off Sydney",
+   "11 Feb 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "551",
+   "",
+   "Oriental Pratincole",
+   "Glareola maldivarum",
+   "Lord Howe Island  ",
+   "2 Jan 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "552",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "Stockton Beach  ",
+   "19 Mar 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "553",
+   "",
+   "Southern Fulmar",
+   "Fulmarus glacialoides",
+   "Wreck Bay ",
+   "7 Jun 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "554",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "Wreck Bay ",
+   "7 Jun 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "555",
+   "",
+   "Purple-crowned Lorikeet",
+   "Glossopsitta porphyrocephala",
+   "Oaklands ",
+   "9 Jun 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "556",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Eden",
+   "21 Jul 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "557",
+   "",
+   "Little Shearwater",
+   "Puffinus assimilis",
+   "off Sydney",
+   "14 Jul 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "558",
+   "",
+   "Little Shearwater",
+   "Puffinus assimilis",
+   "off Sydney",
+   "14 Jul 2012",
+   "Accepted",
+   "NSWORAC no date e (for 2012)"
+ ],
+ [
+   "560",
+   "708",
+   "Broad-billed Prion",
+   "Pachyptila vittata",
+   "Ulladulla",
+   "26 Jul 2011",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "561",
+   "715",
+   "Atlantic Yellow-nosed Albatross",
+   "Thalassarche chlororhynchus",
+   "off Wollongong",
+   "24 Aug 1986",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "562",
+   "721",
+   "Great Shearwater",
+   "Ardenna gravis",
+   "off Port Stephens",
+   "20 Nov 2011",
+   "Accepted",
+   "McGovern 2013, Palliser & Carter 2013"
+ ],
+ [
+   "563",
+   "742",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Sydney",
+   "14 Apr 2012",
+   "Accepted",
+   "McGovern 2014"
+ ],
+ [
+   "564",
+   "745",
+   "Least Sandpiper",
+   "Calidris minutilla",
+   "Tuross Estuary",
+   "24 Jan 2011",
+   "Not Accepted",
+   "McGovern 2014"
+ ],
+ [
+   "565",
+   "746",
+   "Little Stint",
+   "Calidris minuta",
+   "Tuross Estuary",
+   "5 Mar 2012",
+   "Not Accepted",
+   "McGovern 2014"
+ ],
+ [
+   "566",
+   "749",
+   "Temminck's Stint",
+   "Calidris temminckii",
+   "Tuross Estuary",
+   "9 Apr 2012",
+   "Not Accepted",
+   "McGovern 2014"
+ ],
+ [
+   "567",
+   "764",
+   "Baird’s Sandpiper",
+   "Calidris bairdii",
+   "Tuross Estuary",
+   "9 Jul 2012",
+   "Not Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "568",
+   "",
+   "Little Curlew",
+   "Numenius minutus",
+   "Ballina  ",
+   "6 Apr 2012",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "569",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "Menindee  ",
+   "19 Nov 2012",
+   "Not accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "570",
+   "",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Port Stephens",
+   "19 Nov 2012",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "571",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Shoalhaven Heads  ",
+   "26 Jan 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "572",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "Swansea  ",
+   "29 Jan 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "573",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "South West Rocks  ",
+   "29 Jan 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "574",
+   "",
+   "Pink Robin",
+   "Petroica rodinogaster",
+   "Macquarie NP  ",
+   "14 Feb 2014",
+   "Not accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "575",
+   "",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Sydney",
+   "13 Oct 2012",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "576",
+   "",
+   "Bridled Tern",
+   "Onychoprion anaethetus",
+   "Newcastle  ",
+   "30 Jan 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "577",
+   "",
+   "Radjah Shelduck",
+   "Tadorna radjah",
+   "Corindi  ",
+   "14 Apr 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "578",
+   "",
+   "Radjah Shelduck",
+   "Tadorna radjah",
+   "Yamba  ",
+   "1 Apr 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "579",
+   "",
+   "Pink Robin",
+   "Petroica rodinogaster",
+   "Morton NP   ",
+   "24 Apr 2013",
+   "Not accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "580",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "S Broulee Beach   ",
+   "31 Jan 2013",
+   "Not accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "581",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Sydney",
+   "11 May 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "582",
+   "",
+   "Blue Petrel",
+   "Halobaena caerulea",
+   "off Wollongong",
+   "22 Jun 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "583",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Sydney",
+   "26 Oct 2012",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "584",
+   "766",
+   "American Golden Plover",
+   "Pluvialis dominica",
+   "Boat Harbour, Kurnell",
+   "6 Jan 2009",
+   "Accepted",
+   "McGovern 2014"
+ ],
+ [
+   "585",
+   "767",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "off Wollongong",
+   "15 Dec 2012",
+   "Accepted",
+   "McGovern 2014"
+ ],
+ [
+   "586",
+   "768",
+   "House Swift",
+   "Apus nipalensis",
+   "Iluka",
+   "1 Jan 2013",
+   "Not Accepted",
+   "McGovern 2014"
+ ],
+ [
+   "587",
+   "776",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "off Wollongong",
+   "26 Feb 2005",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "588",
+   "777",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Wollongong",
+   "23 Feb 2008",
+   "Accepted",
+   "McGovern 2015; Dooley 2016"
+ ],
+ [
+   "589",
+   "780",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Wollongong",
+   "23 Sep 2012",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "590",
+   "782",
+   "House Swift",
+   "Apus nipalensis",
+   "Surfside",
+   "8 Feb 2012",
+   "Not Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "591",
+   "785",
+   "Barau's Petrel",
+   "Pterodroma baraui",
+   "off Sydney",
+   "9 Feb 2013",
+   "Accepted",
+   "McGovern 2014"
+ ],
+ [
+   "592",
+   "786",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "Port Kembla",
+   "25 Dec 2012",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "593",
+   "790",
+   "Yellowhammer",
+   "Emberiza citrinella",
+   "Mount Eliza, Lord Howe Island",
+   "18 Aug 1949",
+   "Accepted",
+   "McGovern 2015; Palliser & Carter 2016"
+ ],
+ [
+   "594",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "near Kyogle ",
+   "27 Aug 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "595",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Wilberforce ",
+   "27 Sep 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "596",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Long Reef, Sydney ",
+   "8 Oct 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "597",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Sydney Airport ",
+   "15 Oct 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "598",
+   "",
+   "Little Shearwater",
+   "Puffinus assimilis",
+   "Boodooree NP",
+   "28 Jun 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "599",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Moruya",
+   "11 Oct 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "600",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Tuggerah ",
+   "27 Sep 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "601",
+   "",
+   "Southern Royal Albatross",
+   "Diomedea (e.) epomophora",
+   "off Ulladulla",
+   "18 Oct 2009",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "602",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "off Wollongong",
+   "29 Aug 2010",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "603",
+   "",
+   "Asian Dowitcher",
+   "Limnodromus semipalmatus",
+   "Comerong Island ",
+   "16 Nov 2013",
+   "Accepted",
+   "McGovern no date (for 2013)"
+ ],
+ [
+   "604",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "12 Aug 2006",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "605",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "24 Jun 2006",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "606",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "Kyogle  ",
+   "26 Apr 2014",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "607",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "off Port Stephens",
+   "9 Mar 2014",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "608",
+   "",
+   "Black-breasted Buttonquail",
+   "Turnix melanogaster",
+   "Cougal  ",
+   "7 Mar 2014",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "609",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "south of Milton  ",
+   "27 Apr 2014",
+   "Not accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "610",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "Hillston  ",
+   "18 Apr 2014",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "611",
+   "",
+   "Salvin's Albatross",
+   "Thalassarche salvini",
+   "off Wollongong",
+   "26 Jun 2010",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "612",
+   "",
+   "Salvin's Albatross",
+   "Thalassarche salvini",
+   "off Sydney",
+   "8 Oct 2011",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "613",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "off Wollongong",
+   "27 Aug 2005",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "614",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "off Ulladulla",
+   "30 Mar 2007",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "615",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "off Wollongong",
+   "26 Jul 2008",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "616",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "off Wollongong",
+   "24 Aug 2008",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "617",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "off Ulladulla",
+   "20 Oct 2008",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "618",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "off Wollongong",
+   "24 Aug 2013",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "619",
+   "",
+   "Peregrine Falcon",
+   "Falco peregrinus calidus",
+   "east of Griffith  ",
+   "18 Mar 2010",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "620",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Tuggerah  ",
+   "29 Mar 2014",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "621",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Sydney",
+   "10 Jul 2010",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "622",
+   "",
+   "Dusky Honeyeater",
+   "Myzomela obscura",
+   "Tweed Heads ",
+   "29 Jun 2014",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "623",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "near Largs  ",
+   "26 Jan 2014",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "624",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "Nana Glen ",
+   "12 Aug 2014",
+   "Accepted",
+   "McGovern 2015 "
+ ],
+ [
+   "625",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Eden",
+   "7 Sep 2014",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "626",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "22 Sep 2012",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "627",
+   "",
+   "Little Curlew",
+   "Numenius minutus",
+   "Stockton Sandspit",
+   "21 Sep 2014",
+   "Not accepted",
+   "McGovern 2016"
+ ],
+ [
+   "628",
+   "795",
+   "Tristan Albatross ",
+   "Diomedea dabbenena",
+   "off Wollongong",
+   "5 Oct 1997",
+   "Accepted",
+   "McGovern 2015; Palliser & Carter 2016"
+ ],
+ [
+   "629",
+   "806",
+   "New Zealand Storm Petrel",
+   "Fregetta sp. nov.",
+   "off Swansea",
+   "14 Apr 2013",
+   "Accepted",
+   "McGovern 2015; Palliser & Carter 2016"
+ ],
+ [
+   "630",
+   "807",
+   "Long-tailed Cuckoo",
+   "Urodynamis taitensis",
+   "Lord Howe Island",
+   "2 Dec 2010",
+   "Accepted",
+   "McGovern 2015; Palliser & Carter 2016"
+ ],
+ [
+   "631",
+   "808",
+   "Buff-breasted Sandpiper",
+   "Tryngites subruficollis",
+   "Hexam Swamp",
+   "18 Jan 2014",
+   "Accepted",
+   "McGovern 2015; Palliser & Carter 2016"
+ ],
+ [
+   "632",
+   "818",
+   "White Wagtail",
+   "Motacilla alba",
+   "Newry Bar",
+   "4 Dec 2013",
+   "Accepted",
+   "McGovern 2016; Palliser & Carter 2016"
+ ],
+ [
+   "633",
+   "",
+   "Little Curlew",
+   "Numenius minutus",
+   "Hexham Swamp ",
+   "30 Nov 2014",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "634",
+   "",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Swansea",
+   "4 Dec 2014",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "635",
+   "",
+   "Blue Petrel",
+   "Halobaena caerulea",
+   "off Wollongong",
+   "6 Sep 2014",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "636",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "off Wollongong",
+   "6 Sep 2014",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "637",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Kooragang Island",
+   "22 Nov 2014",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "638",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "Newcastle  ",
+   "7 Jan 2015",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "639",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "Stockton Beach ",
+   "13 Jun 2014",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "640",
+   "",
+   "Southern Fulmar",
+   "Fulmarus glacialoides",
+   "Minnie Water ",
+   "6 Sep 2003",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "641",
+   "",
+   "Pink Robin",
+   "Petroica rodinogaster",
+   "Llandilo ",
+   "7 Jun 2015",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "642",
+   "839",
+   "Arctic Warbler",
+   "Phylloscopus borealis",
+   "Arncliffe",
+   "29 Jun 2011",
+   "Not Accepted",
+   "McGovern 2017"
+ ],
+ [
+   "643",
+   "849",
+   "Atlantic Yellow-nosed Albatross",
+   "Thalassarche chlororhynchos",
+   "off Wollongong",
+   "26 Jul 2014",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "644",
+   "850",
+   "Atlantic Yellow-nosed Albatross",
+   "Thalassarche chlororhynchos",
+   "off Wollongong",
+   "23 Aug 2014",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "645",
+   "855",
+   "Citrine Wagtail",
+   "Motacilla citreola",
+   "Putta Bucca Wetlands, Mudgee",
+   "24 Aug 2014",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "646",
+   "876",
+   "South Island Pied Oystercatcher",
+   "Haematopus finschi",
+   "Sydney Harbour",
+   "1 Mar 2015",
+   "Accepted",
+   "McGovern 2017"
+ ],
+ [
+   "647",
+   "853",
+   "South Island Pied Oystercatcher",
+   "Haematopus finschi",
+   "Tuckers Rocks",
+   "5 Jan 2015",
+   "Accepted",
+   "McGovern 2016"
+ ],
+ [
+   "648",
+   "884",
+   "White-rumped Sandpiper",
+   "Calidris fuscicollis",
+   "Lake Wollumboola",
+   "5 Jan 2015",
+   "Accepted",
+   "McGovern 2017"
+ ],
+ [
+   "649",
+   "895",
+   "Paradise Shelduck",
+   "Tadorna variegata",
+   "Lake Wollumboola",
+   "27 Dec 2015",
+   "Accepted",
+   "McGovern 2017"
+ ],
+ [
+   "650",
+   "896",
+   "Hudsonian Godwit",
+   "Limosa haemastica",
+   "Lake Wollumboola",
+   "23 Dec 2015",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "651",
+   "897",
+   "Western Sandpiper",
+   "Calidris mauri",
+   "Lake Wollumboola",
+   "17 Dec 2015",
+   "Not Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "652",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Tuncurry  ",
+   "27 Feb 2015",
+   "Accepted",
+   "McGovern 2017"
+ ],
+ [
+   "653",
+   "",
+   "Red-necked Phalarope",
+   "Phalaropus lobatus",
+   "Flat Rock Beach, Ballina",
+   "3 Mar 2016",
+   "Accepted",
+   "McGovern 2017"
+ ],
+ [
+   "654",
+   "",
+   "Eyrean Grasswren",
+   "Amytornis goyderi",
+   "Winnathee Station  ",
+   "3 Apr 2016",
+   "Accepted",
+   "McGovern 2017"
+ ],
+ [
+   "655",
+   "",
+   "Banded Honeyeater",
+   "Cissomela pectoralis",
+   "Winnathee Station  ",
+   "5 Apr 2016",
+   "Accepted",
+   "McGovern 2017"
+ ],
+ [
+   "656",
+   "",
+   "Torresian Imperial Pigeon",
+   "Ducula spilorrhoa",
+   "Palm Beach ",
+   "10 Jun 2016",
+   "Accepted",
+   "McGovern 2017"
+ ],
+ [
+   "657",
+   "",
+   "Little Shearwater",
+   "Puffinus assimilis",
+   "South Ballina Beach ",
+   "6 Aug 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "658",
+   "",
+   "Salvin's Albatross",
+   "Thalassarche salvini",
+   "off Kiama ",
+   "25 Jun 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "659",
+   "",
+   "Little Shearwater",
+   "Puffinus assimilis",
+   "Norah Head ",
+   "7 Jun 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "660",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "Lake Cargelligo ",
+   "8 Nov 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "661",
+   "",
+   "Little Curlew",
+   "Numenius minutus",
+   "near Ballina ",
+   "12 Nov 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "662",
+   "",
+   "Little Curlew",
+   "Numenius minutus",
+   "Eastlakes Golf Course ",
+   "9 Dec 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "663",
+   "894",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "Byron Bay",
+   "13 Jan 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "664",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Ellenborough ",
+   "12 Dec 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "665",
+   "",
+   "Kerguelen Petrel",
+   "Lugensa brevirostris",
+   "Callala Bay ",
+   "5 Jun 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "666",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Kiama ",
+   "24 Jul 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "667",
+   "",
+   "Red-necked Phalarope",
+   "Phalaropus lobatus",
+   "Lord Howe Island  ",
+   "19 Jan 2017",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "668",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Dilkoon  ",
+   "19 Jan 2017",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "669",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "Lake Coolah ",
+   "29 Dec 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "670",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "off Forster  ",
+   "12 Mar 2016",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "671",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "North Head, Sydney  ",
+   "19 Mar 2017",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "672",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "Condobolin  ",
+   "21 Feb 2017",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "673",
+   "",
+   "Oriental Pratincole",
+   "Glareola maldivarum",
+   "Hexham Swamp ",
+   "22 Sep 2017",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "674",
+   "",
+   "Little Shearwater",
+   "Puffinus assimilis",
+   "Lennox Head ",
+   "12 Jun 2017",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "675",
+   "",
+   "Scarlet-chested Parrot",
+   "Neophema splendida",
+   "south of Broken Hill ",
+   "24 Oct 2010",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "676",
+   "",
+   "Oriental Plover",
+   "Charadrius veredus",
+   "Hexham Swamp ",
+   "22 Sep 2017",
+   "Accepted",
+   "McGovern 2018 "
+ ],
+ [
+   "677",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "Macquarie Marshes",
+   "17 Jan 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "678",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "Lowbidgee Wetlands",
+   "31 Jan 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "679",
+   "",
+   "Little Curlew",
+   "Numenius minutus",
+   "Hexham Swamp ",
+   "29 Sep 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "680",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Port Stephens",
+   "15 Oct 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "681",
+   "",
+   "Pale-vented Bush-hen",
+   "Amaurornis moluccana",
+   "near Beechwood ",
+   "21 Nov 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "682",
+   "918",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "Britannia Seamount",
+   "9 Apr 2016",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "683",
+   "",
+   "Salvin's Albatross",
+   "Thalassarche salvini",
+   "off Kiama ",
+   "9 Oct 2017",
+   "Not accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "684",
+   "",
+   "Mottled Petrel",
+   "Pterodroma inexpectata",
+   "off Port Stephens",
+   "12 Nov 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "685",
+   "",
+   "Little Shearwater",
+   "Puffinus assimilis",
+   "off Port Stephens",
+   "12 Nov 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "686",
+   "",
+   "Common Gull-billed Tern",
+   "Gelochelidon nilotica",
+   "Shoalhaven Heads ",
+   "4 Nov 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "687",
+   "",
+   "Common Gull-billed Tern",
+   "Gelochelidon nilotica",
+   "Stockton Sandspit",
+   "30 Dec 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "688",
+   "",
+   "Shining Flycatcher",
+   "Myiagra alecto",
+   "Cobaki Broadwater ",
+   "11 Sep 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "689",
+   "",
+   "Little Shearwater",
+   "Puffinus assimilis",
+   "Maroubra  ",
+   "15 Jan 2018",
+   "Not accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "690",
+   "",
+   "Black-winged Petrel",
+   "Pterodroma nigripennis",
+   "off Crowdy Head  ",
+   "19 Jan 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "691",
+   "",
+   "Common Gull-billed Tern",
+   "Gelochelidon nilotica",
+   "Micalo Island, Yamba  ",
+   "14 Feb 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "692",
+   "",
+   "Southern Royal Albatross",
+   "Diomedea (e.) epomophora",
+   "off Port Macquarie  ",
+   "7 Mar 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "693",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "Port Macquarie ",
+   "13 May 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "694",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "Terrigal ",
+   "17 May 2000",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "695",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Lord Howe Island ",
+   "17 May 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "696",
+   "",
+   "Grey Falcon",
+   "Falco hypoleucos",
+   "Wyndham ",
+   "20 May 2018",
+   "Not accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "697",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Kiama ",
+   "26 May 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "698",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Kiama ",
+   "28 Apr 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "699",
+   "",
+   "Little Shearwater",
+   "Puffinus assimilis",
+   "Ulladulla ",
+   "21 Jun 2018",
+   "Not accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "700",
+   "",
+   "Sooty Albatross",
+   "Phoebetria fusca",
+   "off Lord Howe Island ",
+   "23 Jun 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "701",
+   "",
+   "Salvin's Albatross",
+   "Thalassarche salvini",
+   "off Lord Howe Island ",
+   "23 Jun 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "702",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Kiama ",
+   "23 Jun 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "703",
+   "",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Kiama ",
+   "28 Oct 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "704",
+   "",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Kiama ",
+   "6 Jan 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "705",
+   "",
+   "Orange Chat",
+   "Epthianura aurifrons",
+   "Tullakool Saltworks",
+   "13 Oct 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "706",
+   "",
+   "Common Gull-billed Tern",
+   "Gelochelidon nilotica",
+   "Stockton Beach ",
+   "10 Aug 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "707",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Limeburners Creek NP",
+   "23 Nov 2018",
+   "Accepted",
+   ""
+ ],
+ [
+   "708",
+   "889",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "Britannia Seamount",
+   "18 Mar 2015",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "709",
+   "960",
+   "White-bellied Storm Petrel",
+   "Fregetta grallaria",
+   "off Sydney",
+   "11 Mar 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "710",
+   "965",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Port Stephens",
+   "27 Nov 2016",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "711",
+   "971",
+   "Band-rumped Storm Petrel",
+   "Hydrobates castro",
+   "Britannia Seamount",
+   "9 Apr 2016",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "712",
+   "984",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Port Stephens",
+   "12 Nov 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "713",
+   "985",
+   "Ringed Plover",
+   "Charadrius hiaticula ",
+   "Stockton Beach",
+   "25 Aug 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "714",
+   "987",
+   "Juan Fernandez Petrel",
+   "Pterodroma externa",
+   "off Wollongong",
+   "10 Aug 1985",
+   "Accepted",
+   "not published "
+ ],
+ [
+   "715.1",
+   "1001a",
+   "Aleutian Tern",
+   "Onychoprion aleuticus",
+   "Farquhar Inlet, ",
+   "4 Dec 2016",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "715.2",
+   "1001b",
+   "Aleutian Tern",
+   "Onychoprion aleuticus",
+   "Farquhar Inlet, ",
+   "11 Dec 2017",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "716",
+   "1006",
+   "Hudsonian Godwit",
+   "Limosa haemastica",
+   "Lake Wollumboola",
+   "1 Jul 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "717",
+   "1007",
+   "Grey-headed Lapwing",
+   "Vanellus cinereus",
+   "Penrith Lakes",
+   "5 Sep 2018",
+   "Accepted",
+   "McGovern 2019  "
+ ],
+ [
+   "718",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Port Stephens",
+   "22 Jun 2008",
+   "",
+   ""
+ ],
+ [
+   "719",
+   "",
+   "South Polar Skua ",
+   "Stercorarius maccormicki",
+   "off South West Rocks",
+   "30 Aug 2018",
+   "Accepted",
+   ""
+ ],
+ [
+   "720",
+   "",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Crowdy Head  ",
+   "20 Jan 2019",
+   "Accepted",
+   ""
+ ],
+ [
+   "721",
+   "",
+   "Grey Wagtail",
+   "Motacilla cinerea",
+   "Coopers Creek between Huonbrook and Wanganui ",
+   "6 Mar 2019",
+   "",
+   ""
+ ],
+ [
+   "722",
+   "",
+   "Pied Heron",
+   "Egretta picata",
+   "Pambula Lake",
+   "4 Feb 2019",
+   "Accepted",
+   ""
+ ],
+ [
+   "723",
+   "",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Forster  ",
+   "4 Apr 2019",
+   "Accepted",
+   ""
+ ],
+ [
+   "724",
+   "",
+   "Mottled Petrel",
+   "Pterodroma inexpectata",
+   "MM Beach, Port Kembla",
+   "5 Apr 2019",
+   "",
+   ""
+ ],
+ [
+   "725",
+   "",
+   "Dusky Honeyeater",
+   "Myzomela obscura",
+   "Tomewin",
+   "19 Dec 2018",
+   "",
+   ""
+ ],
+ [
+   "726",
+   "",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "Bulli Beach",
+   "28 Feb 2019",
+   "",
+   ""
+ ],
+ [
+   "727",
+   "",
+   "Little Curlew",
+   "Numenius minutus",
+   "South West Rocks  ",
+   "28 Sep 2018",
+   "",
+   ""
+ ],
+ [
+   "728",
+   "",
+   "Little Shearwater",
+   "Puffinus assimilis",
+   "Cape Solander",
+   "22 Jun 2019",
+   "",
+   ""
+ ],
+ [
+   "729",
+   "",
+   "Northern Shoveler",
+   "Anas clypeata",
+   "Fivebough Swamp, Leeton",
+   "29 Jul 2019",
+   "",
+   ""
+ ],
+ [
+   "BARC",
+   "15",
+   "Eastern Yellow Wagtail",
+   "Motacilla tschutschensis",
+   "Bakers Lagoon, Richmond",
+   "29 Apr 1979",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "22",
+   "Citrine Wagtail",
+   "Motacilla citreola",
+   "Botany Bay",
+   "1 Jul 1962",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "35",
+   "Western Sandpiper",
+   "Calidris mauri",
+   "Near Ivanhoe",
+   "11 May 1974",
+   "Not Accepted",
+   "Lindsey 1988"
+ ],
+ [
+   "BARC",
+   "36",
+   "Western Sandpiper",
+   "Calidris mauri",
+   "Sydney",
+   "22 Nov 1978",
+   "Not Accepted",
+   "Lindsey 1988"
+ ],
+ [
+   "BARC",
+   "40",
+   "Franklin's Gull",
+   "Leucophaeus pipixcan",
+   "Sydney Harbour",
+   "11 May 1981",
+   "Accepted",
+   "Lindsey 1988"
+ ],
+ [
+   "BARC",
+   "51",
+   "Herald Petrel",
+   "Pterodroma heraldica",
+   "off Sydney",
+   "30 Oct 1982",
+   "Accepted",
+   "Lindsey 1988"
+ ],
+ [
+   "BARC",
+   "61",
+   "Buff-breasted Sandpiper",
+   "Tryngites subruficollis",
+   "Bakers Lagoon, Richmond",
+   "19 Dec 1982",
+   "Accepted",
+   "Lindsey 1988"
+ ],
+ [
+   "BARC",
+   "64",
+   "Herald Petrel",
+   "Pterodroma heraldica",
+   "off Ballina",
+   "19 May 1979",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "66",
+   "Spotted Redshank",
+   "Tringa erythropus",
+   "Kooragang Island",
+   "9 Feb 1982",
+   "Not Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "73",
+   "Cook's Petrel",
+   "Pterodroma cookii",
+   "off Sydney",
+   "25 May 1985",
+   "Not Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "76",
+   "Sabine's Gull",
+   "Xema sabini",
+   "off Wollongong",
+   "23 Mar 1985",
+   "Accepted",
+   "Lindsey 1988"
+ ],
+ [
+   "BARC",
+   "78",
+   "Black Tern",
+   "Chlidonias niger",
+   "The Entrance",
+   "18 Sep 1958",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "79",
+   "Black Tern",
+   "Chlidonias niger",
+   "Newcastle",
+   "13 Jan 1968",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "81",
+   "Black Tern",
+   "Chlidonias niger",
+   "Wanaaring",
+   "May-1971",
+   "Not Accepted",
+   "Lindsey 1988"
+ ],
+ [
+   "BARC",
+   "85",
+   "Asian Dowitcher",
+   "Limnodromus semipalmatus",
+   "Stockton Sandspit",
+   "6 Apr 1985",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "89",
+   "White-rumped Sandpiper",
+   "Calidris fuscicollis",
+   "Pitt Town Lagoon",
+   "29 Oct 1977",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "93",
+   "Red-necked Phalarope",
+   "Phalaropus lobatus",
+   "Guyra",
+   "29 Jan 1979",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "94",
+   "Corncrake",
+   "Crex Crex",
+   "Randwick",
+   "14-Jun-1893",
+   "Accepted",
+   "not published"
+ ],
+ [
+   "BARC",
+   "95",
+   "White-eyed Buzzard",
+   "Butastur teesa",
+   "Lithgow",
+   "1-Nov-1889",
+   "Not Accepted",
+   "not published"
+ ],
+ [
+   "BARC",
+   "97",
+   "Buff-breasted Sandpiper",
+   "Tryngites subruficollis",
+   "Kooragang Island",
+   "10 Mar 1979",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "100",
+   "Baird’s Sandpiper",
+   "Calidris bairdii",
+   "Botany Bay",
+   "23 Nov 1976",
+   "Not Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "101",
+   "White-rumped Sandpiper",
+   "Calidris fuscicollis",
+   "Windang",
+   "31 Oct 1984",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "107",
+   "Pink-footed Shearwater",
+   "Ardenna creatopus",
+   "off Wollongong",
+   "22 Mar 1986",
+   "Accepted",
+   "Pattterson 1991"
+ ],
+ [
+   "BARC",
+   "116",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Sydney",
+   "22 Apr 1988",
+   "Withdrawn",
+   "not published"
+ ],
+ [
+   "BARC",
+   "148",
+   "Hudsonian Godwit",
+   "Limosa haemastica",
+   "Kooragang Island",
+   "26 Dec 1982",
+   "Accepted",
+   "Pattterson 1996"
+ ],
+ [
+   "BARC",
+   "199",
+   "House Swift",
+   "Apus nipalensis",
+   "Ballina",
+   "7 Mar 1995",
+   "Not Accepted",
+   "Palliser 1999"
+ ],
+ [
+   "BARC",
+   "206",
+   "Westland Petrel",
+   "Procellaria westlandica",
+   "off Sydney",
+   "Jun-1996",
+   "Withdrawn",
+   ""
+ ],
+ [
+   "BARC",
+   "233",
+   "American Golden Plover",
+   "Pluvialis dominica",
+   "Pitt Town Lagoon",
+   "Nov-1997",
+   "Not Accepted",
+   "Palliser 1999"
+ ],
+ [
+   "BARC",
+   "254",
+   "Baird’s Sandpiper",
+   "Calidris bairdii",
+   "McGraths Hill ",
+   "27 Sep 1998",
+   "Not accepted",
+   "Brandwood 2001; Palliser & Eades 2000"
+ ],
+ [
+   "BARC",
+   "306",
+   "South Island Pied Oystercatcher",
+   "Haematopus finschi",
+   "Patches Beach, Ballina",
+   "22 Jan 1999",
+   "Accepted",
+   "Palliser 2002"
+ ],
+ [
+   "BARC",
+   "463",
+   "Northern Shoveler",
+   "Anas clypeata",
+   "Kempsey ",
+   "25 May 2004",
+   "Accepted",
+   ""
+ ],
+ [
+   "BARC",
+   "755",
+   "New Caledonian Storm Petrel",
+   "Fregetta sp. nov.",
+   "Britannia Seamount",
+   "15 Apr 2012",
+   "Accepted",
+   ""
+ ],
+ [
+   "BARC",
+   "837",
+   "Collared Petrel",
+   "Pterodroma brevipes",
+   "Britannia Seamount",
+   "13 04 2014",
+   "Accepted",
+   "Palliser & Carter 2016"
+ ],
+ [
+   "BARC",
+   "982",
+   "Semipalmated Plover",
+   "Charadrius semipalmatus",
+   "Airport Pond, Lord Howe Island",
+   "29 Mar 2017",
+   "Accepted",
+   ""
+ ],
+ [
+   "BARC",
+   "1050",
+   "New Zealand Storm Petrel",
+   "Fregetta maoriana",
+   "off Crowdy Head  ",
+   "13 Jan 2019",
+   "pending",
+   "not published"
+ ],
+ [
+   "No case",
+   "",
+   "Asian Dowitcher",
+   "Limnodromus semipalmatus",
+   "Narooma",
+   "10 Jan 2001",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2003"
+ ],
+ [
+   "No case",
+   "",
+   "Asian Dowitcher",
+   "Limnodromus semipalmatus",
+   "Narooma",
+   "4 Jan 2002",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2005"
+ ],
+ [
+   "No case",
+   "",
+   "Black Petrel",
+   "Procellaria parkinsoni",
+   "off Sydney",
+   "1 Nov 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Black Petrel",
+   "Procellaria parkinsoni",
+   "off Sydney",
+   "2 Nov 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Black Petrel",
+   "Procellaria parkinsoni",
+   "off Sydney",
+   "13 Dec 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Black Petrel",
+   "Procellaria parkinsoni",
+   "off Wollongong",
+   "24 Feb 1990",
+   "Not Confirmed (not assessed)",
+   "Morris 1995"
+ ],
+ [
+   "No case",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Norah Head",
+   "25 Oct 2003",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2006"
+ ],
+ [
+   "No case",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Sydney",
+   "7 Jan 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Sydney",
+   "5 Oct 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Sydney",
+   "2 Nov 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Sydney",
+   "3 Oct 2001",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2003"
+ ],
+ [
+   "No case",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Wollongong",
+   "20 Oct 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Black-bellied Storm Petrel",
+   "Fregetta tropica",
+   "off Wollongong",
+   "27 Dec 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Black-winged Petrel",
+   "Pterodroma nigripennis",
+   "off Batemans Bay",
+   "10 Jan 2003",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2006"
+ ],
+ [
+   "No case",
+   "",
+   "Black-winged Petrel",
+   "Pterodroma nigripennis",
+   "off Batemans Bay",
+   "12 Dec 2003",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2006"
+ ],
+ [
+   "No case",
+   "",
+   "Bulwer's Petrel",
+   "Bulweria bulwerii",
+   "off Wollongong",
+   "21 Sep 1997",
+   "Withdrawn",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Bulwer's Petrel",
+   "Bulweria bulwerii",
+   "off Wollongong",
+   "5 Oct 1997",
+   "Withdrawn",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Common Diving Petrel",
+   "Pelecanoides urinatrix",
+   "off Wollongong",
+   "28 Nov 1993",
+   "Not Confirmed (not assessed)",
+   "Morris 1996"
+ ],
+ [
+   "No case",
+   "",
+   "Common Redshank",
+   "Tringa totanus",
+   "Long Reef, Sydney ",
+   "8 Jul 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Cory's Shearwater",
+   "Calonectris borealis",
+   "off Wollongong",
+   "11 Aug 2001",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2003"
+ ],
+ [
+   "No case",
+   "",
+   "Cotton Pygmy Goose",
+   "Nettapus coromandelianus",
+   "northern Macquarie Marshes",
+   "10 Sep 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "Great Bowerbird",
+   "Chlamydera nuchalis",
+   "Iluka",
+   "11 Sep 1991",
+   "Not Confirmed (not assessed)",
+   "Morris 1996"
+ ],
+ [
+   "No case",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "Lennox Head ",
+   "7 Mar 2004",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2007"
+ ],
+ [
+   "No case",
+   "",
+   "Great Frigatebird",
+   "Fregata minor",
+   "Mona Vale Golf Course",
+   "20 Jul 2002",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2005"
+ ],
+ [
+   "No case",
+   "",
+   "Great Shearwater",
+   "Ardenna gravis",
+   "off Sydney",
+   "4 Apr 1997",
+   "Withdrawn",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Green Pygmy Goose",
+   "Nettapus pulchellus",
+   "Loudens Lagoon, Macquarie Marshes",
+   "21 Oct 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "Grey Ternlet",
+   "Procelsterna albivitta",
+   "off Sydney",
+   "18 Feb 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Grey Ternlet",
+   "Procelsterna albivitta",
+   "off Wollongong",
+   "27 Feb 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Eden",
+   "15 Aug 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Eden",
+   "26 Oct 2003",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2006"
+ ],
+ [
+   "No case",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Eden",
+   "30 May 2004",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2007"
+ ],
+ [
+   "No case",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Wollongong",
+   "3 Jul 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Wollongong",
+   "14 Aug 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Grey-backed Storm Petrel",
+   "Garrodia nereis",
+   "off Wollongong",
+   "25 Aug 2001",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2003"
+ ],
+ [
+   "No case",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "11 May 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "23 Jul 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "4 Jul 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "Grey-headed Albatross",
+   "Thalassarche chrysostoma",
+   "off Wollongong",
+   "29 Aug 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "Herald Petrel",
+   "Pterodroma heraldica",
+   "off South West Rocks",
+   "31 Dec 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Herald Petrel",
+   "Pterodroma heraldica",
+   "off South West Rocks",
+   "8 Apr 2002",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2005"
+ ],
+ [
+   "No case",
+   "",
+   "Jouanin's Petrel",
+   "Bulweria fallax",
+   "off Wollongong",
+   "27 Oct 2002",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2005"
+ ],
+ [
+   "No case",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "Maroubra ",
+   "1 Dec 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Sydney",
+   "5 Oct 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Wollongong",
+   "1 Jul 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Kermadec Petrel",
+   "Pterodroma neglecta",
+   "off Wollongong",
+   "28 Feb 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "off Sydney",
+   "23 Jun 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "off Sydney",
+   "16 May 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Light-mantled Sooty Albatross",
+   "Phoebetria palpebrata",
+   "off Sydney",
+   "29 Jun 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Little Stint",
+   "Calidris minuta",
+   "Kooragang Island",
+   "4 Nov 1991",
+   "Not Confirmed (not assessed)",
+   "Morris 1994"
+ ],
+ [
+   "No case",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "McGraths Hill ",
+   "31 Mar 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Long-toed Stint",
+   "Calidris subminuta",
+   "Tullakool Saltworks",
+   "20 Jan 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Manx Shearwater",
+   "Puffinus puffinus",
+   "off Wollongong",
+   "27 Oct 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "off Ballina",
+   "x-Apr-1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "off South West Rocks",
+   "19 Nov 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Masked Booby",
+   "Sula dactylatra",
+   "off South West Rocks",
+   "16 Dec 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Mottled Petrel",
+   "Pterodroma inexpectata",
+   "off Batemans Bay",
+   "11 Dec 2003",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2006"
+ ],
+ [
+   "No case",
+   "",
+   "Northern Royal Albatross",
+   "Diomedea (e.) sanfordi",
+   "off Wollongong",
+   "22 Sep 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Olive-backed Sunbird",
+   "Cinnyris jugularis",
+   "Coffs Harbour ",
+   "30 Sep 1993",
+   "Not Confirmed (not assessed)",
+   "Morris 1996"
+ ],
+ [
+   "No case",
+   "",
+   "Radjah Shelduck",
+   "Tadorna radjah",
+   "20 km SE of Macksville",
+   "2 Dec 2002",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2005"
+ ],
+ [
+   "No case",
+   "",
+   "Red Goshawk",
+   "Erythrotriorchis radiatus",
+   "Alstonville District",
+   "24 Nov 1991",
+   "Not accepted",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Red-backed Buttonquail",
+   "Turnix maculosus",
+   "Richmond",
+   "24 Aug 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "Ballina",
+   "15 Feb 1995",
+   "Not Confirmed (not assessed)",
+   "Morris 1998"
+ ],
+ [
+   "No case",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "Long Reef, Sydney ",
+   "5 Jun 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Red-footed Booby",
+   "Sula sula",
+   "Nobbys Beach, Newcastle",
+   "2 Feb 2004",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2005"
+ ],
+ [
+   "No case",
+   "",
+   "Royal Albatross",
+   "Diomedea epomophora (sensu lato)",
+   "off Wollongong",
+   "17 Sep 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Wollongong",
+   "17 Sep 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Wollongong",
+   "19 Sep 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Wollongong",
+   "27 Jun 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Soft-plumaged Petrel",
+   "Pterodroma mollis",
+   "off Wollongong",
+   "8 Aug 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Wollongong",
+   "1 Mar 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "South Polar Skua",
+   "Stercorarius maccormicki",
+   "off Wollongong",
+   "31 Jul 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "Streaked Shearwater",
+   "Calonectris leucomelas",
+   "off Wollongong",
+   "28 Feb 1994",
+   "Not Confirmed (not assessed)",
+   "Morris 1996"
+ ],
+ [
+   "No case",
+   "",
+   "Tahiti Petrel",
+   "Pseudobulweria rostrata",
+   "off Wollongong",
+   "27 Jan 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Tahiti Petrel",
+   "Pseudobulweria rostrata",
+   "off Wollongong",
+   "23 Feb 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "Tropical Shearwater",
+   "Puffinus bailloni",
+   "off Wollongong",
+   "27 Oct 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "White Tern",
+   "Gygis alba",
+   "off Wollongong",
+   "11 May 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "White Wagtail",
+   "Motacilla alba",
+   "Narran Lake",
+   "1 Dec 1997",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Lake Wollumboola",
+   "5 Dec 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Sydney",
+   "7 Sep 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Sydney",
+   "31 Oct 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Sydney",
+   "21 Nov 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "22 Sep 1996",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2000"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "17 Sep 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "5 Dec 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "13 Dec 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "19 Dec 1998",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2001"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "11 Sep 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "White-chinned Petrel",
+   "Procellaria aequinoctialis",
+   "off Wollongong",
+   "11 Dec 1999",
+   "Not Confirmed (not assessed)",
+   "Brandwood 2002a"
+ ],
+ [
+   "No case",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "off Ballina",
+   "24 Apr 1989",
+   "Not Confirmed (not assessed)",
+   "Morris 1996"
+ ],
+ [
+   "No case",
+   "",
+   "White-necked Petrel",
+   "Pterodroma cervicalis",
+   "off Wollongong",
+   "22 Jan 1989",
+   "Not Confirmed (not assessed)",
+   "Morris 1996"
+ ]
+ ]
+}

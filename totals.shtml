@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Totals: NSW ORAC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/js/loader.js"></script>
+
+        <script src="/js/totals_chart.js"></script>
+        <!--#include virtual="/includes/head.html"-->
+        <style>
+            div.google-visualization-tooltip { padding: 0 10px 0 10px; }
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <!--#include virtual="/includes/banner.html"-->
+            <h2>Totals</h2>
+            <div>
+                <div class="round" style="width:100%">
+                    <select id="species" class="no-float chart-select">
+                        <option value="" selected>Select a species...</option>
+                    </select>
+                </div>
+                <h3 class="chart_title"></h3>
+                <div id="chart_div" class="chart" style="width:100%;margin:15px"></div>
+            </div>
+                <!--#include virtual="/includes/footer.html"-->
+        </div>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cases: NSW ORAC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--#include virtual="/includes/head.html"-->
+        <script>
+            $(document).ready(function () {
+                $('#example').DataTable({
+                    "ajax": './src/NSWORAC_Index_of_Cases.json'
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+        <div>
+            
+	<!--#include virtual="/includes/banner.html"-->
+    <h2>Cases</h2>
+            <!--
+            "ORAC Case": "1",
+   "BARC Case": "",
+   "IOC English name": "Sooty Albatross",
+   "Scientific name": "Phoebetria fusca",
+   "Location": "Moruya",
+   "Date": "2/Aug/1987",
+   "Decision"
+            -->
+<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>ORAC Case</th>
+                <th>BARC Case</th>
+                <th>IOC English name</th>
+                <th>Scientific name</th>
+                <th>Location</th>
+                <th>Date</th>
+                <th>Decision</th>
+                <!--<th>Reference</th>-->
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>ORAC Case</th>
+                <th>BARC Case</th>
+                <th>IOC English name</th>
+                <th>Scientific name</th>
+                <th>Location</th>
+                <th>Date</th>
+                <th>Decision</th>
+                <!--<th>Reference</th>-->
+            </tr>
+        </tfoot>
+    </table>
+            
+	<!--#include virtual="/includes/footer.html"-->
+        </div>
+    </body>
+</html>
