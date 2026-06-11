@@ -1,16 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-AU">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170217165-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-170217165-1');
-</script>
   <meta charset="utf-8">
   <title>List of Cases: NSW ORAC - NSW Ornithological Records Appraisal Committee</title>
   <!-- Description, Keywords and Author -->
@@ -18,7 +9,12 @@
   <meta name="keywords" content="List of Cases: NSW ORAC - NSW Ornithological Records Appraisal Committee">
   <meta name="author" content="List of Cases: NSW ORAC - NSW Ornithological Records Appraisal Committee">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="canonical" href="https://www.nsworac.org/cases.html" />
+  <meta property="og:title" content="NSW ORAC">
+  <meta property="og:description" content="NSW ORAC - Ornithological Records Appraisal Committee.">
+  <meta property="og:url" content="https://www.nsworac.org/">
+  <meta property="og:type" content="website">
+  <meta property="fb:app_id" content="966242223397117">
+  <link rel="canonical" href="https://www.nsworac.org/cases.html">
   <!-- Styles -->
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,13 +35,15 @@
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><img class="img-responsive" src="img/logo-horiz.jpg" alt="NSW ORAC - NSW Ornithological Records Appraisal Committee" /></a>
+            <a class="navbar-brand" href="/"><img class="img-responsive" src="img/logo-horiz.jpg"
+                alt="NSW ORAC - NSW Ornithological Records Appraisal Committee" /></a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -75,8 +73,8 @@
             <!-- heading -->
             <!-- paragraph -->
             <!--
-            <p>NSW ORAC maintains a <a href="review-list.html">Review List</a> of species for which submissions are required. The threshold for inclusion on the <a href="review-list.html">Review List</a> is any species which has been observed less than 1.5 times per year over seven years of the previous decade. The committee will review sightings in NSW, seabirds observed within the 200NM fishing zone, beachcast specimens, road kill specimens, collected specimens and birds of Lord Howe Island and that part of the ACT at Jervis Bay. The current edition of the NSW ORAC <a href="review-list.html">Review List</a> is included here as a downloadable PDF document.
-            </p>-->
+<p>NSW ORAC maintains a <a href="review-list.html">Review List</a> of species for which submissions are required. The threshold for inclusion on the <a href="review-list.html">Review List</a> is any species which has been observed less than 1.5 times per year over seven years of the previous decade. The committee will review sightings in NSW, seabirds observed within the 200NM fishing zone, beachcast specimens, road kill specimens, collected specimens and birds of Lord Howe Island and that part of the ACT at Jervis Bay. The current edition of the NSW ORAC <a href="review-list.html">Review List</a> is included here as a downloadable PDF document.
+</p>-->
           </div>
           <div class="row">
             <table id="example" class="display" style="width:100%">
@@ -126,25 +124,34 @@
   <script src="js/jquery.datatables.min.js"></script>
   <script src="js/natural.js"></script>
   <script>
-      $(document).ready(function() {
-        $('#example').DataTable({
-          "ajax": 'src/cases_new.json',
-           //"order": [[ 2, "asc" ]],
-           "info": false,
-           columnDefs: [
-            { type: 'natural', targets: 0 }
-           ]
-        });
+    $(document).ready(function () {
+      $('#example').DataTable({
+        "ajax": 'src/cases_new.json',
+        //"order": [[ 2, "asc" ]],
+        "info": false,
+        columnDefs: [
+          { type: 'natural', targets: 0 }
+        ]
       });
-      
-      /*
-      $(document).ready(function() {
-      $('#example').DataTable( {
-      "paging": false,
-      "ordering": false,
-      "info": false
-      } );
-      } );*/
+    });
+
+    /*
+    $(document).ready(function() {
+    $('#example').DataTable( {
+    "paging": false,
+    "ordering": false,
+    "info": false
+    } );
+    } );*/
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170217165-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-170217165-1');
   </script>
 </body>
 
