@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170217165-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170217165-1');
+</script>
+  <meta charset="utf-8">
+  <title>List of Cases: NSW ORAC - NSW Ornithological Records Appraisal Committee</title>
+  <!-- Description, Keywords and Author -->
+  <meta name="description" content="List of Cases: NSW ORAC - NSW Ornithological Records Appraisal Committee">
+  <meta name="keywords" content="List of Cases: NSW ORAC - NSW Ornithological Records Appraisal Committee">
+  <meta name="author" content="List of Cases: NSW ORAC - NSW Ornithological Records Appraisal Committee">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://www.nsworac.org/cases.html" />
+  <!-- Styles -->
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font awesome CSS -->
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- header -->
+    <header>
+      <!-- navigation -->
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img class="img-responsive" src="img/logo-horiz.jpg" alt="NSW ORAC - NSW Ornithological Records Appraisal Committee" /></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="active"><a href="cases.html">List of Cases</a></li>
+              <li><a href="review-list.html">Review List</a></li>
+              <li><a href="submission.html">Make a Submission</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <!-- main content -->
+    <div class="main-content bottom-0">
+      <!-- benefits -->
+      <div class="benefits pad">
+        <div class="container">
+          <div class="default-heading">
+            <!-- heading -->
+            <h2><i class="fa fa-folder-open"></i> List of Cases</h2>
+          </div>
+          <div class="row">
+            <!-- icon -->
+            <!--<i class="fa fa-desktop"></i>-->
+            <!-- heading -->
+            <!-- paragraph -->
+            <!--
+            <p>NSW ORAC maintains a <a href="review-list.html">Review List</a> of species for which submissions are required. The threshold for inclusion on the <a href="review-list.html">Review List</a> is any species which has been observed less than 1.5 times per year over seven years of the previous decade. The committee will review sightings in NSW, seabirds observed within the 200NM fishing zone, beachcast specimens, road kill specimens, collected specimens and birds of Lord Howe Island and that part of the ACT at Jervis Bay. The current edition of the NSW ORAC <a href="review-list.html">Review List</a> is included here as a downloadable PDF document.
+            </p>-->
+          </div>
+          <div class="row">
+            <table id="example" class="display" style="width:100%">
+              <thead>
+                <tr>
+                  <th>ORAC Case</th>
+                  <th>BARC Case</th>
+                  <th>IOC English name</th>
+                  <th>Scientific name</th>
+                  <th>Location</th>
+                  <th>Date</th>
+                  <th>Decision</th>
+                  <!--<th>Reference</th>-->
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>ORAC Case</th>
+                  <th>BARC Case</th>
+                  <th>IOC English name</th>
+                  <th>Scientific name</th>
+                  <th>Location</th>
+                  <th>Date</th>
+                  <th>Decision</th>
+                  <!--<th>Reference</th>-->
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <p class="copy-right">Copyright &copy; 2020 NSW ORAC</p>
+    </div>
+  </footer>
+  </div>
+  <!-- Javascript files -->
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Respond JS for IE8 
+  <script src="js/respond.min.js"></script>
+  -->
+  <!-- HTML5 Support for IE 
+  <script src="js/html5shiv.js"></script>
+  -->
+  <!-- Custom JS 
+  <script src="js/custom.js"></script>
+  -->
+  <link rel="stylesheet" href="css/jquery.datatables.min.css">
+  <script src="js/jquery.datatables.min.js"></script>
+  <script src="js/natural.js"></script>
+  <script>
+      $(document).ready(function() {
+        $('#example').DataTable({
+          "ajax": 'src/cases_new.json',
+           //"order": [[ 2, "asc" ]],
+           "info": false,
+           columnDefs: [
+            { type: 'natural', targets: 0 }
+           ]
+        });
+      });
+      
+      /*
+      $(document).ready(function() {
+      $('#example').DataTable( {
+      "paging": false,
+      "ordering": false,
+      "info": false
+      } );
+      } );*/
+  </script>
+</body>
+
+</html>
