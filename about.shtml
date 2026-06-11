@@ -1,34 +1,76 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>About: NSW ORAC</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--#include virtual="/includes/head.html"-->
+<html lang="en-AU">
 
-    </head>
-    <body>
-        <div>
-            
-	<!--#include virtual="/includes/banner.html"-->
-    <h2>About</h2>
-    
-    <h3>Who</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut purus fringilla, posuere nulla a, elementum ligula. Sed in velit hendrerit, mollis libero lobortis, hendrerit libero. Suspendisse sit amet nisl vel arcu vulputate eleifend ut ut libero. Quisque ac dignissim arcu. Vestibulum eu pulvinar magna, in accumsan leo. Ut vitae neque tempor lacus cursus dignissim vitae vitae sapien. Mauris mollis sagittis elit, eu fringilla arcu.</p>
-    
-    <h3>Why</h3>
-    <p>Donec semper interdum metus sit amet luctus. Vestibulum pellentesque nunc eget justo iaculis eleifend. Nulla vitae tincidunt mi. Vestibulum luctus, diam id placerat aliquam, metus magna faucibus neque, ac ullamcorper turpis nisl sit amet nisi. Nunc lacinia, magna vitae venenatis hendrerit, nisi lectus pretium eros, vel scelerisque velit ligula sit amet turpis. Nunc ut feugiat nisl. Maecenas ut tellus vel urna gravida luctus. Fusce dapibus ut libero non commodo. Praesent quam felis, malesuada eget tortor quis, fermentum maximus velit. Nam facilisis et risus id porta. Proin consequat orci in tristique scelerisque. Suspendisse viverra, eros posuere faucibus lobortis, felis nibh ullamcorper urna, et condimentum lacus metus a nisi. </p>
-    
-    <h3>What</h3>
-    <p>Maecenas condimentum porttitor aliquet. Vestibulum quis congue nisl. Etiam tincidunt nec neque tincidunt auctor. Nunc porttitor nisi in tempor vestibulum. Pellentesque a erat vitae justo viverra commodo. Donec sollicitudin mi et libero tristique venenatis. Vivamus ut sagittis risus, nec pulvinar eros. Maecenas consectetur ex a lectus finibus, ac tempus orci sagittis. Curabitur sem sem, mollis in malesuada id, venenatis nec ex. Nulla blandit nunc dapibus magna fermentum fringilla. </p>
-    
-    <input type="file"></input><input type="submit">Upload</input>
-	<!--#include virtual="/includes/footer.html"-->
+<head>
+  <title>About: NSW ORAC - NSW Ornithological Records Appraisal Committee</title>
+<!--#include virtual="/includes/headtag.html"-->
+  <link rel="canonical" href="https://www.nsworac.org/about.shtml">
+</head>
+
+<body>
+  <div class="wrapper">
+<!--#include virtual="/includes/header.html"-->
+    <!-- main content -->
+    <div class="main-content bottom-0">
+      <!-- benefits -->
+      <div class="benefits pad">
+        <div class="container">
+          <div class="default-heading">
+            <!-- heading -->
+            <h1><i class="fa fa-comment"></i> About</h1>
+          </div>
+          <div class="row">
+            <!-- icon -->
+
+            <!-- heading -->
+            <h2>NEW SOUTH WALES ORNITHOLOGICAL RECORDS APPRAISAL COMMITTEE (NSW ORAC)</h2>
+            <!-- paragraph -->
+            <p>
+              NSW ORAC was formed on January 11, 1992 and, at its inception, comprised eight committee members from NSW
+              FOC (now Birding NSW), Cumberland BOC, Illawarra BOC, Hunter BOC and the NSW Bird Atlassers. It is a
+              requirement for membership of the committee to have an expert ability in and knowledge of the field
+              identification of birds and to be a member in good standing of at least one of the aforementioned
+              organisations.</p>
+            <p>The key function of the <a href="/src/NSW_ORAC_rules.pdf">committee</a> is to receive submissions and
+              provide an informed, discerning and impartial appraisal of claimed records of birds which are rare in New
+              South Wales including Lord Howe Island. The committee maintains a Review List of species for which
+              submissions are required and this <a href="/review-list.shtml">Review List</a> is updated annually. NSW ORAC
+              works closely with the BirdLife Australia Rarities Committee (BARC) to avoid duplication when assessing
+              rare birds. BARC assesses submissions of national significance and any species on the BARC Review List are
+              not included on the NSW ORAC <a href="/review-list.shtml">Review List</a> ensuring that there is no overlap
+              between the two committees’ review lists. The decisions of NSW ORAC in each calendar year are mailed to
+              the major birding organisations in the State for publication.</p>
+            <p> The current members of NSW ORAC are Dick Cooper (Chair), Chris Brandis, David James, Alan Morris (Vale),
+              Tony Palliser, Allan Richardson, Mick Roderick and Roger McGovern (Secretary).</p>
+            <p>An <a href="/cases.shtml">Index of Cases</a> is included here as well as a downloadable <a
+                href="/src/NSW_ORAC_Index_of_Cases.pdf">PDF document</a> which is updated on a regular basis. It should
+              be noted that, although NSW ORAC was formed in 1992, there was a considerable backlog of reports which
+              needed to be verified after the inception of NSW ORAC and Case 1 comprises a record of Sooty Albatross
+              seen on August 2, 1987 off Moruya Heads. It should also be noted that there are unused numbers in the
+              Index of Cases and that these are not ‘lost’ cases but numbers that were never assigned to a case. Copies
+              of the decisions are not included in the <a href="/cases.shtml">Index of Cases</a> but these can be accessed
+              by application to the Secretary at <a href="mailto:roglou@bigpond.net.au">roglou@bigpond.net.au</a> The <a
+                href="/cases.shtml">Index of Cases</a> also includes all known reported sightings for birds on the Review
+              List and for which no submission was made. These reported, but unconfirmed, sightings do not have case
+              numbers but are included in the Index so that they can be referenced if a submission is later made. If no
+              submission is forthcoming, then they remain as unconfirmed reports rather than accepted or unaccepted
+              records.
+            </p>
+            <p><a href="/src/NSW_ORAC_rules.pdf">NSW ORAC rules</a></p>
+          </div>
         </div>
-    </body>
+      </div>
+    </div>
+  </div>
+<!--#include virtual="/includes/footer.html"-->
+<!--#include virtual="/includes/footer-scripts.html"-->
+<script>
+  document.getElementById("home-button").className = "";
+  document.getElementById("about-button").className = "active";
+  document.getElementById("cases-button").className = "";
+  document.getElementById("review-list-button").className = "";
+  document.getElementById("submission-button").className = "";
+</script>
+</body>
+
 </html>

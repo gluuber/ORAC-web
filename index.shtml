@@ -1,32 +1,91 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>NSW ORAC</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--#include virtual="/includes/head.html"-->
+<html lang="en-AU">
 
-    </head>
-    <body>
-        <div>
-            
-	<!--#include virtual="/includes/banner.html"-->
-    <h2>Home</h2>
+<head>
+    <title>NSW ORAC - NSW Ornithological Records Appraisal Committee</title>
     
-    <h3>Call to action ideas</h3>
-    <p><b>I think I've seen something rare?</b></p>
-    <p><b>Which species are considered rare?</b></p>
-    <p><b>Which species do ORAC review?</b></p>
-    <p><b>Who the hell are ORAC?</b></p>
-    <p><b>Should I submit my Night Parrot sighting to ORAC or BARC?</b></p>
-    <p><b>What happened to that rare sighting I submitted last year?</b></p>
+<!--#include virtual="/includes/headtag.html"-->
 
-    <!--#include virtual="/includes/footer.html"-->
+    <link rel="canonical" href="https://www.nsworac.org/index.shtml">
+</head>
+
+<body>
+
+    <div class="wrapper">
+<!--#include virtual="/includes/header.html"-->
+
+        <!-- main content -->
+        <div class="main-content bottom-0">
+            <div class="container">
+                <!-- banner -->
+                <div class="banner pad">
+                    <!-- heading -->
+                    <h1>Welcome to<br><span>NSW ORAC</span></h1>
+                    <!-- paragraph -->
+                    <p>Find out <a href="/about.shtml">more</a>...</p>
+                </div>
+            </div>
+
+            <!-- benefits -->
+            <div class="benefits pad">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <!-- benefits item -->
+                            <div class="benefits-item">
+                                <!-- icon -->
+                                <a href="/cases.shtml"><i class="fa fa-folder-open"></i></a>
+                                <!-- heading -->
+                                <h2><a href="/cases.shtml">List of Cases</a></h2>
+                                <!-- paragraph -->
+                                <p>An <a href="/cases.shtml">Index of Cases</a> is included here as well as a downloadable
+                                    <a href="/src/NSW_ORAC_Index_of_Cases.pdf">PDF document</a> which is updated on a
+                                    regular basis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <!-- benefits item -->
+                            <div class="benefits-item">
+                                <!-- icon -->
+                                <a href="/review-list.shtml"><i class="fa fa-briefcase"></i></a>
+                                <!-- heading -->
+                                <h2><a href="review-list.shtml">Review List</a></h2>
+                                <!-- paragraph -->
+                                <p>NSW ORAC maintains a <a href="/review-list.shtml">Review List</a> of species for which
+                                    submissions are required.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <!-- benefits item -->
+                            <div class="benefits-item">
+                                <!-- icon -->
+                                <a href="/submission.shtml"><i class="fa fa-gears"></i></a>
+                                <!-- heading -->
+                                <h2><a href="/submission.shtml">Make a Submission</a></h2>
+                                <!-- paragraph -->
+                                <p>The downloadable <a href="/src/NSW_ORAC_URR_Form_March_2020.doc">NSW ORAC URR Form</a>
+                                    can be completed electronically and returned to the Secretary – the observer will be
+                                    informed in writing of the committee’s decision when the voting process has been
+                                    completed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </body>
+    </div>
+
+<!--#include virtual="/includes/footer.html"-->
+<!--#include virtual="/includes/footer-scripts.html"-->
+<script>
+  document.getElementById("home-button").className = "active";
+  document.getElementById("about-button").className = "";
+  document.getElementById("cases-button").className = "";
+  document.getElementById("review-list-button").className = "";
+  document.getElementById("submission-button").className = "";
+</script>
+</body>
+
 </html>
