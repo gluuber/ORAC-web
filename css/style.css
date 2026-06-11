@@ -296,6 +296,9 @@ footer p {
 	font-size: 13px;
 	line-height: 24px;
 }
+.copy-right {
+	text-align: center;
+}
 
 /*
  * Responsive CSS 
