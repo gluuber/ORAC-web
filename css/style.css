@@ -111,7 +111,7 @@ header .navbar .container ul {
 .main-content {
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background: #fff url('../img/IMG_4199-a.jpg') center center no-repeat fixed;
+	background: #fff url('/img/IMG_4199-a.jpg') center center no-repeat fixed;
 }
 .main-content.bottom-0 { padding-bottom: 0; }
 /*
@@ -124,13 +124,13 @@ header .navbar .container ul {
 	text-align: center;
 }
 
-.banner h2 {
+.banner h2,.banner h1 {
 	margin: 0;
 	font-size: 30px;
 	font-weight: 400;
 	color: white;
 }
-.banner h2 span{
+.banner h2 span,.banner h1 span{
 	display: inline-block;
 	margin-top: 10px;
 	padding: 3px 12px;
@@ -153,7 +153,7 @@ p a {
   color: #0000cd;
 }
 
-.row h2,
+.row h2,.row h1,
 .row p {
     padding-left: 15px !important;
     padding-right: 15px !important;
