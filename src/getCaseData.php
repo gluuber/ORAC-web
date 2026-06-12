@@ -34,7 +34,8 @@ $result = $conn->query($query);
 if ($result->num_rows > 0) {
   // output data of each row
   while ($row = $result->fetch_assoc()) {
-    $json .= '["'. $row["orac_case_number"] . '","'. $row["barc_case_number"] . '","'. $row["species_name"] . '","'. $row["scientific_name"] . '","'. $row["location"] . '","'. $row["sightingdate"] . '","'. $row["decision"] . '"  ],';
+    $date = date_create($row["sightingdate"]);
+    $json .= '["'. $row["orac_case_number"] . '","'. $row["barc_case_number"] . '","'. $row["species_name"] . '","'. $row["scientific_name"] . '","'. $row["location"] . '","'. date_format($date, 'j M Y') . '","'. $row["decision"] . '"  ],';
   }
 }
 $conn->close();
