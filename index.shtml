@@ -45,11 +45,11 @@
                             <!-- benefits item -->
                             <div class="benefits-item">
                                 <!-- icon -->
-                                <a href="/review-list.shtml"><i class="fa fa-briefcase"></i></a>
+                                <a href="/review-list.php"><i class="fa fa-briefcase"></i></a>
                                 <!-- heading -->
-                                <h2><a href="review-list.shtml">Review List</a></h2>
+                                <h2><a href="review-list.php">Review List</a></h2>
                                 <!-- paragraph -->
-                                <p>NSW ORAC maintains a <a href="/review-list.shtml">Review List</a> of species for which
+                                <p>NSW ORAC maintains a <a href="/review-list.php">Review List</a> of species for which
                                     submissions are required.</p>
                             </div>
                         </div>
