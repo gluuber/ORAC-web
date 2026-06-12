@@ -29,6 +29,9 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
 <link rel="manifest" href="/favicon/site.webmanifest" />
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 <!-- Styles -->
 <!-- Bootstrap CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -36,8 +39,9 @@
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link href="/css/style.min.css" rel="stylesheet">
+<link href="/css/jquery.datatables.min.css" rel="stylesheet">
 <!-- Favicon -->
-<link rel="shortcut icon" href="#">
+<link rel="shortcut icon" href="#">>
 
 <!-- /ssi: headtag.html -->
 </head>
@@ -100,12 +104,8 @@
                 observations over a preceding ten year period to a maximum average of 1.5 records per year. NSW ORAC
                 encourages anyone sighting these species to take comprehensive notes, photographs where possible and to
                 supply substantiation by other observers where appropriate. Details of the sighting should be forwarded
-                to the Secretary of NSW ORAC at </span><span class="c6 c0"><a class="c5"
-                  href="mailto:roglou@bigpond.net.au">roglou@bigpond.net.au</a></span><span class="c0">&nbsp;by way of
-                an Unusual Record Report (URR) Form which can be downloaded from the NSWORAC website at </span><span
-                class="c0 c6"><a class="c5"
-                  href="https://www.google.com/url?q=http://www.nsworac.org&amp;sa=D&amp;source=editors&amp;ust=1690589783058605&amp;usg=AOvVaw3A-FMtbhWFdbavKv7Cfpxt">www.nsworac.org</a></span><span
-                class="c3 c0">&nbsp;.</span></p>
+                to the Secretary of NSW ORAC at </span><span class="c6 c0"><a class="c5" href="mailto:roglou@bigpond.net.au">roglou@bigpond.net.au</a></span><span class="c0">&nbsp;by way of
+                an Unusual Record Report (URR) Form which can be downloaded from </span><span class="c0 c6"><a class="c5" href="/src/NSW_ORAC_URR_Form_March_2020.doc">here</a></span><span class="c3 c0">.</span></p>
             <p><span class="c3 c0">This list does not include any of those species on the Birdlife Australia Rarities
                 Committee (BARC) Review List and the NSW ORAC Review List taxonomy is based on the IOC Checklist
                 v14.1</span></p>
@@ -123,7 +123,8 @@
           $query = "SELECT * FROM orac_review_list";
           $result = $conn->query($query);
           $count = 1;
-          $html_fragment = '<p><table style="margin:0 0 5px 15px!important;"><tr><th style="padding:0 0 5px 15px!important;"><span>IOC English name</span></th><th style="padding:0 0 5px 15px!important;"><span>Scientific name</span></th><th style="padding:0 0 5px 15px!important;"><span>Exemption</span></th></tr>';
+          $odd_even_class = 'odd';
+          $html_fragment = '<p><table style="margin:0 0 5px 15px!important;" class="display dataTable" role="grid"><tr><th style="padding:0 0 5px 15px!important;"><span>IOC English name</span></th><th style="padding:0 0 5px 15px!important;"><span>Scientific name</span></th><th style="padding:0 0 5px 15px!important;"><span>Exceptions</span></th></tr>';
 
           if ($result->num_rows > 0) {
             // output data of each row
@@ -132,7 +133,8 @@
                     $review_date = date_create($row["releasedate"]);
                     $html_fragment .= '<p class="c8"><span class="c0 c9">(Revised ' . date_format($review_date, 'j M Y') . ')</span></p>';
                 }
-                $html_fragment .= '<tr><td style="padding:0 0 5px 15px!important;">' . $row["species_name"]. '</td><td style="padding:0 0 5px 15px!important;"><i>' . $row["scientific_name"] . '</i></td>';
+                if ($count % 2 == 0) { $odd_even_class = 'even'; } else { $odd_even_class = 'odd'; }
+                $html_fragment .= '<tr class="'. $odd_even_class .'" role="row"><td style="padding:0 0 5px 15px!important;">' . $row["species_name"]. '</td><td style="padding:0 0 5px 15px!important;"><i>' . $row["scientific_name"] . '</i></td>';
                 if (isset($row["exemption"]) && $row["exemption"] != "") {
                     $html_fragment .= '<td style="padding:0 0 5px 15px!important;">(' . $row["exemption"] . ')</td></tr>';
                 } else {
