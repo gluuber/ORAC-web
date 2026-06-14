@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Styles -->
 <!-- Bootstrap CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
 <link href="/css/style.min.css" rel="stylesheet">
 <link href="/css/jquery.datatables.min.css" rel="stylesheet">
 <!-- Favicon -->
-<link rel="shortcut icon" href="#">>
+<link rel="shortcut icon" href="#">
 
 <!-- /ssi: headtag.html -->
 </head>
@@ -110,12 +110,29 @@
                 Committee (BARC) Review List and the NSW ORAC Review List taxonomy is based on the IOC Checklist
                 v14.1</span></p>
                 
+          <div class="row" style="width:90%!important"></div>
+          <div class="row">
+            <table id="example" class="display" style="width:90%!important">
+              <thead>
+                <tr>
+                  <th>IOC English name</th>
+                  <th>Scientific name</th>
+                  <th>Exception</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>IOC English name</th>
+                  <th>Scientific name</th>
+                  <th>Exception</th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
                 <?php
+                /*
         require_once './mysql.connection.php';
-
-          // Create connection
           $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
-          // Check connection
           if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
           }
@@ -127,7 +144,6 @@
           $html_fragment = '<p><table style="margin:0 0 5px 15px!important;" class="display dataTable" role="grid"><tr><th style="padding:0 0 5px 15px!important;"><span>IOC English name</span></th><th style="padding:0 0 5px 15px!important;"><span>Scientific name</span></th><th style="padding:0 0 5px 15px!important;"><span>Exceptions</span></th></tr>';
 
           if ($result->num_rows > 0) {
-            // output data of each row
             while ($row = $result->fetch_assoc()) {
                 if ($count == 1) {
                     $review_date = date_create($row["releasedate"]);
@@ -145,7 +161,7 @@
           }
           $html_fragment .= '</table></p>';
           echo $html_fragment;
-
+*/
                 ?>
           </div>
         </div>
@@ -180,6 +196,29 @@
 </script>
 
 <!-- /ssitem: footer-scripts.html -->
+  <script src="/js/jquery.datatables.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#example').DataTable({
+        "ajax": 'src/getReviewListData.php',
+        //"order": [[ 2, "asc" ]],
+        "info": false,
+        "pageLength": 50,
+        columnDefs: [
+          { type: 'natural', targets: 0 }
+        ]
+      });
+    });
+
+    /*
+    $(document).ready(function() {
+    $('#example').DataTable( {
+    "paging": false,
+    "ordering": false,
+    "info": false
+    } );
+    } );*/
+  </script>
 <script>
   document.getElementById("home-button").className = "";
   document.getElementById("about-button").className = "";
