@@ -9,9 +9,9 @@ Apache, PHP, MySQL, and Server Side Includes (SSI).
 `LoadModule include_module modules/mod_include.so`
 
 ### Configure Directory permissions...
-```<Directory "/var/www/html">
-    Options +Includes
-</Directory>```
+`<Directory "/var/www/html">`
+`    Options +Includes`
+`</Directory>`
 
 ### Map the file extensions...
 `AddType text/html .shtml`
