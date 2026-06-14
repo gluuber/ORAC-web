@@ -26,6 +26,15 @@ AddOutputFilter INCLUDES .shtml
 ## MySQL connection
 Change the `mysql.connection.php` settings to suit your local environment.
 
+```php
+<?php
+define('MYSQL_HOST','localhost');
+define('MYSQL_USER','<PROD_USER>');
+define('MYSQL_PASSWORD','<PROD_PASS>');
+define('MYSQL_DATABASE','<PROD_DB>');
+?>
+```
+
 ## Seed DB
 ```bash
 /src/process/insert-data.php?dataset=case
