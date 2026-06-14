@@ -3,8 +3,9 @@
 
 <head>
   <title>Index of Cases: NSW ORAC - NSW Ornithological Records Appraisal Committee</title>
-<!--#include virtual="/includes/headtag.html"-->
+  <meta name="viewport" content="width=device-width" />
 <link href="/css/jquery.datatables.min.css" rel="stylesheet">
+<!--#include virtual="/includes/headtag.html"-->
 </head>
 
 <body>
@@ -60,11 +61,12 @@
   <script src="/js/jquery.min.js"></script>
   <!-- Bootstrap JS -->
   <script src="/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="/css/jquery.datatables.min.css">
-  <script src="/js/jquery.datatables.min.js"></script>
+  <link rel="stylesheet" href="/css/datatables.min.css">
+  <script src="/js/datatables.min.js"></script>
   <script>
     $(document).ready(function () {
       $('#example').DataTable({
+        responsive: true,
         "ajax": 'src/getCaseData.php',
         //"order": [[ 2, "asc" ]],
         "info": false,
@@ -90,6 +92,13 @@
   document.getElementById("review-list-button").className = "";
   document.getElementById("submission-button").className = "";
 </script>
+<style>
+  @media (max-width: 601px) {
+	.dataTables_wrapper {
+	  width: 400px!important;
+	}
+}
+</style>
 </body>
 
 </html>

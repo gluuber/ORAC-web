@@ -33,13 +33,13 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Styles -->
+<link href="/css/datatables.min.css" rel="stylesheet">
 <!-- Bootstrap CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <!-- Font awesome CSS -->
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link href="/css/style.min.css" rel="stylesheet">
-<link href="/css/jquery.datatables.min.css" rel="stylesheet">
 <!-- Favicon -->
 <link rel="shortcut icon" href="#">
 
@@ -196,10 +196,11 @@
 </script>
 
 <!-- /ssitem: footer-scripts.html -->
-  <script src="/js/jquery.datatables.min.js"></script>
+  <script src="/js/datatables.min.js"></script>
   <script>
     $(document).ready(function () {
       $('#example').DataTable({
+        responsive: true,
         "ajax": 'src/getReviewListData.php',
         //"order": [[ 2, "asc" ]],
         "info": false,
