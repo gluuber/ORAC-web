@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+
+<head>
+  <title>Index of Cases: NSW ORAC - NSW Ornithological Records Appraisal Committee</title>
+  <meta name="viewport" content="width=device-width" />
+<link href="/css/jquery.datatables.min.css" rel="stylesheet">
+<!--#include virtual="/includes/headtag.html"-->
+</head>
+
+<body>
+  <div class="wrapper">
+<!--#include virtual="/includes/header.html"-->
+    <!-- main content -->
+    <div class="main-content bottom-0">
+      <!-- benefits -->
+      <div class="benefits pad">
+        <div class="container">
+          <div class="default-heading">
+            <!-- heading -->
+            <h1><i class="fa fa-folder-open"></i> Index of BARC Cases</h1>
+          </div>
+          <div class="row">
+          </div>
+          <div class="row">
+            <table id="example" class="display" style="width:100%">
+              <thead>
+                <tr>
+                  <th>ORAC Case</th>
+                  <th>BARC Case</th>
+                  <th>IOC English name</th>
+                  <th>Scientific name</th>
+                  <th>Location</th>
+                  <th>Date</th>
+                  <th>Decision</th>
+                  <!--<th>Reference</th>-->
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>ORAC Case</th>
+                  <th>BARC Case</th>
+                  <th>IOC English name</th>
+                  <th>Scientific name</th>
+                  <th>Location</th>
+                  <th>Date</th>
+                  <th>Decision</th>
+                  <!--<th>Reference</th>-->
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--#include virtual="/includes/footer.html"-->
+<!--#include virtual="/includes/footer-scripts.html"-->
+  <!-- Javascript files -->
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/css/datatables.min.css">
+  <script src="/js/datatables.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#example').DataTable({
+        responsive: true,
+        "ajax": 'src/getBarcCaseData.php',
+        //"order": [[ 2, "asc" ]],
+        "info": false,
+        columnDefs: [
+          { type: 'natural', targets: 0 }
+        ]
+      });
+    });
+
+    /*
+    $(document).ready(function() {
+    $('#example').DataTable( {
+    "paging": false,
+    "ordering": false,
+    "info": false
+    } );
+    } );*/
+  </script>
+<script>
+  document.getElementById("home-button").className = "";
+  document.getElementById("about-button").className = "";
+  document.getElementById("cases-button").className = "active";
+  document.getElementById("review-list-button").className = "";
+  document.getElementById("submission-button").className = "";
+</script>
+<style>
+  @media (max-width: 601px) {
+	.dataTables_wrapper {
+	  width: 400px!important;
+	}
+}
+</style>
+</body>
+
+</html>
