@@ -12,12 +12,14 @@ Apache, PHP, MySQL, and Server Side Includes (SSI).
 ```bash
 <Directory "/var/www/html">
     Options +Includes
-</Directory>```
+</Directory>
+```
 
 ### Map the file extensions...
 ```bash
 AddType text/html .shtml
-AddOutputFilter INCLUDES .shtml```
+AddOutputFilter INCLUDES .shtml
+```
 
 ## MySQL connection
 Change the `mysql.connection.php` settings to suit your local environment.
@@ -26,4 +28,5 @@ Change the `mysql.connection.php` settings to suit your local environment.
 ```bash
 /src/process/insert-data.php?dataset=case
 /src/process/insert-data.php?dataset=review
-/src/process/insert-data.php?dataset=barc```
+/src/process/insert-data.php?dataset=barc
+```
