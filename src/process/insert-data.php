@@ -68,6 +68,22 @@
         . "`releasedate` datetime DEFAULT NULL,"
         . "PRIMARY KEY (`rid`)"
         . ") ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='The base table for records.' AUTO_INCREMENT=1000";
+    } else if (MYSQL_TABLE == 'barc_case_list') {
+      /**
+       * Case No.,IOC English name,Scientific name,Location,State/Territory,Sighting Date,Submission,Decision,Acceptance tally
+       * 297,Abbott's Booby,Papasula abbotti,Echo Beach ,WA,12/16/1999,,Accepted,1
+       */
+      $query = "CREATE TABLE IF NOT EXISTS `" . MYSQL_TABLE . "` ("
+        . "`rid` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'The primary identifier for a record.',"
+        . "`barc_case_number` varchar(32) DEFAULT '' COMMENT 'The case number assigned by BARC.',"
+        . "`species_name` varchar(255) NOT NULL DEFAULT '' COMMENT 'The species common name, always treated as non-markup plain text.',"
+        . "`scientific_name` varchar(255) NOT NULL DEFAULT '' COMMENT 'The species scientific name, always treated as non-markup plain text.',"
+        . "`location` varchar(255) NOT NULL DEFAULT '' COMMENT 'The location where the sighting event happened.',"
+        . "`state` varchar(32) DEFAULT '' COMMENT 'The state or territory the sighting was made in.',"
+        . "`sightingdate` varchar(32) DEFAULT '' COMMENT 'The sighting date. Not really a date, just a free for all text splurge.',"
+        . "`decision` varchar(255) NOT NULL DEFAULT '' COMMENT 'The outcome, if any, of the sighting review.',"
+        . "PRIMARY KEY (`rid`)"
+        . ") ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='The base table for records.' AUTO_INCREMENT=1000";
     }
     $result = $conn->query($query);
     echo 'Connected successfully to create ' . MYSQL_TABLE . ' table.<br>';
@@ -108,6 +124,18 @@
             . "'" . mysqli_real_escape_string($conn, $record[2]) . "',"
             . "'" . date("Y-m-d H:i:s", strtotime($record[3])) . "'"
             . ")";
+        } else if (MYSQL_TABLE == 'barc_case_list') {
+          $query = "INSERT INTO " . MYSQL_TABLE . " "
+            . "VALUES("
+            . $count . ","
+            . "'" . $record[0] . "',"
+            . "'" . mysqli_real_escape_string($conn, $record[1]) . "',"
+            . "'" . mysqli_real_escape_string($conn, $record[2]) . "',"
+            . "'" . mysqli_real_escape_string($conn, $record[3]) . "',"
+            . "'" . mysqli_real_escape_string($conn, $record[4]) . "',"
+            . "'" . mysqli_real_escape_string($conn, $record[5]) . "',"
+            . "'" . $record[7] . "'"
+            . ")";
         }
         $result = $conn->query($query);
         mysqli_close($conn);
@@ -143,6 +171,9 @@
       case 'review':
         $exists = true;
         break;
+      case 'barc':
+        $exists = true;
+        break;
       default:
         break;
     }
@@ -165,6 +196,9 @@
       case 'review':
         $table_name = 'orac_review_list';
         break;
+      case 'barc':
+        $table_name = 'barc_case_list';
+        break;
       default:
         break;
     }
@@ -186,6 +220,9 @@
         break;
       case 'review':
         $csv_file_name = 'Review List.csv';
+        break;
+      case 'barc':
+        $csv_file_name = 'BARC_Index_of_Cases.csv';
         break;
       default:
         break;
