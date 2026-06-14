@@ -6,7 +6,9 @@ Apache, PHP, MySQL, and Server Side Includes (SSI).
 
 ## Apache configurations:
 ### Load the includes module...
-`LoadModule include_module modules/mod_include.so`
+```bash
+LoadModule include_module modules/mod_include.so
+```
 
 ### Configure Directory permissions...
 ```bash
