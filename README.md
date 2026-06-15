@@ -23,7 +23,7 @@ AddType text/html .shtml
 AddOutputFilter INCLUDES .shtml
 ```
 
-## MySQL connection
+## MySQL connection:
 Change the `mysql.connection.php` settings to suit your local environment.
 
 ```php
@@ -35,9 +35,17 @@ define('MYSQL_DATABASE','<PROD_DB>');
 ?>
 ```
 
-## Seed DB
+## Seed the database:
 ```bash
 /src/process/insert-data.php?dataset=case
 /src/process/insert-data.php?dataset=review
 /src/process/insert-data.php?dataset=barc
+```
+
+Source CSV files can be found under `/src/process/src`
+
+```bash
+Review List.csv
+BARC_Index_of_Cases.csv
+Index of Cases.csv
 ```
