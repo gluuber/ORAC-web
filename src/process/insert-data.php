@@ -24,6 +24,7 @@
 
     // Define a constant for the MySQL table to use in queries.
     define('MYSQL_TABLE', $data_set);
+    echo '<a href="index.shtml">Back</a><br>';
     echo 'Processing ' . $_GET['dataset'] . ' data.<br>';
 
     // DROP EXISTING TABLE
@@ -149,10 +150,11 @@
       }
     }
 
-    $done = 'Done updating ' . $data_set . ' data.';
-    echo ($done);
+    echo 'Done updating ' . $data_set . ' data.<br>';
+    echo '<a href="index.shtml">Back</a><br>';
   } else {
-    echo ('Something went wrong@#$!');
+    echo ('Something went wrong@#$!<br>');
+    echo '<a href="index.shtml">Back</a><br>';
   }
 
   /**
