@@ -58,7 +58,7 @@ if (isset($_POST['submit']) && $_FILES['uploaded_file']['error'] === UPLOAD_ERR_
         // Define a constant for the MySQL table to use in queries.
         define('MYSQL_TABLE', $data_set);
         echo '<a href="index.shtml">Back</a><br>';
-        echo 'Processing ' . $_POST['dataset'] . ' data.<br>';
+        echo '<h1>Processing ' . $_POST['dataset'] . ' data</h1>';
 
         // DROP EXISTING TABLE
         $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
