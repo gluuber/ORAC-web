@@ -42,7 +42,10 @@
 <link href="/css/style.min.css" rel="stylesheet">
 <!-- Favicon -->
 <link rel="shortcut icon" href="#">
-
+<style>
+div.dt-length { margin-left:60px!important; }
+div.dt-search { margin-right:60px!important; }
+</style>
 <!-- /ssi: headtag.html -->
 </head>
 
