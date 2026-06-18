@@ -18,6 +18,16 @@
         h5 {
             font-family: "Raleway", sans-serif
         }
+        .code-container {
+    background-color: #f4f4f4;    /* Light grey code block background */
+    border-left: 4px solid #4CAF50; /* Green accent bar on the left */
+    color: #333333;               /* Dark grey text color */
+    font-family: "Courier New", Courier, monospace; /* Monospaced software font */
+    font-size: 15px;              /* Readable code size */
+    padding: 15px;                /* Padding inside the container */
+    overflow-x: auto;             /* Adds a horizontal scrollbar if code is too long */
+    white-space: pre;             /* Preserves tabs, spaces, and line breaks */
+}
     </style>
 </head>
 
@@ -32,12 +42,44 @@
 
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-top:43px;">
-        <div class="w3-row">
+        <div class="w3-row w3-padding">
+            <h1>Manage NSW ORAC data</h1>
             <ul>
                 <li><a href="upload-file.php?dataset=case">Update Index of Cases data</a></li>
                 <li><a href="upload-file.php?dataset=review">Update Review List data</a></li>
                 <li><a href="upload-file.php?dataset=barc">Update Index of BARC Cases data</a></li>
             </ul>
+            <h2>Help</h2>
+            <p>The management forms allow you to update each of the data sets on the NSW ORAC web site by loading a CSV file containing the data.</p>
+            <p>The format of the CSV data has to follow the examples below. Do not add notes or comments or other extraneous text:</p>
+            <h3>Index of Cases</h3>
+            <pre class="code-container"><code>ORAC Case,BARC Case,IOC English name,Scientific name,Location,Date,Decision
+1,,Sooty Albatross,Phoebetria fusca,Moruya,2 Aug 1987,Not Confirmed (not assessed)
+2,,Pink Robin,Petroica rodinogaster,"Korrungulla Swamp, Primbee",4 Sep 1987,Accepted
+3,,Yellow Chat,Epthianura crocea,69 km east of Broken Hill,15 Oct 1987,Not accepted
+4,,Great Frigatebird,Fregata minor,Yamba,21 Feb 1987,Accepted
+5,109,Tropical Shearwater,Puffinus bailloni,off Wollongong,28 Feb 1987,Accepted
+...
+</code></pre>
+            <h3>Review List</h3>
+            <pre class="code-container"><code>IOC English name,Scientific name,Exemption,Date
+Common Ostrich,Struthio camelus,except for the known population in the Barham region,16 May 2025
+Cape Barren Goose,Cereopsis novaehollandiae,,16 May 2025
+Cotton Pygmy Goose,Nettapus coromandelianus,except within 100km from the Queensland border,16 May 2025
+Green Pygmy Goose,Nettapus pulchellus,,16 May 2025
+Fiordland Penguin,Eudyptes pachyrhynchus,,16 May 2025
+...
+</code></pre>
+            <h3>Index of BARC Cases</h3>
+            <pre class="code-container"><code>Case No.,IOC English name,Scientific name,Location,State/Territory,Sighting Date,Submission,Decision,Acceptance tally
+297,Abbott's Booby,Papasula abbotti,Echo Beach ,WA,12/16/1999,,Accepted,1
+432,Abbott's Booby,Papasula abbotti,Ashmore Reef,WA,1/26/2003,,Accepted,2
+541,Abbott's Booby,Papasula abbotti,Exmouth Plateau ,WA,9/12/2007,,Accepted,3
+859,Adelie Penguin,Pygoscelis adeliae,Macquarie Island,TAS,12/16/2014,,Accepted,1
+1001,Aleutian Tern,Onychoprion aleuticus,"Farquhar Inlet, Old Bar",NSW,12/4/2016,Submission,Accepted,1
+1224,Aleutian Tern,Onychoprion aleuticus,"Farquhar Inlet, Old Bar",NSW,2018-2019 Season,Submission,Accepted,2
+...
+</code></pre>
         </div>
     </div>
 
