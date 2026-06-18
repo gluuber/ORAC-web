@@ -24,7 +24,7 @@ AddOutputFilter INCLUDES .shtml
 ```
 
 ## MySQL connection:
-Change the `mysql.connection.php` settings to suit your local environment.
+Move `mysql_connection.php` to `mysql.connection.php` and change the settings to suit your local environment.
 
 ```php
 <?php
