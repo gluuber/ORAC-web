@@ -64,7 +64,7 @@ $sheet->getColumnDimension('C')->setWidth(28);
 $sheet->getColumnDimension('D')->setWidth(28);
 $sheet->getColumnDimension('E')->setWidth(34);
 $sheet->getColumnDimension('F')->setWidth(15);
-$sheet->getColumnDimension('G')->setWidth(25);
+$sheet->getColumnDimension('G')->setWidth(30);
 $sheet->freezePane('A2');
 $sheet->getStyle('A:A')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
 $sheet->getStyle('B:B')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
