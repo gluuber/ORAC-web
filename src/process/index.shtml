@@ -8,6 +8,12 @@
 
 <body>
   
+    <h1>Admin</h1>
+    <ul>
+        <li><a href="insert-data.php?dataset=case">Update Index of Cases data</a></li>
+        <li><a href="insert-data.php?dataset=review">Update Review List data</a></li>
+        <li><a href="insert-data.php?dataset=barc">Update Index of BARC Cases data</a></li>
+    </ul>
 
 </body>
 
