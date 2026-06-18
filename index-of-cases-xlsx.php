@@ -13,7 +13,7 @@ $spreadsheet->getProperties()->setCreator("NSW ORAC")->setTitle("Index of Cases"
 // Get the active sheet
 $sheet = $spreadsheet->getActiveSheet();
 
-// Populate header columns
+// Populate header columns and style them to bold
 $sheet->setCellValue('A' . $count, 'ORAC Case ');
 $sheet->setCellValue('B' . $count, 'BARC Case');
 $sheet->setCellValue('C' . $count, 'IOC English name');
@@ -30,6 +30,7 @@ $sheet->getStyle('F' . $count)->getFont()->setBold(true);
 $sheet->getStyle('G' . $count)->getFont()->setBold(true);
 $count++;
 
+// Get the data
 require_once './mysql.connection.php';
 
 // Create connection
@@ -40,6 +41,7 @@ if ($conn->connect_error) {
 }
 $query = "SELECT * FROM orac_case_list";
 $result = $conn->query($query);
+
 if ($result->num_rows > 0) {
     // output data of each row
     while ($row = $result->fetch_assoc()) {
@@ -55,6 +57,7 @@ if ($result->num_rows > 0) {
     }
 }
 
+// Do some styling
 $sheet->getColumnDimension('A')->setWidth(6);
 $sheet->getColumnDimension('B')->setWidth(6);
 $sheet->getColumnDimension('C')->setWidth(23);
@@ -63,15 +66,10 @@ $sheet->getColumnDimension('E')->setWidth(28);
 $sheet->getColumnDimension('F')->setWidth(12);
 $sheet->getColumnDimension('G')->setWidth(15);
 $sheet->freezePane('A2');
-$sheet->getStyle('A:A')
-    ->getAlignment()
-    ->setHorizontal(Alignment::HORIZONTAL_CENTER);
+$sheet->getStyle('A:A')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
+$sheet->getStyle('B:B')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
 
-$sheet->getStyle('B:B')
-    ->getAlignment()
-    ->setHorizontal(Alignment::HORIZONTAL_CENTER);
-
-// Create a Write worker
+// Create a xlsx writer
 $writer = new Xlsx($spreadsheet);
 
 // Save the xlsx file
