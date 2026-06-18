@@ -51,23 +51,25 @@ if ($result->num_rows > 0) {
         $sheet->setCellValue('C' . $count, $row["species_name"]);
         $sheet->setCellValue('D' . $count, $row["scientific_name"]);
         $sheet->setCellValue('E' . $count, $row["location"]);
-        $sheet->setCellValue('F' . $count, $date);
+        $sheet->setCellValue('F' . $count, date_format($date, 'j M Y'));
         $sheet->setCellValue('G' . $count, $row["decision"]);
         $count++;
     }
 }
 
 // Do some styling
-$sheet->getColumnDimension('A')->setWidth(6);
-$sheet->getColumnDimension('B')->setWidth(6);
-$sheet->getColumnDimension('C')->setWidth(23);
-$sheet->getColumnDimension('D')->setWidth(23);
-$sheet->getColumnDimension('E')->setWidth(28);
-$sheet->getColumnDimension('F')->setWidth(12);
-$sheet->getColumnDimension('G')->setWidth(15);
+$sheet->getColumnDimension('A')->setWidth(12);
+$sheet->getColumnDimension('B')->setWidth(12);
+$sheet->getColumnDimension('C')->setWidth(28);
+$sheet->getColumnDimension('D')->setWidth(28);
+$sheet->getColumnDimension('E')->setWidth(34);
+$sheet->getColumnDimension('F')->setWidth(15);
+$sheet->getColumnDimension('G')->setWidth(25);
 $sheet->freezePane('A2');
 $sheet->getStyle('A:A')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
 $sheet->getStyle('B:B')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
+$sheet->getStyle('F:F')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
+$sheet->getStyle('G:G')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
 
 // Create a xlsx writer
 $writer = new Xlsx($spreadsheet);
