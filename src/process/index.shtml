@@ -45,12 +45,12 @@
         <div class="w3-row w3-padding">
             <h1>Manage NSW ORAC data</h1>
             <ul>
-                <li><a href="upload-file.php?dataset=case">Update Index of Cases data</a></li>
-                <li><a href="upload-file.php?dataset=review">Update Review List data</a></li>
-                <li><a href="upload-file.php?dataset=barc">Update Index of BARC Cases data</a></li>
+                <li><a href="upload-file.php?dataset=case">Update Index of Cases data</a> - (<a href="/cases.shtml">Index of Cases</a>)</li>
+                <li><a href="upload-file.php?dataset=review">Update Review List data</a> - (<a href="/review-list.php">Review List</a>)</li>
+                <li><a href="upload-file.php?dataset=barc">Update Index of BARC Cases data</a> - (<a href="/barc-cases.shtml">Index of BARC Cases</a>)</li>
             </ul>
             <h2>Help</h2>
-            <p>The management forms above allow you to update each of the data sets on the NSW ORAC web site by loading a CSV file containing the data.</p>
+            <p>The management forms above allow you to update each of the data sets and associated pages on the NSW ORAC web site. This is done by loading a CSV file containing the data which is then processed by a server-side script.</p>
             <p>It is important that the format of the CSV data follows the examples below. Do not add notes or comments or other extraneous text:</p>
             <h3>Index of Cases</h3>
             <pre class="code-container"><code>ORAC Case,BARC Case,IOC English name,Scientific name,Location,Date,Decision
