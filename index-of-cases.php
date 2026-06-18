@@ -7,7 +7,7 @@ use Dompdf\Dompdf;
 
 // Instantiate and use the dompdf class
 $dompdf = new Dompdf();
-$old_limit = ini_set("memory_limit", "128M");
+$old_limit = ini_set("memory_limit", "512M");
 
 require_once './mysql.connection.php';
 
@@ -28,9 +28,9 @@ if ($result->num_rows > 0) {
     $date = date_create($row["sightingdate"]);
     $html_fragment .= '<tr><td>' . $row["orac_case_number"] . '</td><td>' . $row["barc_case_number"] . '</td><td>' . $row["species_name"] . '</td><td><i>' . $row["scientific_name"] . '</i></td><td>' . $row["location"] . '</td><td>' . date_format($date, 'j M Y') . '</td><td>' . $row["decision"] . '</td></tr>';
     $count++;
-    if ($count == 700) {
-      break;
-    }
+    //if ($count == 700) {
+    //  break;
+    //}
   }
 }
 $html_fragment .= '</table>';
@@ -46,3 +46,4 @@ $dompdf->render();
 
 // Output the generated PDF to Browser
 $dompdf->stream('NSW ORAC - Index of Cases');
+?>
