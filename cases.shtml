@@ -31,7 +31,7 @@
                   <th>IOC English name</th>
                   <th>Scientific name</th>
                   <th>Location</th>
-                  <th>Date</th>
+                  <th>Sighting date</th>
                   <th>Decision</th>
                   <!--<th>Reference</th>-->
                 </tr>
@@ -43,7 +43,7 @@
                   <th>IOC English name</th>
                   <th>Scientific name</th>
                   <th>Location</th>
-                  <th>Date</th>
+                  <th>Sighting date</th>
                   <th>Decision</th>
                   <!--<th>Reference</th>-->
                 </tr>
