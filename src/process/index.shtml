@@ -50,8 +50,8 @@
                 <li><a href="upload-file.php?dataset=barc">Update Index of BARC Cases data</a></li>
             </ul>
             <h2>Help</h2>
-            <p>The management forms allow you to update each of the data sets on the NSW ORAC web site by loading a CSV file containing the data.</p>
-            <p>The format of the CSV data has to follow the examples below. Do not add notes or comments or other extraneous text:</p>
+            <p>The management forms above allow you to update each of the data sets on the NSW ORAC web site by loading a CSV file containing the data.</p>
+            <p>It is important that the format of the CSV data follows the examples below. Do not add notes or comments or other extraneous text:</p>
             <h3>Index of Cases</h3>
             <pre class="code-container"><code>ORAC Case,BARC Case,IOC English name,Scientific name,Location,Date,Decision
 1,,Sooty Albatross,Phoebetria fusca,Moruya,2 Aug 1987,Not Confirmed (not assessed)
