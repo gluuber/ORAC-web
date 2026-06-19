@@ -71,7 +71,7 @@
                 <h1 class="w3-text-white">Upload ORAC documents</h1>
                 <p></p><a href="upload-doc.php?dataset=case" class="w3-button w3-white w3-round">Upload Index of Cases
                     PDF</a></p>
-                <p><a href="upload-doc.php?dataset=submission" class="w3-button w3-white w3-round">Upload Submission
+                <p><a href="upload-doc.php?dataset=submission" class="w3-button w3-white w3-round">Upload (URR Form) Submission
                         DOC</a></p>
                 <p><a href="upload-doc.php?dataset=guidelines" class="w3-button w3-white w3-round">Upload Submission
                         Guidelines PDF</a></p>
