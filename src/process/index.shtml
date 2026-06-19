@@ -75,7 +75,7 @@
                 server-side script.</p>
             <p><b>It is important that the format of the CSV data follows the examples below. Do not add notes or
                     comments or other extraneous text.</b></p>
-            <h3>Index of Cases</h3>
+            <h3>Index of Cases CSV format</h3>
             <pre class="code-container"><code>ORAC Case,BARC Case,IOC English name,Scientific name,Location,Date,Decision
 1,,Sooty Albatross,Phoebetria fusca,Moruya,2 Aug 1987,Not Confirmed (not assessed)
 2,,Pink Robin,Petroica rodinogaster,"Korrungulla Swamp, Primbee",4 Sep 1987,Accepted
@@ -84,7 +84,7 @@
 5,109,Tropical Shearwater,Puffinus bailloni,off Wollongong,28 Feb 1987,Accepted
 ...
 </code></pre>
-            <h3>Review List</h3>
+            <h3>Review List CSV format</h3>
             <pre class="code-container"><code>IOC English name,Scientific name,Exemption,Date
 Common Ostrich,Struthio camelus,except for the known population in the Barham region,16 May 2025
 Cape Barren Goose,Cereopsis novaehollandiae,,16 May 2025
@@ -93,7 +93,7 @@ Green Pygmy Goose,Nettapus pulchellus,,16 May 2025
 Fiordland Penguin,Eudyptes pachyrhynchus,,16 May 2025
 ...
 </code></pre>
-            <h3>Index of BARC Cases</h3>
+            <h3>Index of BARC Cases CSV format</h3>
             <pre class="code-container"><code>Case No.,IOC English name,Scientific name,Location,State/Territory,Sighting Date,Submission,Decision,Acceptance tally
 297,Abbott's Booby,Papasula abbotti,Echo Beach ,WA,12/16/1999,,Accepted,1
 432,Abbott's Booby,Papasula abbotti,Ashmore Reef,WA,1/26/2003,,Accepted,2
