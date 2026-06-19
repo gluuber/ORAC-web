@@ -77,7 +77,7 @@
                 <li><a href="upload-doc.php?dataset=submission">Upload Submission DOC</a> - (<a
                         href="/src/NSW_ORAC_URR_Form_March_2020.doc">NSW ORAC Unusual Record Report Form (URR Form)</a>)</li>
                 <li><a href="upload-doc.php?dataset=guidelines">Upload Submission Guidelines PDF</a> - (<a
-                        href="/src/NSW_ORAC_guidelines_for_submissions.pdf">Guidelines for submissions</a>)</li>
+                        href="/src/SW_ORAC_guidelines_for_submissions.pdf">Guidelines for submissions</a>)</li>
                 <li><a href="upload-doc.php?dataset=rules">Upload ORAC Rules PDF</a> - (<a
                         href="/src/NSW_ORAC_rules.pdf">NSW ORAC rules</a>)</li>
             </ul>
@@ -87,7 +87,7 @@
             <h2>Help</h2>
             <p>The management forms above allow you to update each of the data sets and associated pages on the NSW ORAC
                 web site. This is done by loading a CSV file containing the data which is then processed by a
-                server-side script.</p>
+                server-side script. Use Excel or Google Sheets to download/export a CSV file.</p>
             <p><b>It is important that the format of the CSV data follows the examples below. Do not add notes or
                     comments or other extraneous text.</b></p>
             <h3>Index of Cases CSV format</h3>
