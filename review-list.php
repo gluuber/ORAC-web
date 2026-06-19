@@ -196,9 +196,9 @@ div.dt-search { margin-right:60px!important; }
       $('#example').DataTable({
         responsive: true,
         "ajax": 'src/getReviewListData.php',
-        //"order": [[ 2, "asc" ]],
+        "order": [[ 0, "asc" ]],
         "info": false,
-        "pageLength": 50,
+        "pageLength": 30,
         columnDefs: [
           { type: 'natural', targets: 0 }
         ]
