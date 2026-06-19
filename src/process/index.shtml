@@ -71,6 +71,16 @@
             </div>
         <div class="w3-orange w3-round" style="width:40%;padding:32px;margin:32px;float:left;">
             <h1 class="w3-text-white">Upload ORAC documents</h1>
+            <ul>
+                <li><a href="upload-doc.php?dataset=case">Upload Index of Cases PDF</a> - (<a
+                        href="/src/NSW_ORAC_Index_of_Cases.pdf">NSW ORAC Index of Cases</a>)</li>
+                <li><a href="upload-doc.php?dataset=submission">Upload Submission DOC</a> - (<a
+                        href="/src/NSW_ORAC_URR_Form_March_2020.doc">NSW ORAC Unusual Record Report Form (URR Form)</a>)</li>
+                <li><a href="upload-doc.php?dataset=guidelines">Upload Submission Guidelines PDF</a> - (<a
+                        href="/src/NSW_ORAC_guidelines_for_submissions.pdf">Guidelines for submissions</a>)</li>
+                <li><a href="upload-doc.php?dataset=rules">Upload ORAC Rules PDF</a> - (<a
+                        href="/src/NSW_ORAC_rules.pdf">NSW ORAC rules</a>)</li>
+            </ul>
             </div>
             </div>
             <div class="w3-row w3-padding" style="padding:32px;margin:32px">
