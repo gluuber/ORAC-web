@@ -35,7 +35,7 @@ define('MYSQL_DATABASE','<PROD_DB>');
 ?>
 ```
 
-## Seed the database:
+## Seed and manage the data:
 Log into the admin area:
 ```bash
 /src/process/
