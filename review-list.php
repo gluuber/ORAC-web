@@ -45,6 +45,7 @@
 <style>
 div.dt-length { margin-left:60px!important; }
 div.dt-search { margin-right:60px!important; }
+label {margin-left: 5px!important;}
 </style>
 <!-- /ssi: headtag.html -->
 </head>
