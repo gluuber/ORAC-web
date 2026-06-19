@@ -75,6 +75,7 @@
                         DOC</a></p>
                 <p><a href="upload-doc.php?dataset=guidelines" class="w3-button w3-white w3-round">Upload Submission
                         Guidelines PDF</a></p>
+                <p><a href="upload-doc.php?dataset=review" class="w3-button w3-white w3-round">Upload Review List PDF</a></p>
                 <p><a href="upload-doc.php?dataset=rules" class="w3-button w3-white w3-round">Upload ORAC Rules PDF</a>
                 </p>
             </div>
@@ -97,6 +98,7 @@
                 <li><a href="/src/NSW_ORAC_URR_Form.doc">NSW ORAC Unusual Record Report Form (URR Form)</a> -
                     (doc)</li>
                 <li><a href="/src/SW_ORAC_guidelines_for_submissions.pdf">Guidelines for submissions</a> - (pdf)</li>
+                <li><a href="/src/NSW_ORAC_Review_List.pdf">NSW ORAC Review List</a> - (pdf)</li>
                 <li><a href="/src/NSW_ORAC_rules.pdf">NSW ORAC rules</a> - (pdf)</li>
             </ul>
             <h3>Data tables CSV files</h3>

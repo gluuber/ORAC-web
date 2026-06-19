@@ -64,11 +64,15 @@
                         $file_type = 'doc';
                         break;
                     case 'guidelines':
-                        $title = 'Upload Submission Guidelines PDF';
+                        $title = 'Submission Guidelines PDF';
+                        $file_type = 'pdf';
+                        break;
+                    case 'review':
+                        $title = 'Review List PDF';
                         $file_type = 'pdf';
                         break;
                     case 'rules':
-                        $title = 'Upload ORAC Rules PDF';
+                        $title = 'ORAC Rules PDF';
                         $file_type = 'pdf';
                         break;
                 }
