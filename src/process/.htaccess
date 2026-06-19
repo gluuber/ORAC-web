@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected 'public_html/src/process'"
+AuthUserFile "/home/nswor605/.htpasswds/public_html/src/process/passwd"
+Require valid-user
