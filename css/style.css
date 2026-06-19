@@ -22,7 +22,7 @@ h6 {
 }
 
 .banner a {
-	color: #99aaff !important;
+	color: #ffffff !important;
 }
 
 p {
@@ -51,6 +51,7 @@ a:focus {
 
 hr {}
 
+label {margin-left: 5px!important;}
 :focus {
 	outline: none;
 }
