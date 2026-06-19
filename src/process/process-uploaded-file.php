@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $safeFileName = 'NSW_ORAC_URR_Form.doc';
                 break;
             case 'guidelines':
-                $safeFileName = 'SW_ORAC_guidelines_for_submissions.pdf';
+                $safeFileName = 'NSW_ORAC_guidelines_for_submissions.pdf';
                 break;
             case 'rules':
                 $safeFileName = 'NSW_ORAC_rules.pdf';
