@@ -2,8 +2,26 @@
 <html>
 
 <head>
-    <title>W3.CSS Template</title>
+    <title>NSW ORAC: Admin</title>
     <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="NSW ORAC">
+<meta property="og:description" content="NSW ORAC - Ornithological Records Appraisal Committee.">
+<meta property="og:url" content="https://www.nsworac.org/">
+<meta property="og:type" content="website">
+<meta property="fb:app_id" content="966242223397117">
+<meta property="og:image" content="https://www.nsworac.org/favicon/og-image-1200.jpg" />
+<meta property="og:image:secure_url" content="https://www.nsworac.org/favicon/og-image-1200.jpg" />
+<meta property="og:image:type" content="image/jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<!-- /og:rubbish -->
+<!-- Fave icon -->
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/favicon/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -18,40 +36,45 @@
         h5 {
             font-family: "Raleway", sans-serif
         }
+
         .code-container {
-    background-color: #f4f4f4;    /* Light grey code block background */
-    border-left: 4px solid #4CAF50; /* Green accent bar on the left */
-    color: #333333;               /* Dark grey text color */
-    font-family: "Courier New", Courier, monospace; /* Monospaced software font */
-    font-size: 15px;              /* Readable code size */
-    padding: 15px;                /* Padding inside the container */
-    overflow-x: auto;             /* Adds a horizontal scrollbar if code is too long */
-    white-space: pre;             /* Preserves tabs, spaces, and line breaks */
-}
+            background-color: #f4f4f4;
+            border-left: 4px solid #4CAF50;
+            color: #333333;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 15px;
+            padding: 15px;
+            overflow-x: auto;
+            white-space: pre;
+        }
     </style>
 </head>
 
 <body class="w3-light-grey">
-
-    <!-- Top container -->
     <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
         <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey"
             onclick="w3_open();"><i class="fa fa-bars"></i> NSW ORAC ADMIN</button>
         <span class="w3-bar-item w3-right">NSW ORAC ADMIN</span>
     </div>
-
-    <!-- !PAGE CONTENT! -->
-    <div class="w3-main" style="margin-top:43px;">
-        <div class="w3-row w3-padding">
-            <h1>Manage NSW ORAC data</h1>
+    <div class="w3-main" style="margin-top:63px;">
+        <div class="w3-row w3-row w3-orange w3-round" style="width:50%;padding:32px;margin:32px">
+            <h1 class="w3-text-white">Manage NSW ORAC data</h1>
             <ul>
-                <li><a href="upload-file.php?dataset=case">Update Index of Cases data</a> - (<a href="/cases.shtml">Index of Cases</a>)</li>
-                <li><a href="upload-file.php?dataset=review">Update Review List data</a> - (<a href="/review-list.php">Review List</a>)</li>
-                <li><a href="upload-file.php?dataset=barc">Update Index of BARC Cases data</a> - (<a href="/barc-cases.shtml">Index of BARC Cases</a>)</li>
+                <li><a href="upload-file.php?dataset=case">Update Index of Cases data</a> - (<a
+                        href="/cases.shtml">Index of Cases</a>)</li>
+                <li><a href="upload-file.php?dataset=review">Update Review List data</a> - (<a
+                        href="/review-list.php">Review List</a>)</li>
+                <li><a href="upload-file.php?dataset=barc">Update Index of BARC Cases data</a> - (<a
+                        href="/barc-cases.shtml">Index of BARC Cases</a>)</li>
             </ul>
+            </div>
+            <div class="w3-row w3-padding" style="padding:32px;margin:32px">
             <h2>Help</h2>
-            <p>The management forms above allow you to update each of the data sets and associated pages on the NSW ORAC web site. This is done by loading a CSV file containing the data which is then processed by a server-side script.</p>
-            <p>It is important that the format of the CSV data follows the examples below. Do not add notes or comments or other extraneous text:</p>
+            <p>The management forms above allow you to update each of the data sets and associated pages on the NSW ORAC
+                web site. This is done by loading a CSV file containing the data which is then processed by a
+                server-side script.</p>
+            <p><b>It is important that the format of the CSV data follows the examples below. Do not add notes or
+                    comments or other extraneous text.</b></p>
             <h3>Index of Cases</h3>
             <pre class="code-container"><code>ORAC Case,BARC Case,IOC English name,Scientific name,Location,Date,Decision
 1,,Sooty Albatross,Phoebetria fusca,Moruya,2 Aug 1987,Not Confirmed (not assessed)
@@ -65,7 +88,7 @@
             <pre class="code-container"><code>IOC English name,Scientific name,Exemption,Date
 Common Ostrich,Struthio camelus,except for the known population in the Barham region,16 May 2025
 Cape Barren Goose,Cereopsis novaehollandiae,,16 May 2025
-Cotton Pygmy Goose,Nettapus coromandelianus,except within 100km from the Queensland border,16 May 2025
+Cotton Pygmy Goose,Nettapus coromandelianus,"except within 100km from the Queensland border, some other location",16 May 2025
 Green Pygmy Goose,Nettapus pulchellus,,16 May 2025
 Fiordland Penguin,Eudyptes pachyrhynchus,,16 May 2025
 ...
@@ -83,7 +106,6 @@ Fiordland Penguin,Eudyptes pachyrhynchus,,16 May 2025
         </div>
     </div>
 
-    <!-- Footer -->
     <footer class="w3-container w3-padding-16 w3-light-grey">
         <hr>
     </footer>
