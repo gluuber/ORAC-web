@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width" />
 <link href="/css/jquery.datatables.min.css" rel="stylesheet">
 <!--#include virtual="/includes/headtag.html"-->
+<style>
+label {margin-left: 5px!important;}
+</style>
 </head>
 
 <body>
