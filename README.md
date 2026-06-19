@@ -36,16 +36,9 @@ define('MYSQL_DATABASE','<PROD_DB>');
 ```
 
 ## Seed the database:
+Log into the admin area:
 ```bash
-/src/process/insert-data.php?dataset=case
-/src/process/insert-data.php?dataset=review
-/src/process/insert-data.php?dataset=barc
+/src/process/
 ```
 
-Source CSV files can be found under `/src/process/src`
-
-```bash
-Review List.csv
-BARC_Index_of_Cases.csv
-Index of Cases.csv
-```
+Help can be found on the admin home page.
