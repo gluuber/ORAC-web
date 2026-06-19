@@ -49,7 +49,7 @@
 
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-top:63px;">
-        <div class="w3-row w3-row w3-orange w3-round" style="width:50%;padding:32px;margin:32px">
+        <div class="w3-row w3-row w3-orange w3-round" style="text-align:center;padding:32px;margin:32px">
             <?php
             if (isset($_GET['dataset'])) {
                 $title = '';
@@ -76,7 +76,7 @@
             }
             ?>
             <form action="process-uploaded-file.php" method="POST" enctype="multipart/form-data">
-                <label for="fileUpload">Choose a file:</label>
+                <label for="fileUpload">Choose a file to upload:</label>
                 <input type="file" name="uploaded_file" id="fileUpload" required><br>
                 <?php
                 if (isset($_GET['dataset'])) {
