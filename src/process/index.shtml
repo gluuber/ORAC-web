@@ -4,24 +4,24 @@
 <head>
     <title>NSW ORAC: Admin</title>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:title" content="NSW ORAC">
-<meta property="og:description" content="NSW ORAC - Ornithological Records Appraisal Committee.">
-<meta property="og:url" content="https://www.nsworac.org/">
-<meta property="og:type" content="website">
-<meta property="fb:app_id" content="966242223397117">
-<meta property="og:image" content="https://www.nsworac.org/favicon/og-image-1200.jpg" />
-<meta property="og:image:secure_url" content="https://www.nsworac.org/favicon/og-image-1200.jpg" />
-<meta property="og:image:type" content="image/jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<!-- /og:rubbish -->
-<!-- Fave icon -->
-<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
-<link rel="shortcut icon" href="/favicon/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-<link rel="manifest" href="/favicon/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="NSW ORAC">
+    <meta property="og:description" content="NSW ORAC - Ornithological Records Appraisal Committee.">
+    <meta property="og:url" content="https://www.nsworac.org/">
+    <meta property="og:type" content="website">
+    <meta property="fb:app_id" content="966242223397117">
+    <meta property="og:image" content="https://www.nsworac.org/favicon/og-image-1200.jpg" />
+    <meta property="og:image:secure_url" content="https://www.nsworac.org/favicon/og-image-1200.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <!-- /og:rubbish -->
+    <!-- Fave icon -->
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -58,39 +58,53 @@
     </div>
     <div class="w3-main" style="margin-top:63px;">
         <div class="w3-row">
-        <div class="w3-orange w3-round" style="width:40%;padding:32px;margin:32px;float:left;">
-            <h1 class="w3-text-white">Manage ORAC data</h1>
-            <ul>
-                <li><a href="upload-file.php?dataset=case">Upload Index of Cases data</a> - (<a
-                        href="/cases.shtml">Index of Cases</a>)</li>
-                <li><a href="upload-file.php?dataset=review">Upload Review List data</a> - (<a
-                        href="/review-list.php">Review List</a>)</li>
-                <li><a href="upload-file.php?dataset=barc">Upload Index of BARC Cases data</a> - (<a
-                        href="/barc-cases.shtml">Index of BARC Cases</a>)</li>
-            </ul>
+            <div class="w3-orange w3-round" style="width:40%;padding:32px;margin:32px;float:left;text-align:center">
+                <h1 class="w3-text-white">Manage ORAC data tables</h1>
+                <p><a href="upload-file.php?dataset=case" class="w3-button w3-white w3-round">Upload Index of Cases
+                        data</a></p>
+                <p><a href="upload-file.php?dataset=review" class="w3-button w3-white w3-round">Upload Review List
+                        data</a></p>
+                <p><a href="upload-file.php?dataset=barc" class="w3-button w3-white w3-round">Upload Index of BARC Cases
+                        data</a></p>
             </div>
-        <div class="w3-orange w3-round" style="width:40%;padding:32px;margin:32px;float:left;">
-            <h1 class="w3-text-white">Upload ORAC documents</h1>
-            <ul>
-                <li><a href="upload-doc.php?dataset=case">Upload Index of Cases PDF</a> - (<a
-                        href="/src/NSW_ORAC_Index_of_Cases.pdf">NSW ORAC Index of Cases</a>)</li>
-                <li><a href="upload-doc.php?dataset=submission">Upload Submission DOC</a> - (<a
-                        href="/src/NSW_ORAC_URR_Form_March_2020.doc">NSW ORAC Unusual Record Report Form (URR Form)</a>)</li>
-                <li><a href="upload-doc.php?dataset=guidelines">Upload Submission Guidelines PDF</a> - (<a
-                        href="/src/SW_ORAC_guidelines_for_submissions.pdf">Guidelines for submissions</a>)</li>
-                <li><a href="upload-doc.php?dataset=rules">Upload ORAC Rules PDF</a> - (<a
-                        href="/src/NSW_ORAC_rules.pdf">NSW ORAC rules</a>)</li>
-            </ul>
+            <div class="w3-orange w3-round" style="width:40%;padding:32px;margin:32px;float:left;text-align:center">
+                <h1 class="w3-text-white">Upload ORAC documents</h1>
+                <p></p><a href="upload-doc.php?dataset=case" class="w3-button w3-white w3-round">Upload Index of Cases
+                    PDF</a></p>
+                <p><a href="upload-doc.php?dataset=submission" class="w3-button w3-white w3-round">Upload Submission
+                        DOC</a></p>
+                <p><a href="upload-doc.php?dataset=guidelines" class="w3-button w3-white w3-round">Upload Submission
+                        Guidelines PDF</a></p>
+                <p><a href="upload-doc.php?dataset=rules" class="w3-button w3-white w3-round">Upload ORAC Rules PDF</a>
+                </p>
             </div>
-            </div>
-            <div class="w3-row w3-padding" style="padding:32px;margin:32px">
+        </div>
+        <div class="w3-row w3-padding" style="padding:32px;margin:32px">
             <h2>Help</h2>
-            <p>The management forms above allow you to update each of the data sets and associated pages on the NSW ORAC
-                web site. This is done by loading a CSV file containing the data which is then processed by a
-                server-side script. Use Excel or Google Sheets to download/export a CSV file.</p>
-            <p><b>It is important that the format of the CSV data follows the examples below. Do not add notes or
-                    comments or other extraneous text.</b></p>
-            <h3>Index of Cases CSV format</h3>
+            <p>The management forms above allow you to update the data tables as well as downloadable documents on the
+                NSW ORAC web site.</p>
+            <h4>Data tables</h4>
+            <p>The data tables are displayed on these pages:</p>
+            <ul>
+                <li><a href="/cases.shtml">Index of Cases</a></li>
+                <li><a href="/review-list.php">Review List</a></li>
+                <li><a href="/barc-cases.shtml">Index of BARC Cases</a></li>
+            </ul>
+            <h4>Downloadable documents</h4>
+            <p>The downloadable documents are and are linked from various pages across the site:</p>
+            <ul>
+                <li><a href="/src/NSW_ORAC_Index_of_Cases.pdf">NSW ORAC Index of Cases</a> - (pdf)</li>
+                <li><a href="/src/NSW_ORAC_URR_Form_March_2020.doc">NSW ORAC Unusual Record Report Form (URR Form)</a> -
+                    (doc)</li>
+                <li><a href="/src/NSW_ORAC_rules.pdf">NSW ORAC rules</a> - (pdf)</li>
+                <li><a href="/src/SW_ORAC_guidelines_for_submissions.pdf">Guidelines for submissions</a> - (pdf)</li>
+            </ul>
+            <h3>Data tables CSV files</h3>
+
+            <p><b>It is important that the format of the Comma Separated Values (CSV) data follows the examples below. Do not add notes or
+                    comments or other extraneous text. The first line should contain the column titles as shown and in the order as shown. Remaining rows should only contain data. Escape commas in text by surrounding values with quotes.</b></p>
+            <p>Use Excel or Google Sheets to download/export a CSV file from your spreadsheet of choice.</p>
+            <h4>Index of Cases CSV format</h4>
             <pre class="code-container"><code>ORAC Case,BARC Case,IOC English name,Scientific name,Location,Date,Decision
 1,,Sooty Albatross,Phoebetria fusca,Moruya,2 Aug 1987,Not Confirmed (not assessed)
 2,,Pink Robin,Petroica rodinogaster,"Korrungulla Swamp, Primbee",4 Sep 1987,Accepted
@@ -99,7 +113,7 @@
 5,109,Tropical Shearwater,Puffinus bailloni,off Wollongong,28 Feb 1987,Accepted
 ...
 </code></pre>
-            <h3>Review List CSV format</h3>
+            <h4>Review List CSV format</h4>
             <pre class="code-container"><code>IOC English name,Scientific name,Exemption,Date
 Common Ostrich,Struthio camelus,except for the known population in the Barham region,16 May 2025
 Cape Barren Goose,Cereopsis novaehollandiae,,16 May 2025
@@ -108,7 +122,7 @@ Green Pygmy Goose,Nettapus pulchellus,,16 May 2025
 Fiordland Penguin,Eudyptes pachyrhynchus,,16 May 2025
 ...
 </code></pre>
-            <h3>Index of BARC Cases CSV format</h3>
+            <h4>Index of BARC Cases CSV format</h4>
             <pre class="code-container"><code>Case No.,IOC English name,Scientific name,Location,State/Territory,Sighting Date,Submission,Decision,Acceptance tally
 297,Abbott's Booby,Papasula abbotti,Echo Beach ,WA,12/16/1999,,Accepted,1
 432,Abbott's Booby,Papasula abbotti,Ashmore Reef,WA,1/26/2003,,Accepted,2
