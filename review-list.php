@@ -112,7 +112,31 @@ div.dt-search { margin-right:60px!important; }
             <p><span class="c3 c0">This list does not include any of those species on the Birdlife Australia Rarities
                 Committee (BARC) Review List and the NSW ORAC Review List taxonomy is based on the IOC Checklist
                 v14.1</span></p>
+                <?php
                 
+        require_once './mysql.connection.php';
+          $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
+          if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+          }
+
+          $query = "SELECT * FROM orac_review_list";
+          $result = $conn->query($query);
+          $count = 1;
+          $html_fragment = '';
+
+          if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+                if ($count == 1) {
+                    $review_date = date_create($row["releasedate"]);
+                    $html_fragment .= '<p class="c8"><span class="c0 c9">(Revised ' . date_format($review_date, 'j M Y') . ')</span></p>';
+                }
+                break;
+            }
+          }
+          echo $html_fragment;
+
+                ?>                
           <div class="row" style="width:90%!important"></div>
           <div class="row">
             <table id="example" class="display" style="width:90%!important">
@@ -132,40 +156,7 @@ div.dt-search { margin-right:60px!important; }
               </tfoot>
             </table>
           </div>
-                <?php
-                /*
-        require_once './mysql.connection.php';
-          $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
-          if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-          }
 
-          $query = "SELECT * FROM orac_review_list";
-          $result = $conn->query($query);
-          $count = 1;
-          $odd_even_class = 'odd';
-          $html_fragment = '<p><table style="margin:0 0 5px 15px!important;" class="display dataTable" role="grid"><tr><th style="padding:0 0 5px 15px!important;"><span>IOC English name</span></th><th style="padding:0 0 5px 15px!important;"><span>Scientific name</span></th><th style="padding:0 0 5px 15px!important;"><span>Exceptions</span></th></tr>';
-
-          if ($result->num_rows > 0) {
-            while ($row = $result->fetch_assoc()) {
-                if ($count == 1) {
-                    $review_date = date_create($row["releasedate"]);
-                    $html_fragment .= '<p class="c8"><span class="c0 c9">(Revised ' . date_format($review_date, 'j M Y') . ')</span></p>';
-                }
-                if ($count % 2 == 0) { $odd_even_class = 'even'; } else { $odd_even_class = 'odd'; }
-                $html_fragment .= '<tr class="'. $odd_even_class .'" role="row"><td style="padding:0 0 5px 15px!important;">' . $row["species_name"]. '</td><td style="padding:0 0 5px 15px!important;"><i>' . $row["scientific_name"] . '</i></td>';
-                if (isset($row["exemption"]) && $row["exemption"] != "") {
-                    $html_fragment .= '<td style="padding:0 0 5px 15px!important;">(' . $row["exemption"] . ')</td></tr>';
-                } else {
-                    $html_fragment .= '<td style="padding:0 0 5px 15px!important;"></td></tr>';
-                }
-                $count++;
-            }
-          }
-          $html_fragment .= '</table></p>';
-          echo $html_fragment;
-*/
-                ?>
           </div>
         </div>
       </div>
