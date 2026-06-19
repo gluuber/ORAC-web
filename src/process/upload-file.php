@@ -74,7 +74,7 @@
                 if (isset($_GET['dataset'])) {
                     echo '<input type="hidden" name="dataset" value="' . $_GET['dataset'] . '">';
                 }
-                echo '<p><button type="submit" name="submit" class="w3-button w3-round w3-white">Upload and process ' . $title . '</button>&nbsp;&nbsp;<a href="index.shtml" class="w3-button w3-round w3-white">Cancel</a></p>';
+                echo '<p><a href="index.shtml" class="w3-button w3-round w3-white">Cancel</a>&nbsp;&nbsp;<button type="submit" name="submit" class="w3-button w3-round w3-white">Upload and process ' . $title . '</button></p>';
                 ?>
             </form>
         </div>
