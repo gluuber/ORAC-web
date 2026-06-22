@@ -4,7 +4,7 @@
 <head>
   <title>Index of Cases: NSW ORAC - NSW Ornithological Records Appraisal Committee</title>
   <meta name="viewport" content="width=device-width" />
-<link href="/css/jquery.datatables.min.css" rel="stylesheet">
+<link href="/css/datatables.min.css" rel="stylesheet">
 <!--#include virtual="/includes/headtag.html"-->
 <style>
 label {margin-left: 5px!important;}
