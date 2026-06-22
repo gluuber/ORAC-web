@@ -75,7 +75,7 @@ label {margin-left: 5px!important;}
                     <li id="home-button" class="active"><a href="/index.shtml">Home</a></li>
                     <li id="about-button" class="active"><a href="/about.shtml">About</a></li>
                     <li id="cases-button" class="active"><a href="/cases.shtml">Index of Cases</a></li>
-                    <li id="review-list-button" class="active"><a href="/review-list.shtml">Review List</a></li>
+                    <li id="review-list-button" class="active"><a href="/review-list.php">Review List</a></li>
                     <li id="submission-button" class="active"><a href="/submission.shtml">Make a Submission</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
