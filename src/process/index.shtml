@@ -98,6 +98,16 @@
                 <li><a href="/src/NSW_ORAC_Review_List.pdf">NSW ORAC Review List</a> - (pdf)</li>
                 <li><a href="/src/NSW_ORAC_rules.pdf">NSW ORAC rules</a> - (pdf)</li>
             </ul>
+            <h4>Manage intro text</h4>
+            <p>The intro text is the paragraphs appearing at the top of various pages across the site. The text is in raw HTML format utilising simple tags such as paragraphs, href links etc.:</p>
+            <ul>
+                <li><a href="/about.shtml">About</a></li>
+                <li><a href="/cases.shtml">Index of Cases</a> - Currently contains no text</li>
+                <li><a href="/review-list.php">Review List</a></li>
+                <li><a href="/submission.shtml">Make a Submission</a></li>
+                <li><a href="/barc-cases.shtml">Index of BARC Cases</a> - Currently contains no text</li>
+            </ul>
+
             <h3>Data tables CSV files</h3>
 
             <p><b>It is important that the format of the Comma Separated Values (CSV) data follows the examples below. Do not add notes or
