@@ -33,98 +33,84 @@
     <div class="w3-main" style="margin-top:63px;">
         <div class="w3-row w3-padding">
             <?php
-if (isset($_POST['submit']) && $_FILES['uploaded_file']['error'] === UPLOAD_ERR_OK) {
-    $tmpName = $_FILES['uploaded_file']['tmp_name'];
 
-    // Convert lines directly into an array of arrays
-    $csv = array_map('str_getcsv', file($tmpName));
+            require_once '../../mysql.connection.php';
+            if (isset($_POST['submit']) && isset($_POST['section']) && dataSetExists($_POST['section'])) {
 
-//echo "<pre>";
-//print_r($csv);
-//echo "</pre>";
+                // Start spitting out updates to browser...
+                echo '<a href="index.shtml">Back</a><br>';
+                echo '<h1>Processing ' . $_POST['section'] . ' intro text</h1>';
 
-    /**
-     * Script to insert CSV data into DB.
-     * 
-     * To run use following URLS:
-     * /src/process/insert-data.php?dataset=case
-     * /src/process/insert-data.php?dataset=review
-     */
-    require_once '../../mysql.connection.php';
+                $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
+                if ($conn->connect_error) {
+                    die("Connection failed: " . $conn->connect_error);
+                }
 
-    if (isset($_POST['dataset']) && dataSetExists($_POST['dataset'])) {
+                // 2. Prepare the UPDATE statement using question mark (?) placeholders
+                $query = "UPDATE orac_intros SET section = ?, intro_text = ?, modified_date = ? WHERE rid = ?";
+                $response = $conn->prepare($query);
 
-        // Define a constant for the MySQL table to use in queries.
-        define('MYSQL_TABLE', 'orac_intros');
-        echo '<a href="index.shtml">Back</a><br>';
-        echo '<h1>Processing ' . $_POST['dataset'] . ' intro text</h1>';
+                if ($response) {
+                    $rid = $_POST['rid'];
+                    $section  = $_POST['section'];
+                    $intro_text = $_POST['intro_text'];
+                    $current_date = date('Y-m-d H:i:s');
 
-        // DROP EXISTING TABLE
-        $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-        }
+                    // 3. Bind parameters ('ssi' means string, string, integer)
+                    $response->bind_param('sssi', $section, $intro_text, $current_date, $rid);
 
-        // CREATE FRESH TABLE
-        $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-        }
-        $query = "INSERT INTO " . MYSQL_TABLE . " "
-        . "VALUES("
-        . $count . ","
-        . "'" . $record[0] . "',"
-        . "'" . $record[1] . "',"
-        . "'" . mysqli_real_escape_string($conn, $record[2]) . "',"
-        . "'" . mysqli_real_escape_string($conn, $record[3]) . "',"
-        . "'" . mysqli_real_escape_string($conn, $record[4]) . "',"
-        . "'" . date("Y-m-d H:i:s", strtotime($record[5])) . "',"
-        . "'" . $record[6] . "'"
-        . ")";
+                    // 4. Execute the query
+                    if ($response->execute()) {
+                        echo $response->affected_rows . " record(s) updated successfully.";
+                    } else {
+                        echo "Error executing query: " . $response->error;
+                    }
 
-        echo 'Done updating ' . $data_set . ' intro.<br>';
-        echo '<a href="index.shtml">Back</a><br>';
-    } else {
-        echo ('Something went wrong@#$!<br>');
-        echo '<a href="index.shtml">Back</a><br>';
-    }
-}
-else {
-    echo ('Something went wrong@#$!<br>');
-    echo '<a href="index.shtml">Back</a><br>';
-}
-/**
- * Check if the parameter dataset is legit.
- * 
- * @param string $data_set
- * @return boolean
- */
-function dataSetExists($data_set)
-{
-    $exists = false;
-    switch ($data_set) {
-        case 'about':
-            $exists = true;
-            break;
-        case 'case':
-            $exists = true;
-            break;
-        case 'review':
-            $exists = true;
-            break;
-        case 'submission':
-            $exists = true;
-            break;
-        case 'barc':
-            $exists = true;
-            break;
-        default:
-            break;
-    }
-    return $exists;
-}
+                    // Close the statement
+                    $response->close();
+                } else {
+                    echo "Error preparing statement: " . $conn->error;
+                }
 
-?>
+                // Close the connection
+                $conn->close();
+            } else {
+                echo ('Something went wrong@#$!<br>');
+                echo '<a href="index.shtml">Back</a><br>';
+            }
+
+            /**
+             * Check if the parameter dataset is legit.
+             * 
+             * @param string $data_set
+             * @return boolean
+             */
+            function dataSetExists($data_set)
+            {
+                $exists = false;
+                switch ($data_set) {
+                    case 'about':
+                        $exists = true;
+                        break;
+                    case 'case':
+                        $exists = true;
+                        break;
+                    case 'review':
+                        $exists = true;
+                        break;
+                    case 'submission':
+                        $exists = true;
+                        break;
+                    case 'barc':
+                        $exists = true;
+                        break;
+                    default:
+                        break;
+                }
+                return $exists;
+            }
+
+            ?>
         </div>
     </div>
 
