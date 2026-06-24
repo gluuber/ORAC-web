@@ -82,14 +82,15 @@
             // Grab the data
             require_once '../../mysql.connection.php';
             // DROP EXISTING TABLE
+            /*
             $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
             if ($conn->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
             }
             $query = "DROP TABLE IF EXISTS orac_intros";
             $result = $conn->query($query);
-            echo 'Successfully dropped orac_intros table.<br>';
             mysqli_close($conn);
+            */
 
             // Create connection
             $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
