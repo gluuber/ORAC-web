@@ -58,26 +58,23 @@
     </div>
     <div class="w3-main" style="margin-top:63px;">
         <div class="w3-row">
-            <div class="w3-orange w3-round" style="width:40%;padding:32px;margin:32px;float:left;text-align:center">
+            <div class="w3-orange w3-round" style="padding:32px;margin:32px;float:left;text-align:center">
                 <h1 class="w3-text-white">Manage ORAC data tables</h1>
-                <p><a href="upload-file.php?dataset=case" class="w3-button w3-white w3-round">Upload Index of Cases
-                        data</a></p>
-                <p><a href="upload-file.php?dataset=review" class="w3-button w3-white w3-round">Upload Review List
-                        data</a></p>
-                <p><a href="upload-file.php?dataset=barc" class="w3-button w3-white w3-round">Upload Index of BARC Cases
-                        data</a></p>
-            </div>
-            <div class="w3-orange w3-round" style="width:40%;padding:32px;margin:32px;float:left;text-align:center">
+                <p><a href="upload-file.php?dataset=case" class="w3-button w3-white w3-round">Upload Index of Cases data</a></p>
+                <p><a href="upload-file.php?dataset=review" class="w3-button w3-white w3-round">Upload Review List data</a></p>
+                <p><a href="upload-file.php?dataset=barc" class="w3-button w3-white w3-round">Upload Index of BARC Cases data</a></p>
                 <h1 class="w3-text-white">Upload ORAC documents</h1>
-                <p></p><a href="upload-doc.php?dataset=case" class="w3-button w3-white w3-round">Upload Index of Cases
-                    PDF</a></p>
-                <p><a href="upload-doc.php?dataset=submission" class="w3-button w3-white w3-round">Upload (URR Form) Submission
-                        DOC</a></p>
-                <p><a href="upload-doc.php?dataset=guidelines" class="w3-button w3-white w3-round">Upload Submission
-                        Guidelines PDF</a></p>
+                <p></p><a href="upload-doc.php?dataset=case" class="w3-button w3-white w3-round">Upload Index of Cases PDF</a></p>
+                <p><a href="upload-doc.php?dataset=submission" class="w3-button w3-white w3-round">Upload (URR Form) Submission DOC</a></p>
+                <p><a href="upload-doc.php?dataset=guidelines" class="w3-button w3-white w3-round">Upload Submission Guidelines PDF</a></p>
                 <p><a href="upload-doc.php?dataset=review" class="w3-button w3-white w3-round">Upload Review List PDF</a></p>
-                <p><a href="upload-doc.php?dataset=rules" class="w3-button w3-white w3-round">Upload ORAC Rules PDF</a>
-                </p>
+                <p><a href="upload-doc.php?dataset=rules" class="w3-button w3-white w3-round">Upload ORAC Rules PDF</a></p>
+                <h1 class="w3-text-white">Manage intro text</h1>
+                <p><a href="update-intros.php?dataset=about" class="w3-button w3-white w3-round">About</a></p>
+                <p><a href="update-intros.php?dataset=case" class="w3-button w3-white w3-round">Index of Cases</a></p>
+                <p><a href="update-intros.php?dataset=review" class="w3-button w3-white w3-round">Review List</a></p>
+                <p><a href="update-intros.php?dataset=submission" class="w3-button w3-white w3-round">Make a Submission</a></p>
+                <p><a href="update-intros.php?dataset=barc" class="w3-button w3-white w3-round">Index of BARC Cases</a></p>
             </div>
         </div>
         <div class="w3-row w3-padding" style="padding:32px;margin:32px">
