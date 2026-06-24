@@ -113,7 +113,7 @@
                 die("Connection failed: " . $conn->connect_error);
             }
             $current_date = date('Y-m-d H:i:s');
-            $query = "INSERT IGNORE INTO orac_intros (rid, section, intro_text, modified_date) VALUES (1,'about','<h1>About</h1>',' . $current_date . '), (2,'cases','<h1>Index of Cases</h1>',' . $current_date . '),(3,'review','<h1>Review List</h1>',' . $current_date . '),(4,'submission','<h1>Make a Submission</h1>',' . $current_date . '),(5,'barc','<h1>Index of BARC Cases</h1>',' . $current_date . ')";
+            $query = "INSERT IGNORE INTO orac_intros (rid, section, intro_text, modified_date) VALUES (1,'about','<h1>About</h1>',' . $current_date . '), (2,'case','<h1>Index of Cases</h1>',' . $current_date . '),(3,'review','<h1>Review List</h1>',' . $current_date . '),(4,'submission','<h1>Make a Submission</h1>',' . $current_date . '),(5,'barc','<h1>Index of BARC Cases</h1>',' . $current_date . ')";
 
             $conn->multi_query($query);
             mysqli_close($conn);
@@ -125,6 +125,7 @@
                 die("Connection failed: " . $conn->connect_error);
             }
             $query = "SELECT * FROM orac_intros WHERE section='" . $dataset . "'";
+            //echo $query;
             $result = $conn->query($query);
 
             // Body
