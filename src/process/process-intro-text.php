@@ -53,132 +53,36 @@ if (isset($_POST['submit']) && $_FILES['uploaded_file']['error'] === UPLOAD_ERR_
     require_once '../../mysql.connection.php';
 
     if (isset($_POST['dataset']) && dataSetExists($_POST['dataset'])) {
-        $data_set = mapDataSet($_POST['dataset']);
 
         // Define a constant for the MySQL table to use in queries.
-        define('MYSQL_TABLE', $data_set);
+        define('MYSQL_TABLE', 'orac_intros');
         echo '<a href="index.shtml">Back</a><br>';
-        echo '<h1>Processing ' . $_POST['dataset'] . ' data</h1>';
+        echo '<h1>Processing ' . $_POST['dataset'] . ' intro text</h1>';
 
         // DROP EXISTING TABLE
         $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }
-        $query = "DROP TABLE IF EXISTS " . MYSQL_TABLE;
-        $result = $conn->query($query);
-        echo 'Successfully dropped ' . MYSQL_TABLE . ' table.<br>';
-        mysqli_close($conn);
 
         // CREATE FRESH TABLE
         $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }
+        $query = "INSERT INTO " . MYSQL_TABLE . " "
+        . "VALUES("
+        . $count . ","
+        . "'" . $record[0] . "',"
+        . "'" . $record[1] . "',"
+        . "'" . mysqli_real_escape_string($conn, $record[2]) . "',"
+        . "'" . mysqli_real_escape_string($conn, $record[3]) . "',"
+        . "'" . mysqli_real_escape_string($conn, $record[4]) . "',"
+        . "'" . date("Y-m-d H:i:s", strtotime($record[5])) . "',"
+        . "'" . $record[6] . "'"
+        . ")";
 
-        if (MYSQL_TABLE == 'orac_case_list') {
-            /**
-             * ORAC Case,BARC Case,IOC English name,Scientific name,Location,Date,Decision
-             * 1,,Sooty Albatross,Phoebetria fusca,Moruya,2 Aug 1987,Not Confirmed (not assessed)
-             * 2,,Pink Robin,Petroica rodinogaster,"Korrungulla Swamp, Primbee",4 Sep 1987,Accepted  
-             */
-            $query = "CREATE TABLE IF NOT EXISTS `" . MYSQL_TABLE . "` ("
-                . "`rid` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'The primary identifier for a record.',"
-                . "`orac_case_number` varchar(32) DEFAULT '' COMMENT 'The case number assigned by NSW ORAC.',"
-                . "`barc_case_number` varchar(32) DEFAULT '' COMMENT 'The case number assigned by BARC.',"
-                . "`species_name` varchar(255) NOT NULL DEFAULT '' COMMENT 'The species common name, always treated as non-markup plain text.',"
-                . "`scientific_name` varchar(255) NOT NULL DEFAULT '' COMMENT 'The species scientific name, always treated as non-markup plain text.',"
-                . "`location` varchar(255) NOT NULL DEFAULT '' COMMENT 'The location where the sighting event happened.',"
-                . "`sightingdate` datetime DEFAULT NULL,"
-                . "`decision` varchar(255) NOT NULL DEFAULT '' COMMENT 'The outcome, if any, of the sighting review.',"
-                . "PRIMARY KEY (`rid`)"
-                . ") ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='The base table for records.' AUTO_INCREMENT=1000";
-        } else if (MYSQL_TABLE == 'orac_review_list') {
-            $query = "CREATE TABLE IF NOT EXISTS `" . MYSQL_TABLE . "` ("
-                . "`rid` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'The primary identifier for a record.',"
-                . "`species_name` varchar(255) NOT NULL DEFAULT '' COMMENT 'The species common name, always treated as non-markup plain text.',"
-                . "`scientific_name` varchar(255) NOT NULL DEFAULT '' COMMENT 'The species scientific name, always treated as non-markup plain text.',"
-                . "`exemption` varchar(255) NOT NULL DEFAULT '' COMMENT 'Geographic exemptions for species.',"
-                . "`releasedate` datetime DEFAULT NULL,"
-                . "PRIMARY KEY (`rid`)"
-                . ") ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='The base table for records.' AUTO_INCREMENT=1000";
-        } else if (MYSQL_TABLE == 'barc_case_list') {
-            /**
-             * Case No.,IOC English name,Scientific name,Location,State/Territory,Sighting Date,Submission,Decision,Acceptance tally
-             * 297,Abbott's Booby,Papasula abbotti,Echo Beach ,WA,12/16/1999,,Accepted,1
-             */
-            $query = "CREATE TABLE IF NOT EXISTS `" . MYSQL_TABLE . "` ("
-                . "`rid` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'The primary identifier for a record.',"
-                . "`barc_case_number` varchar(32) DEFAULT '' COMMENT 'The case number assigned by BARC.',"
-                . "`species_name` varchar(255) NOT NULL DEFAULT '' COMMENT 'The species common name, always treated as non-markup plain text.',"
-                . "`scientific_name` varchar(255) NOT NULL DEFAULT '' COMMENT 'The species scientific name, always treated as non-markup plain text.',"
-                . "`location` varchar(255) NOT NULL DEFAULT '' COMMENT 'The location where the sighting event happened.',"
-                . "`state` varchar(32) DEFAULT '' COMMENT 'The state or territory the sighting was made in.',"
-                . "`sightingdate` varchar(32) DEFAULT '' COMMENT 'The sighting date. Not really a date, just a free for all text splurge.',"
-                . "`decision` varchar(255) NOT NULL DEFAULT '' COMMENT 'The outcome, if any, of the sighting review.',"
-                . "PRIMARY KEY (`rid`)"
-                . ") ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='The base table for records.' AUTO_INCREMENT=1000";
-        }
-        $result = $conn->query($query);
-        echo 'Connected successfully to create ' . MYSQL_TABLE . ' table.<br>';
-        mysqli_close($conn);
-
-        $count = 1000;
-        echo 'Preparing data...<br>';
-        foreach ($csv as $row => $record) {
-            if ($row > 1) {
-                $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
-                if ($conn->connect_error) {
-                    die("Connection failed: " . $conn->connect_error);
-                }
-                $query = "";
-                if (MYSQL_TABLE == 'orac_case_list') {
-                    $query = "INSERT INTO " . MYSQL_TABLE . " "
-                        . "VALUES("
-                        . $count . ","
-                        . "'" . $record[0] . "',"
-                        . "'" . $record[1] . "',"
-                        . "'" . mysqli_real_escape_string($conn, $record[2]) . "',"
-                        . "'" . mysqli_real_escape_string($conn, $record[3]) . "',"
-                        . "'" . mysqli_real_escape_string($conn, $record[4]) . "',"
-                        . "'" . date("Y-m-d H:i:s", strtotime($record[5])) . "',"
-                        . "'" . $record[6] . "'"
-                        . ")";
-                } else if (MYSQL_TABLE == 'orac_review_list') {
-                    $query = "INSERT INTO " . MYSQL_TABLE . " "
-                        . "VALUES("
-                        . $count . ","
-                        . "'" . mysqli_real_escape_string($conn, $record[0]) . "',"
-                        . "'" . mysqli_real_escape_string($conn, $record[1]) . "',"
-                        . "'" . mysqli_real_escape_string($conn, $record[2]) . "',"
-                        . "'" . date("Y-m-d H:i:s", strtotime($record[3])) . "'"
-                        . ")";
-                } else if (MYSQL_TABLE == 'barc_case_list') {
-                    $query = "INSERT INTO " . MYSQL_TABLE . " "
-                        . "VALUES("
-                        . $count . ","
-                        . "'" . $record[0] . "',"
-                        . "'" . mysqli_real_escape_string($conn, $record[1]) . "',"
-                        . "'" . mysqli_real_escape_string($conn, $record[2]) . "',"
-                        . "'" . mysqli_real_escape_string($conn, $record[3]) . "',"
-                        . "'" . mysqli_real_escape_string($conn, $record[4]) . "',"
-                        . "'" . mysqli_real_escape_string($conn, $record[5]) . "',"
-                        . "'" . $record[7] . "'"
-                        . ")";
-                }
-                $result = $conn->query($query);
-                mysqli_close($conn);
-                if (MYSQL_TABLE == 'orac_case_list') {
-                    echo 'Added data: ' . $record[0] . '; ' . $record[2] . '<br>';
-                } else if (MYSQL_TABLE == 'orac_review_list') {
-                    echo 'Added data: ' . $record[0] . '<br>';
-                }
-
-                $count++;
-            }
-        }
-
-        echo 'Done updating ' . $data_set . ' data.<br>';
+        echo 'Done updating ' . $data_set . ' intro.<br>';
         echo '<a href="index.shtml">Back</a><br>';
     } else {
         echo ('Something went wrong@#$!<br>');
@@ -199,10 +103,16 @@ function dataSetExists($data_set)
 {
     $exists = false;
     switch ($data_set) {
+        case 'about':
+            $exists = true;
+            break;
         case 'case':
             $exists = true;
             break;
         case 'review':
+            $exists = true;
+            break;
+        case 'submission':
             $exists = true;
             break;
         case 'barc':
@@ -212,31 +122,6 @@ function dataSetExists($data_set)
             break;
     }
     return $exists;
-}
-
-/**
- * Map data_set to table name.
- * 
- * @param string $data_set
- * @return string
- */
-function mapDataSet($data_set)
-{
-    $table_name = '';
-    switch ($data_set) {
-        case 'case':
-            $table_name = 'orac_case_list';
-            break;
-        case 'review':
-            $table_name = 'orac_review_list';
-            break;
-        case 'barc':
-            $table_name = 'barc_case_list';
-            break;
-        default:
-            break;
-    }
-    return $table_name;
 }
 
 ?>
