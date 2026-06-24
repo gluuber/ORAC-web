@@ -79,14 +79,13 @@
         </div>
         <div class="w3-row w3-padding" style="padding:32px;margin:32px">
             <h2>Help</h2>
-            <p>The management forms above allow you to update the data tables as well as downloadable documents on the
-                NSW ORAC web site.</p>
+            <p>The management forms above allow you to update the data tables, the downloadable documents and the body text fragments on the NSW ORAC web site.</p>
             <h4>Data tables</h4>
             <p>The data tables are displayed on these pages:</p>
             <ul>
                 <li><a href="/cases.shtml">Index of Cases</a></li>
                 <li><a href="/review-list.php">Review List</a></li>
-                <li><a href="/barc-cases.shtml">Index of BARC Cases</a> - not linked to from any pages on the site</li>
+                <li><a href="/barc-cases.shtml">Index of BARC Cases</a> - not linked to from any pages on the site. The page was added for the benefit of eBird reviewers to view BARC index of cases.</li>
             </ul>
             <h4>Downloadable documents</h4>
             <p>The downloadable documents are linked to from various pages across the site:</p>
