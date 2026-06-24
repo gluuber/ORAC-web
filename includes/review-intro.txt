@@ -1,0 +1,8 @@
+<!-- ssitem: review-intro.html -->
+
+<p>NSW ORAC maintains a Review List of species for which submissions are required. The threshold for inclusion on the Review List is any species which has been observed less than 1.5 times per year over seven years of the previous decade. The committee will review sightings in NSW, seabirds observed within the 200NM fishing zone, beachcast specimens, road kill specimens, collected specimens and birds of Lord Howe Island and that part of the ACT at Jervis Bay. The current edition of the NSW ORAC Review List is also included here as a downloadable <a href="/src/NSW_ORAC_Review_List.pdf">PDF document</a>.</p>
+<p><span class="c0">The following list comprises birds that are considered rare in NSW based on reported observations over a preceding ten year period to a maximum average of 1.5 records per year. NSW ORAC encourages anyone sighting these species to take comprehensive notes, photographs where possible and to supply substantiation by other observers where appropriate. Details of the sighting should be forwarded to the Secretary of NSW ORAC at </span><span class="c6 c0"><a class="c5" href="mailto:roglou@bigpond.net.au">roglou@bigpond.net.au</a></span><span class="c0">&nbsp;by way of an Unusual Record Report (URR) Form which can be downloaded from </span><span class="c0 c6"><a class="c5" href="/src/NSW_ORAC_URR_Form.doc">here</a></span><span class="c3 c0">.</span></p>
+<p><span class="c3 c0">This list does not include any of those species on the Birdlife Australia Rarities Committee (BARC) Review List and the NSW ORAC Review List taxonomy is based on the IOC Checklist v14.1</span></p>
+<p class="c8"><span class="c0 c9">(Revised 16 May 2025)</span></p>  
+
+<!-- /ssitem: review-intro.html -->
