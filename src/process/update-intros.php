@@ -92,12 +92,24 @@ $query = "CREATE TABLE IF NOT EXISTS `orac_intros` ("
         . "`rid` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'The primary identifier for a record.',"
         . "`section` varchar(32) DEFAULT '' COMMENT 'The section index name.',"
         . "`intro_text` TEXT NOT NULL COMMENT 'The intro text.',"
+        . "`modified_date` datetime DEFAULT NULL,"
         . "PRIMARY KEY (`rid`)"
         . ") ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='The base table for records.' AUTO_INCREMENT=1000";
 $result = $conn->query($query);
 mysqli_close($conn);
 
+$conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+$current_date = date('Y-m-d H:i:s');
+$query = "INSERT IGNORE INTO orac_intros (rid, section, intro_text, modified_date) VALUES (1,'about','<h1>About</h1>',' . $current_date . '), (2,'cases','<h1>Index of Cases</h1>',' . $current_date . '),(3,'review','<h1>Review List</h1>',' . $current_date . '),(4,'submission','<h1>Make a Submission</h1>',' . $current_date . '),(5,'barc','<h1>Index of BARC Cases</h1>',' . $current_date . ')";
+
+$conn->multi_query($query);
+mysqli_close($conn);
+
 $intro_fragment = '';
+$rid = 1;
 $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -109,14 +121,16 @@ $result = $conn->query($query);
 if ($result->num_rows > 0) {
   // output data of each row
   while ($row = $result->fetch_assoc()) {
-    $intro_fragment = $row["intro"];
+    $intro_fragment = $row["intro_text"];
+    $rid = $row["rid"];
   }
 }
 mysqli_close($conn);
             ?>
             <form action="process-intro-text.php" method="POST" enctype="multipart/form-data">
-                <textarea name="uploaded_file" id="fileUpload" rows="20" cols="100" required><?php echo $intro_fragment; ?></textarea>
+                <textarea name="intro_text" id="intro_text" rows="20" cols="100" required><?php echo $intro_fragment; ?></textarea>
                 <?php
+                echo '<input type="hidden" name="rid" value="' . $rid . '">';
                 echo '<input type="hidden" name="section" value="' . $dataset . '">';
                 echo '<p><a href="index.shtml" class="w3-button w3-round w3-white">Cancel</a>&nbsp;&nbsp;<button type="submit" name="submit" class="w3-button w3-round w3-white">Save</button></p>';
                 ?>
