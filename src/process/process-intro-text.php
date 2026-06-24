@@ -39,7 +39,7 @@
 
                 // Start spitting out updates to browser...
                 echo '<a href="index.shtml">Back</a><br>';
-                echo '<h1>Processing ' . $_POST['section'] . ' intro text</h1>';
+                echo '<h1>Saving ' . $_POST['section'] . ' intro text</h1>';
 
                 $conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE);
                 if ($conn->connect_error) {
@@ -61,19 +61,26 @@
 
                     // 4. Execute the query
                     if ($response->execute()) {
-                        echo $response->affected_rows . " record(s) updated successfully.";
+                        echo $response->affected_rows . " record(s) updated successfully.<br>";
                     } else {
                         echo "Error executing query: " . $response->error;
                     }
 
                     // Close the statement
                     $response->close();
+                    echo '<a href="index.shtml">Back</a><br>';
                 } else {
                     echo "Error preparing statement: " . $conn->error;
                 }
 
                 // Close the connection
                 $conn->close();
+
+                // Write static file for ssi
+                $handle = fopen("../../includes/" . $section . "-intro.txt", "w") or die("Cannot open file");
+                fwrite($handle, "<!-- ssitem: " . $section ."-intro.html -->\n\n" . $intro_text . "\n\n<!-- /ssitem: " . $section ."-intro.html -->");
+                fclose($handle);
+
             } else {
                 echo ('Something went wrong@#$!<br>');
                 echo '<a href="index.shtml">Back</a><br>';
