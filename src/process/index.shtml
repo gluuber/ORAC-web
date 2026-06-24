@@ -91,15 +91,14 @@
             <h4>Downloadable documents</h4>
             <p>The downloadable documents are linked to from various pages across the site:</p>
             <ul>
-                <li><a href="/src/NSW_ORAC_Index_of_Cases.pdf">NSW ORAC Index of Cases</a> - (pdf)</li>
-                <li><a href="/src/NSW_ORAC_URR_Form.doc">NSW ORAC Unusual Record Report Form (URR Form)</a> -
-                    (doc)</li>
-                <li><a href="/src/SW_ORAC_guidelines_for_submissions.pdf">Guidelines for submissions</a> - (pdf)</li>
-                <li><a href="/src/NSW_ORAC_Review_List.pdf">NSW ORAC Review List</a> - (pdf)</li>
-                <li><a href="/src/NSW_ORAC_rules.pdf">NSW ORAC rules</a> - (pdf)</li>
+                <li><a href="/src/NSW_ORAC_Index_of_Cases.pdf">NSW ORAC Index of Cases</a> - (NSW_ORAC_guidelines_for_submissions.pdf)</li>
+                <li><a href="/src/NSW_ORAC_URR_Form.doc">NSW ORAC Unusual Record Report Form (URR Form)</a> - (NSW_ORAC_URR_Form.doc)</li>
+                <li><a href="/src/NSW_ORAC_guidelines_for_submissions.pdf">Guidelines for submissions</a> - (NSW_ORAC_guidelines_for_submissions.pdf)</li>
+                <li><a href="/src/NSW_ORAC_Review_List.pdf">NSW ORAC Review List</a> - (NSW_ORAC_Review_List.pdf)</li>
+                <li><a href="/src/NSW_ORAC_rules.pdf">NSW ORAC rules</a> - (NSW_ORAC_rules.pdf)</li>
             </ul>
             <h4>Manage intro text</h4>
-            <p>The intro text is the paragraphs appearing at the top of various pages across the site. The text is in raw HTML format utilising simple tags such as paragraphs, href links etc.:</p>
+            <p>The intro text fragments are the paragraphs of text appearing in the body of various pages across the site. The text is in raw HTML format utilising simple HTML tags such as paragraphs, href links etc.:</p>
             <ul>
                 <li><a href="/about.shtml">About</a></li>
                 <li><a href="/cases.shtml">Index of Cases</a> - Currently contains no text</li>
