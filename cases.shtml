@@ -24,6 +24,7 @@ label {margin-left: 5px!important;}
             <h1><i class="fa fa-folder-open"></i> Index of Cases</h1>
           </div>
           <div class="row">
+<!--#include virtual="/includes/case-intro.html"-->
           </div>
           <div class="row">
             <table id="example" class="display" style="width:100%">
