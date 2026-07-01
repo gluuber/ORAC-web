@@ -59,7 +59,28 @@ label {margin-left: 5px!important;}
 ::-moz-focus-inner {
 	border: 0;
 }
+.w3-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+.w3-round, .w3-round-medium {
+  border-radius: 4px;
+}
 
+.w3-orange,.w3-hover-orange:hover{color:#000!important;background-color:#ec971f!important}
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
 .pad {
 	padding: 120px 0;
 }
